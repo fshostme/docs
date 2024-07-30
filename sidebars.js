@@ -39,7 +39,7 @@ const sidebars = {
         "editserver"
       ]
     }, 
-    "network-analysis",
+    "network/network-analysis",
     "firststeps-locations",   
     {
       type: 'category',
@@ -89,99 +89,99 @@ const sidebars = {
       type: "category",
       label: "Call of Duty",
       items: [
-        "cod-firststeps-dashboard",
-        "cod-rcon"
+        "cod/cod-firststeps-dashboard",
+        "cod/cod-rcon"
       ],
     },
     {
       type: "category",
       label: "Call of Duty 2",
       items: [
-        "cod2-firststeps-dashboard",
-        "cod2-rcon"
+        "cod2/cod2-firststeps-dashboard",
+        "cod2/cod2-rcon"
       ],
     },
     {
       type: "category",
       label: "Call of Duty 4: Modern Warfare",
       items: [
-        "cod4-firststeps-dashboard",
-        "cod4-rcon",
+        "cod4/cod4-firststeps-dashboard",
+        "cod4/cod4-rcon",
         {
           type: "category",
           label: "Mods",
           items: [
-            "cod4-promodlive",
-            "cod4-fpspromod",
-            "cod4-gungame",
-            "cod4-jumper",
-            "cod4-stockmaps"
+            "cod4/cod4-promodlive",
+            "cod4/cod4-fpspromod",
+            "cod4/cod4-gungame",
+            "cod4/cod4-jumper",
+            "cod4/cod4-stockmaps"
           ]
         },
-        "cod4-customfeatures"
+        "cod4/cod4-customfeatures"
       ],
     },
     {
       type: "category",
       label: "Call of Duty: United Offensive",
       items: [
-        "coduo-firststeps-dashboard",
-        "coduo-rcon"
+        "coduo/coduo-firststeps-dashboard",
+        "coduo/coduo-rcon"
       ],
     },    
     {
       type: "category",
       label: "Counter-Strike: 1.6",
       items: [
-        "cs16-firststeps-dashboard",        
-        "cs16-becomeadmin",
-        "cs16-rcon"
+        "cs16/cs16-firststeps-dashboard",        
+        "cs16/cs16-becomeadmin",
+        "cs16/cs16-rcon"
       ],
     },
     {
       type: "category",
       label: "Counter-Strike: Condition Zero",
       items: [
-        "cscz-firststeps-dashboard",
-        "cscz-becomeadmin",
-        "cscz-rcon"
+        "cscz/cscz-firststeps-dashboard",
+        "cscz/cscz-becomeadmin",
+        "cscz/cscz-rcon"
       ],
     },
     {
       type: "category",
       label: "Counter-Strike: Source",
       items: [
-        "css-firststeps-dashboard",
-        "css-rcon"
+        "css/css-firststeps-dashboard",
+        "css/css-rcon"
       ],
     },
     {
       type: "category",
       label: "Counter-Strike: 2",
       items: [
-        "cs2-firststeps-dashboard",
-        "source-gsltoken",
-        "cs2-pluginslist",
+        "cs2/cs2-firststeps-dashboard",
+        "cs2/source-gsltoken",
+        "cs2/cs2-pluginslist",
         {
           type: "category",
           label: "Configuration & Administration",
           items: [
-            "cs2-becomeadmin",
-            "cs2-rcon"
+            "cs2/cs2-becomeadmin",
+            "cs2/cs2-rcon"
           ]
         },
         {
           type: "category",
           label: "Plugins: Pro List",
           items: [
-            "cs2-matchzy",
-            "cs2-retakes",
-            "cs2-skins",
-            "cs2-simpleadmin",
-            "cs2-cstv2discord",
-            "cs2-deathmatch",
-            "cs2-customadmins",
-            "cs2-openprefireprac"
+            "cs2/plugins/cs2-plugins-matchzy",
+            "cs2/plugins/cs2-plugins-retakes",
+            "cs2/plugins/cs2-plugins-skins",
+            "cs2/plugins/cs2-plugins-simpleadmin",
+            "cs2/plugins/cs2-plugins-cstv2discord",
+            "cs2/plugins/cs2-plugins-deathmatch",
+            "cs2/plugins/cs2-plugins-customadmins",
+            "cs2/plugins/cs2-plugins-openprefireprac"
           ]
         },
       ],
@@ -190,10 +190,10 @@ const sidebars = {
       type: "category",
       label: "Half-Life: Deathmatch",
       items: [
-        "hldm-firststeps-dashboard",
-        "hldm-rcon"
+        "hldm/hldm-firststeps-dashboard",
+        "hldm/hldm-rcon"
       ],
-    }, 
+    },
   ],
 };
 
