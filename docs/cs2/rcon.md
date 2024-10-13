@@ -5,10 +5,7 @@ title: "RCON Commands"
 ---
 
 ::::danger[RCON Info]
-<span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.** 
-\
-\
-**`fake_rcon` is no longer available on CS2 Pro Server - Pro Server can use `!rcon`**</span>
+<span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.**
 ::::
 
 
