@@ -23,7 +23,7 @@ MatchZy can solve a lot of match management requirements. It provides basic comm
 - Practice Mode many more commands!
 - Warmup with infinite money 🤑
 - Knife round (With expected logic, i.e., the team with the most players wins. If the same number of players, then the team with HP advantage wins. If the same HP, the winner is decided randomly)
-- Start live match (after knife winner makes side selection. Knife round can also be disabled by the `.kniferound <on/off>`, `.kr <on/off>` and `.rk <on/off>` commands).
+- Start live match (after knife winner makes side selection. Knife round can also be disabled by the `!kniferound`, `!kr` and `!rk` commands).
 - Automatically starts demo recording and stops recording when the match is ended
 - Coaching system - **(Coach need to join team, before `.coach ct` or `.coach t` work)**
 - Damage report after every round
@@ -93,10 +93,10 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.force` | Force starts a match. |
 | `.restart` | Force restarts/resets a match or scrim.  |
 | `.forcepause` | Pauses the match as an admin (Players cannot unpause the admin-paused game). (`.fp` for a shorter command) |
-| `.forceunpause` | Force unpauses the match. (`.fup` for shorter command) |
+| `.forceunpause` | Force unpauses the match. (`.fup` for a shorter command) |
 | `.forceunpause` | Force unpauses the match. (`.fup` for a shorter command) |
 | `.restore <round>` | Restores the backup of the provided round number. |
-| `.rk <on/off>` | Toggles the knife round. If disabled, the match will directly go from the Warmup phase to the Live phase. (Can also use: `.kr <on/off>`, `.kniferound <on/off>`) |
+| `!rk` | Toggles the knife round. If disabled, the match will directly go from the Warmup phase to the Live phase. (Can also use: `!kr`, `!kniferound`) |
 | `.match` | Activates match mode - **All 10 players need to ready up, knife round is default enabled on this mode** |
 | `.scrim` | Activates scrim mode - **All 10 players need to ready up, knife round is disabled** - All rounds would be played irrespective of the winner. Useful in scrims! |
 | `.readyrequired <number>` | Sets the number of ready players required to start the match. **All connected players must be ready to start the game.** |
