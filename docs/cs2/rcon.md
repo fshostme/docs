@@ -5,7 +5,7 @@ title: "RCON Commands"
 ---
 
 ::::danger[RCON Info]
-<span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.**
+<span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.**</span>
 ::::
 
 
