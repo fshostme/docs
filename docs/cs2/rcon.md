@@ -34,7 +34,7 @@ You can change the current map to any stock one.
 To restart the game after X amount of seconds.
 <br /> `fake_rcon mp_restartgame seconds`
 
-This command sets how much money players are given at the beginning of a half. Default is 800.
+This command sets how much money players are given at the beginning of a half. The default is 800.
 <br /> `fake_rcon mp_startmoney Amount`
 
 The maximum amount of rounds that the server will play before restarting.
@@ -54,7 +54,6 @@ This command, if set to 1, will make you automatically bunny hop by holding down
 
 
 
-
 ## Load a different config/gamemode/map
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free server only</span>
 <br />Loads the predefined settings.
@@ -63,6 +62,7 @@ This command, if set to 1, will make you automatically bunny hop by holding down
 | ------------ | ----------- |
 | !esl5on5     | This is a default esl5on5 file (No Ready system!) |
 | !scrim       | Scrim config with all rounds enabled (None pause/unpause command!) |
+| !prac        | Default Practice CFG (**There are no public commands available! - If you need .throw, .bot and other commands - you'll need a Pro server**)
 | !dm          | Deathmatch Gamemode |
 | !retake      | Retake Gamemode |
 | !wingman     | Wingman Gamemode |
@@ -74,12 +74,3 @@ This command, if set to 1, will make you automatically bunny hop by holding down
 | !map nuke    | !nuke            |
 | !map overpass | !overpass       |
 | !map vertigo | !vertigo         |
-
-
-## Matchmaking (eBot supported not in-game bots)
-1. Go to [public.ebot.wedeho.be](https://public.ebot.wedeho.be/)
-2. Create an account
-3. Add Gameserver (using IP:PORT and RCON Password)
-4. Create a match
-5. Go to My Matches
-6. Start
