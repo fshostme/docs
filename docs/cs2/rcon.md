@@ -8,13 +8,23 @@ title: "RCON Commands"
 <span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.**</span>
 ::::
 
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro server only</span>
+:::tip
+If you have a Pro server, you do NOT need to use `fake_rcon` on your game's console. 
+
+You can already add yourself as a server admin on your Pro server.
+\
+\
+[CS2Pro: Become an Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
+:::
+
 
 ## Log into RCON
 Open your in-game console and run one of the following commands to log in to your server as admin.
 
 The RCON password will be displayed on your [free server panel](https://fshost.me/free-panel) or within your [Pro area](https://fshost.me/pro).
 
-**Temporary Admin** - using Fake RCON
+**Temporary Admin on Free Server** - using Fake RCON
 <br />`fake_rcon_password type_rcon_pass_here`
 <br />`fake_rcon say hi`
 
