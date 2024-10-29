@@ -17,8 +17,9 @@ Below you can see which plugins are available/unavailable on our free and pro se
 | CS2 Workshop Map (!wsmap fileID)              |  &#x2718; No   | ✅ Yes |
 | CS2Rcon (!rcon)                         |  &#x2718; No   | ✅ Yes |
 | [AddAdmin/RemoveAdmin](https://help.fshost.me/docs/cs2/becomeadmin)           |  &#x2718; No   | ✅ Yes |
-| [In-Game Commands](https://help.fshost.me/docs/cs2/plugins/ingamecommands)                        |  &#x2718; No   | ✅ Yes |
-| [MatchZy & PracticeMode](https://help.fshost.me/docs/cs2/plugins/matchzy)                  |  &#x2718; No   | ✅ Yes |
+| [In-Game Commands Free](https://help.fshost.me/docs/cs2/plugins/ingamecommandsfree)                        |  ✅ Yes   | &#x2718; No |
+| [In-Game Commands Pro](https://help.fshost.me/docs/cs2/plugins/ingamecommands)                        |  &#x2718; No   | ✅ Yes |
+| [MatchZy & PracticeMode](https://help.fshost.me/docs/cs2/plugins/matchzy)                  |  &#x2718; No   | ✅ Yes (Default auto-enabled) |
 | [Open Prefire Prac](https://help.fshost.me/docs/cs2/plugins/openprefireprac)                         |  &#x2718; No   | ✅ Yes |
 | CS2-Retakes                             |  &#x2718; No   | ✅ Yes |
 | [WeaponPaints (Skins)](https://help.fshost.me/docs/cs2/plugins/skins)                    |  &#x2718; No   | ✅ Yes (**GSLT required**) |
