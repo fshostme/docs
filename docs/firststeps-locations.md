@@ -8,7 +8,7 @@ sidebar_label: "Locations"
 
 ## Introduction
 
-We are currently offering our server products in **FFM, DE, FSN DE, Ashburn, USA (East), Singapore, Asia**. 
+We offer server products in **FFM, DE, FSN DE, HEL, FI Ashburn, USA (East), Singapore, Asia**. 
 
 
 ## Availability of locations
@@ -18,7 +18,8 @@ As briefly mentioned in advance, we are continuously developing and expanding th
 | Locations               | Gameserver |
 | ----------------------- | :---------:|
 | Frankfurt am Main, DE	  | ✓          |
-| Falkenstein, DE	      | ✓          |
+| Falkenstein, DE	        | ✓          |
+| Helsinki, FI            | ✓          |
 | Ashburn, USA            | ✓          |
 | Singapore, Asia         | ✓          |
 
