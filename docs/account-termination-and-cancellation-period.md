@@ -9,7 +9,7 @@ Learn more about the termination and the notice period.
 
 ## Cancellation
 
-Cancellation of a service with FSHOST occurs automatically when the pre-paid rental period expires. You do not have to do anything if you no longer want to utilize the services provided by FSHOST. You cannot cancel a product within the pre-paid period. It is the customers own responsibility to determine the time period in which the product is needed.
+Cancellation of service with FSHOST occurs automatically when the pre-paid rental period expires. You do not have to do anything if you no longer want to utilize the services provided by FSHOST. You cannot cancel a product within the pre-paid period. It is the customer's responsibility to determine the time period in which the product is needed.
 
 
 ## Refunds

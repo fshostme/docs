@@ -32,7 +32,7 @@ The above commands are mandatory so that the CSTV master server is activated and
 
 |            Command            |                         Description                         |
 | :--------------------------: | :----------------------------------------------------------: |
-|        tv_name "name"        | CSTV hostname. Defines the CSTV name as it appears in the server browser and in the status bar |
+|        tv_name "name"        | CSTV hostname. Defines the CSTV name as it appears in the server browser and the status bar |
 |    tv_password "password"    |       Protects the CSTV transmission with a password       |
 |     tv_record "filename"     |             Starts recording a CSTV demo             |
 |        tv_stoprecord         |            Stops recording a CSTV demo             |

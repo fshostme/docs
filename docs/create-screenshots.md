@@ -7,12 +7,12 @@ sidebar_label: "Create Screenshots"
 
 ## Create screenshots
 
-In some cases it is necessary to send screenshots to the support.
+In some cases, it is necessary to send screenshots to the support.
 For this to be possible, the screenshot(s) must be shared via a link. 
-This link can be a link to an own cloud or to a "web uploader", also called web screenshot tools. 
+This link can be a link to an own cloud or to a "web uploader", also called a web screenshot tool. 
 
-If your own cloud or the web screenshot tool does not offer a function to create a screenshot directly, it can usually be created on the PC with simple tools. 
-Under Windows, it is sufficient to use the tool "Snipping Tool". With this tool, a screenshot can be saved locally, this can then be uploaded. 
+If your cloud or the web screenshot tool does not offer a function to create a screenshot directly, it can usually be created on the PC with simple tools. 
+Under Windows, it is sufficient to use the tool "Snipping Tool". With this tool, a screenshot can be saved locally, which can then be uploaded. 
 Under Linux, the usually already installed tool "Screenshots" or other tools such as "FlameShot" can be used to create local screenshots, which can then be uploaded.
 
 
@@ -47,8 +47,8 @@ Once this is done, the link that can be used for sharing will be displayed:
 
 ### Lightshot
 
-Lightshot does not offer a direct upload for images/screenshots. The upload can only be done via the own client. 
-The client can be obtained directly from the website and also offers a few tools to mark/show something on the screenshot or make it unrecognizable.  
+Lightshot does not offer a direct upload for images/screenshots. The upload can only be done via the client. 
+The client can be obtained directly from the website and also offers a few tools to mark/show something on the screenshot or make it unrecognizable.
 
 Download the client [Download](https://app.prntscr.com/en/)
 Important: A version for Linux is not offered. 
@@ -56,7 +56,7 @@ Important: A version for Linux is not offered.
 ![image](https://user-images.githubusercontent.com/13604413/159170271-13f1373f-b5e2-4c8a-8546-bf0f0359daaf.png)
 
 After the download, the client can be installed. 
-Afterwards, by default, a scrrenshot can be created or an area can be selected with the "Print" button. 
+Afterwards, by default, a screenshot can be created or an area can be selected with the "Print" button. 
 
 
 After the area is selected, the screenshot can still be edited. 

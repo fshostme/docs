@@ -1,9 +1,9 @@
 ---
 slug: becomeadmin
 id: cs2-becomeadmin
-title: "CS2: Become as Server Admin"
-description: "How can I become an serveradmin on my CS2 Pro server"
-sidebar_label: "Become as Server Admin"
+title: "CS2: Become a Server Admin"
+description: "How can I become a serveradmin on my CS2 Pro server"
+sidebar_label: "Become a Server Admin"
 ---
 
 import BrowserWindow from '@site/src/components/BrowserWindow';
@@ -17,7 +17,7 @@ How do I become an administrator on my own CS2 Pro server for the first time? We
 
 **There are 2 different ways you can do this. (Videos)**
 <details>
-  <summary>Howto use `/login` command with Say / Say_Team In-Game?</summary>
+  <summary>How to use the `/login` command with Say / Say_Team In-Game?</summary>
 
 <video playsinline autoPlay muted width="100%">
   <source src="https://dl.fsho.st/videos/cs2-admin-login2.mp4"/>
@@ -25,7 +25,7 @@ How do I become an administrator on my own CS2 Pro server for the first time? We
 </details>
 
 <details>
- <summary>Howto use `login` command with my ingame console? (Open the console first)</summary>
+ <summary>How to use the `login` command with my ingame console? (Open the console first)</summary>
 
 <video playsinline autoPlay muted width="100%">
   <source src="https://dl.fsho.st/videos/cs2-admin-console-login.mp4" type="video/mp4"/>
@@ -46,7 +46,7 @@ How do I become an administrator on my own CS2 Pro server for the first time? We
 4. `addadmin YourSteamID64` to add yourself or your friend as admin.
 :::
 
-**This is an example when you have added yourself as a server admin.**
+**This is an example of when you have added yourself as a server admin.**
 ![2024-08-22_13-24](https://github.com/user-attachments/assets/74a456ce-627a-4508-ab33-c827415b6593)
 
 
