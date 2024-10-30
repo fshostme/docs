@@ -38,9 +38,9 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.unready` | Marks the player unready |
 | `.pause` | Pauses the match in freezetime (Normal pause). |
 | `.tech` | Pauses the match in freezetime (Technical issues). |
-| `.unpause` | Request for unpausing the match. Both teams need to type **`!unpause`** or **`.unpause`** to unpause the match |
+| `.unpause` | Request for unpausing the match. Both teams need to type `.unpause` to unpause the match |
 | `.stay` | Stays on the same side (For knife winner, after the knife round) |
-| `.switch`/`.swap` | Switches the side (For knife winner, after the knife round) |
+| `.switch `/`.swap` | Switches the side (For knife winner, after the knife round) |
 | `.stop` | Restore the backup of the current round (Both teams need to type .stop to restore the current round) |
 | `.tac` | Starts a tactical timeout |
 | `.coach <side>` | Starts coaching the specified side. Example: `.coach t` to start coaching the terrorist side! |
@@ -66,8 +66,6 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.savenade <name> <optional description>` | Saves a lineup (Alias: `.sn`) |
 | `.loadnade <name>` | Loads a lineup (Alias: `.sn`) |
 | `.deletenade <name>` | Deletes a lineup from file (Alias: `.dn`) |
-| `.importnade <code>` | Upon saving a lineup a code will be printed to chat, alternatively those can be retrieved from the savednades.cfg (Alias: `.in`) |
-| `.deletenade <name>` | Deletes a lineup from the file (Alias: `.dn`) |
 | `.importnade <code>` | Upon saving a lineup a code will be printed to chat, alternatively, those can be retrieved from the savednades.cfg (Alias: `.in`) |
 | `.listnades <optional filter>` | Lists either all saved lineups ever or if given a filter only those that match the filter (Alias: `.lin`) |
 | `.break` | Breaks all the breakable entities (glass windows, wooden doors, vents, etc) |
@@ -84,7 +82,9 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.rethrowflash` | Throws your last thrown flash. |
 | `.rethrowmolotov` | Throws your last thrown molotov. |
 | `.rethrowdecoy` | Throws your last thrown decoy. |
-| `.nadecam` | This toggle enables or disables a picture-in-picture preview showing the trajectory of grenades in practice mode. (**sv_grenade_trajectory_prac_pipreview**) |
+| `.solid` | Command in practice mode to toggle mp_solid_teammates. |
+| `.impacts` | Command in practice mode to toggle sv_showimpacts. |
+| `.nadecam` | Command in practice mode to toggle sv_grenade_trajectory_prac_pipreview. |
 
 ### Admin Commands
 | Chat Command | Description |
@@ -100,7 +100,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.match` | Activates match mode - **All 10 players need to ready up, knife round is default enabled on this mode** |
 | `.scrim` | Activates scrim mode - **All 10 players need to ready up, knife round is disabled** - All rounds would be played irrespective of the winner. Useful in scrims! |
 | `.readyrequired <number>` | Sets the number of ready players required to start the match. **All connected players must be ready to start the game.** |
-| `.settings` | Displays the current setting, like whether the knife is enabled or not, the value of ready required players, etc. |
+| `.settings` | Displays the current setting, like whether knife is enabled or not, value of readyrequired players, etc |
 | `.team1 <name>` | Sets team name for Team 1 (CT by default) |
 | `.team2 <name>` | Sets team name for Team 2 (Terrorist by default) |
 | `.prac` | Starts Practice Mode |
