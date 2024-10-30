@@ -7,7 +7,7 @@ sidebar_label: "GSL-Token"
 
 ## ❓ What is a GSL token?
 
-Gameserver Login Tokens (GSLTs) is a procedure that Steam has implemented as a security measure. In order to run gameservers of certain Steam Games ( mostly source games) it is necessary to generate a token.
+Gameserver Login Tokens (GSLTs) is a procedure that Steam has implemented as a security measure. To run gameservers of certain Steam Games (mostly source games) it is necessary to generate a token.
 
 
 
@@ -30,7 +30,7 @@ To create a game server login token, you need to be logged in to the Steam websi
 
 
 
-When you get there, you will be asked for the App ID and a memo (any name you wish used as a note). The App ID depends on the game. In the following you will find the most important App IDs:
+When you get there, you will be asked for the App ID and a memo (any name you wish to use as a note). The App ID depends on the game. In the following you will find the most important App IDs:
 
 |              Game               | App ID |
 | :------------------------------: | :----: |
@@ -44,7 +44,7 @@ The GSL token can be defined in the interface under the WeaponPaints setting.
 
 ![image](https://help.fshost.me/img/fshgslt.png)
 
-Once this step is done, remember save and restart the server, the server will also appear in the public server list. 
+Once this step is done, remember to save and restart the server, the server will also appear in the public server list. 
 
 ## ⁉ Frequently asked questions
 
