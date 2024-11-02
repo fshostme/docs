@@ -8,14 +8,14 @@ title: "RCON Commands"
 <span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.**</span>
 ::::
 
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro server only</span>
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO only</span>
 :::tip
 If you have a Pro server, you do NOT need to use `fake_rcon` on your game's console. 
 
 You can already add yourself as a server admin on your Pro server.
 \
 \
-[CS2Pro: Become an Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
+Click here > [CS2Pro: Become an Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
 
@@ -39,7 +39,7 @@ You can change the current map to any stock one.
 <br />**In-Game: Say/Say_team** `!map mapnamehere` - Example: `!map dust2`
 
 
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free server only</span> 
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>FREE only</span> 
 
 To restart the game after X amount of seconds.
 <br /> `fake_rcon mp_restartgame seconds`
