@@ -5,6 +5,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  future: {
+    experimental_faster: true,
+  },
+
   title: 'FSHOST Help',
   tagline: 'FREE game server hosting for CS2, CoD4, CoD2, CS1.6, CSS, and more! We also offer paid game servers via Pro.',
   favicon: 'img/favicon.ico',
@@ -135,7 +139,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -147,12 +151,19 @@ const config = {
           showLastUpdateAuthor: true,
         },
         blog: {
-          showReadingTime: true,
+        feedOptions: {
+          type: 'all',
+          title: 'FSHOST.me Update Blog',
+          description: 'Description of the updates behind FSHOST.me',
+          copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
+          language: 'en',
+        },
+          showReadingTime: false,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           onUntruncatedBlogPosts: 'ignore',
-          editUrl:
-            'https://github.com/fshostme/docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
