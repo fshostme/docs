@@ -5,17 +5,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  future: {
-    experimental_faster: {
-      swcJsLoader: true,
-      swcJsMinimizer: true,
-      swcHtmlMinimizer: true,
-      lightningCssMinimizer: true,
-      rspackBundler: true,
-      mdxCrossCompilerCache: false
-    },
-  },
-
   title: 'FSHOST Help',
   tagline: 'FREE game server hosting for CS2, CoD4, CoD2, CS1.6, CSS, and more! We also offer paid game servers via Pro.',
   favicon: 'img/favicon.ico',
@@ -137,9 +126,8 @@ const config = {
       },
     ],
     [ 
-      require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en'] // language codes
+        languages: ['en'], // language codes
       }
     ]
   ],
@@ -344,6 +332,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  future: {
+    experimental_faster: true,
+  }
 };
 
 export default config;
