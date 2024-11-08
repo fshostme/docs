@@ -154,7 +154,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Counter-Strike CZero",
+      label: "Counter-Strike Condition Zero",
       items: [
         "cscz/cscz-firststeps-dashboard",
         "cscz/cscz-becomeadmin",
