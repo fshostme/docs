@@ -60,7 +60,20 @@ h2 {
 h3 {
   font-size: 1.25rem !important;
 }
+/* games icons */
+.sidebar-item {
+  display: flex;
+  align-items: center;
+}
 
+.sidebar-item.icon-1::before {
+  content: '';
+  background-image: url('https://cdn2.steamgriddb.com/icon/e1bd06c3f8089e7552aa0552cb387c92/8/32x32.png'); /* Replace with your icon URL */
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
 
 /* center images */
 img, iframe {
@@ -72,8 +85,9 @@ img, iframe {
 
 /* make tables fullwidth */
 table {
-  width: 100%;
-  display: table;
+    display: table;
+    width: auto;
+    margin: 0 auto;
 }
 
 /* smaller edit button */
@@ -91,7 +105,7 @@ table {
 }
 
 .theme-doc-sidebar-menu {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .menu>.menu__list .menu__list{
@@ -113,6 +127,11 @@ table {
   transition: background var(--ifm-transition-fast) var(--ifm-transition-timing-default)
 }
 
+/* Optional: Improve alignment or add additional styles */
+.menu__list-item a span img {
+  vertical-align: middle;
+}
+
 .sidebar-title {
   font-size: 0.8rem;
   letter-spacing: 0.05rem;
@@ -122,7 +141,7 @@ table {
 }
 
 .sidebar-title:not(:first-child) {
-  margin-top: 21px;
+  margin-top: 25px;
 }
 
 .navbar__item.externalLink {

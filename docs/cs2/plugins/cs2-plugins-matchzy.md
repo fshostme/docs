@@ -32,22 +32,22 @@ MatchZy can solve a lot of match management requirements. It provides basic comm
 
 ## Usage Commands
 Most of the commands can also be used using ! prefix instead of . (like !ready or /ready)
-| Chat Command | Description |
-| ----- | ----- |
+| Chat Commands | Description |
+| ------- | ----- |
 | `.ready` | Marks the player ready |
 | `.unready` | Marks the player unready |
 | `.pause` | Pauses the match in freezetime (Normal pause). |
 | `.tech` | Pauses the match in freezetime (Technical issues). |
 | `.unpause` | Request for unpausing the match. Both teams need to type `.unpause` to unpause the match |
 | `.stay` | Stays on the same side (For knife winner, after the knife round) |
-| `.switch `/`.swap` | Switches the side (For knife winner, after the knife round) |
+| `.switch or .swap`  | Switches the side (For knife winner, after the knife round) |
 | `.stop` | Restore the backup of the current round (Both teams need to type .stop to restore the current round) |
 | `.tac` | Starts a tactical timeout |
-| `.coach <side>` | Starts coaching the specified side. Example: `.coach t` to start coaching the terrorist side! |
+| `.coach team-side-here` | Starts coaching the specified side. Example: `.coach t` to start coaching the terrorist side! |
 
 ### Practice Commands
-| Chat Command | Description |
-| ----- | ---- |
+| Chat Commands | Description |
+| ----- | ----- |
 | `.spawn <number>` | Spawns to the provided competitive spawn number of the same team |
 | `.ctspawn <number>` | Spawns to the provided competitive spawn number of CT (Alias: `.cts`) |
 | `.tspawn <number>` | Spawns to the provided competitive spawn number of T (Alias: `.ts`) |
@@ -87,7 +87,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.nadecam` | Command in practice mode to toggle sv_grenade_trajectory_prac_pipreview. |
 
 ### Admin Commands
-| Chat Command | Description |
+| Chat Commands | Description |
 | ----- | ----- |
 | `.start` | Force starts a match. |
 | `.force` | Force starts a match. |
@@ -95,13 +95,12 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.forcepause` | Pauses the match as an admin (Players cannot unpause the admin-paused game). (`.fp` for a shorter command) |
 | `.forceunpause` | Force unpauses the match. (`.fup` for a shorter command) |
 | `.forceunpause` | Force unpauses the match. (`.fup` for a shorter command) |
-| `.restore <round>` | Restores the backup of the provided round number. |
+| `.restore round-number-here` | Restores the backup of the provided round number. |
 | `!rk` | Toggles the knife round. If disabled, the match will directly go from the Warmup phase to the Live phase. (Can also use: `!kr`, `!kniferound`) |
 | `.match` | Activates match mode - **All 10 players need to ready up, knife round is default enabled on this mode** |
 | `.scrim` | Activates scrim mode - **All 10 players need to ready up, knife round is disabled** - All rounds would be played irrespective of the winner. Useful in scrims! |
-| `.readyrequired <number>` | Sets the number of ready players required to start the match. **All connected players must be ready to start the game.** |
+| `.readyrequired number-here` | Sets the number of ready players required to start the match. **All connected players must be ready to start the game.** |
 | `.settings` | Displays the current setting, like whether knife is enabled or not, value of readyrequired players, etc |
-| `.team1 <name>` | Sets team name for Team 1 (CT by default) |
-| `.team2 <name>` | Sets team name for Team 2 (Terrorist by default) |
+| `.ctname / .tname <teamname>` | Sets team name for Team 1 (CT by default) or Team 2 (Terrorist by default) |
 | `.prac` | Starts Practice Mode |
-| `.exitprac` | Exits from practice mode and loads Match mode. |
+| `.exitprac` | Exits from Practice mode and loads Match mode |

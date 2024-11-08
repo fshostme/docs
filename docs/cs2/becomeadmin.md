@@ -1,9 +1,9 @@
 ---
 slug: becomeadmin
 id: cs2-becomeadmin
-title: "CS2: Become a Server Admin"
+title: "CS2: Become as Server Admin"
 description: "How can I become a serveradmin on my CS2 Pro server"
-sidebar_label: "Become a Server Admin"
+sidebar_label: "Become as Server Admin"
 ---
 
 import BrowserWindow from '@site/src/components/BrowserWindow';

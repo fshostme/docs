@@ -45,8 +45,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'en-GB',
+    locales: ['en-GB'],
   },
 
   plugins: [
@@ -173,11 +173,35 @@ const config = {
           onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'cs2update',
+        routeBasePath: 'cs2update',
+        path: './cs2update/',
+        blogSidebarTitle: 'All CS2 updates posts',
+        blogSidebarCount: 'ALL',
+        onUntruncatedBlogPosts: 'ignore',
+        showReadingTime: false,
+        truncateMarker: /<!--\s*(truncate)\s*-->/,
+        feedOptions: {
+          type: 'all',
+          title: 'CS2 Update @ FSHOST.me',
+          description: 'Updates behind our CS2 servers',
+          copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
+          language: 'en-GB',
+        },
+      },
+    ],
+  ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -186,8 +210,8 @@ const config = {
       image: 'undefined',
       docs: {
         sidebar: {
-          hideable: true,
-          autoCollapseCategories: true,
+          hideable: false,
+          autoCollapseCategories: false,
         },
       },
       /*announcementBar: {
@@ -224,7 +248,7 @@ const config = {
             position: 'left',
             label: 'Server Help',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'News', position: 'left'},
           {
             href: 'https://github.com/fshostme/docs',
             label: 'GitHub',
@@ -272,10 +296,6 @@ const config = {
           {
             title: 'Social',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'Discord',
                 href: 'https://fshost.me/discord',
