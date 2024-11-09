@@ -60,20 +60,6 @@ h2 {
 h3 {
   font-size: 1.25rem !important;
 }
-/* games icons */
-.sidebar-item {
-  display: flex;
-  align-items: center;
-}
-
-.sidebar-item.icon-1::before {
-  content: '';
-  background-image: url('https://cdn2.steamgriddb.com/icon/e1bd06c3f8089e7552aa0552cb387c92/8/32x32.png'); /* Replace with your icon URL */
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
 
 /* center images */
 img, iframe {

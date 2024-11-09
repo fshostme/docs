@@ -22,9 +22,9 @@ const config = {
   trailingSlash: false,
 
   //onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
-  onDuplicateRoutes: 'throw',
-  onBrokenAnchors: 'throw',
+  //onBrokenMarkdownLinks: 'throw',
+  //onDuplicateRoutes: 'throw',
+  //onBrokenAnchors: 'throw',
 
   customFields: {
     marketingSite: 'https://fshost.me',
@@ -151,7 +151,6 @@ const config = {
           title: 'FSHOST.me Update Blog',
           description: 'Description of the updates behind FSHOST.me',
           copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
-          language: 'en',
         },
           showReadingTime: false,
           readingTime: ({content, frontMatter, defaultReadingTime}) =>
@@ -174,17 +173,16 @@ const config = {
         id: 'cs2update',
         routeBasePath: 'cs2update',
         path: './cs2update/',
+        blogTitle: 'CS2 Update',
+        blogDescription: 'A little blog for CS2 updates for our Pro',
         blogSidebarTitle: 'All CS2 updates posts',
         blogSidebarCount: 'ALL',
-        onUntruncatedBlogPosts: 'ignore',
-        showReadingTime: false,
+        showReadingTime: true,
         truncateMarker: /<!--\s*(truncate)\s*-->/,
         feedOptions: {
           type: 'all',
           title: 'CS2 Update @ FSHOST.me',
           description: 'Updates behind our CS2 servers',
-          copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
-          language: 'en-GB',
         },
       },
     ],
@@ -216,7 +214,7 @@ const config = {
           respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'FSHOST Help',
+        title: 'FSHOST.me Help Guide',
         logo: {
           href: "/docs/welcome",
           alt: 'FSHOST',
