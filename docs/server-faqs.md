@@ -21,7 +21,7 @@ As you're using our free servers, they will go offline if there's no players onl
 We don't offer uploading files on our free or Pro servers. If you want us to add something that we don't already provide, please let us know, and we'll take a look.
 \
 \
-No FTP is provided here.
+No **FTP** is provided for free/pro servers.
 \
 No bots are provided on free servers.
 \
