@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'FSHOST Help',
+  title: 'FSHOST Docs',
   tagline: 'FREE game server hosting for CS2, CoD4, CoD2, CS1.6, CSS, and more! We also offer paid game servers via Pro.',
   favicon: 'img/favicon.ico',
 
@@ -177,8 +177,9 @@ const config = {
         blogDescription: 'A little blog for CS2 updates for our Pro',
         blogSidebarTitle: 'All CS2 updates posts',
         blogSidebarCount: 'ALL',
-        showReadingTime: true,
+        showReadingTime: false,
         truncateMarker: /<!--\s*(truncate)\s*-->/,
+        onUntruncatedBlogPosts: 'ignore',
         feedOptions: {
           type: 'all',
           title: 'CS2 Update @ FSHOST.me',
