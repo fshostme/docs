@@ -38,3 +38,4 @@ Have you not added yourself as an admin yet?
 | /nuke |
 | /inferno |
 | /dust2 |
+| /train |

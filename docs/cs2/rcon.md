@@ -84,3 +84,4 @@ This command, if set to 1, will make you automatically bunnyhop by holding down 
 | !map nuke    | !nuke            |
 | !map overpass | !overpass       |
 | !map vertigo | !vertigo         |
+| !map train | !train		  |

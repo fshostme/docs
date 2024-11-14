@@ -30,3 +30,4 @@ title: "In-Game Commands [Free]"
 | /nuke |
 | /inferno |
 | /dust2 |
+| /train |
