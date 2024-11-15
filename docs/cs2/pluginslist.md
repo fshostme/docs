@@ -11,7 +11,7 @@ Below you can see which plugins are available/unavailable on our free and pro se
 | Plugins                                 | Free           | Pro |
 |:-                                       |:-              |:-      |
 | [CS2-SimpleAdmin](https://help.fshost.me/docs/cs2/plugins/simpleadmin) |  &#x2718; No   | ✅ Yes |
-| [GOTV Demo to Discord](https://help.fshost.me/docs/cs2/plugins/matchzy)                    |  &#x2718; No   | ✅ Yes |
+| [CSTV Demo to Discord](https://help.fshost.me/docs/cs2/plugins/matchzy)                    |  &#x2718; No   | ✅ Yes |
 | CS2-Deathmatch                          |  &#x2718; No   | ✅ Yes |
 | CS2 Map Change (!map de_mapname)          |      ✅ Yes    | ✅ Yes |
 | CS2 Workshop Map (!wsmap fileID)              |  &#x2718; No   | ✅ Yes |

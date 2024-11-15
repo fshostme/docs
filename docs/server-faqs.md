@@ -21,13 +21,13 @@ As you're using our free servers, they will go offline if there's no players onl
 We don't offer uploading files on our free or Pro servers. If you want us to add something that we don't already provide, please let us know, and we'll take a look.
 \
 \
-No **FTP** is provided for free/pro servers.
+**FTP access is not available** for free/pro servers.
 \
-No bots are provided on free servers.
+Bots are **not included** with free servers.
 \
-Bots are available as Pro on the following games: **CS 1.6**, **CS Source** and **CS2**
+Bots are available as part of the Pro package for the following games: **CS 1.6**, **CS: Source**, and **CS2**.
 \
-We do not add plugins on our free servers.
+Plugins are **not supported** on our free servers.
 </details>
 
 

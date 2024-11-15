@@ -12,7 +12,8 @@ Have you not added yourself as an admin yet?
 [Go to this page](https://help.fshost.me/docs/cs2/becomeadmin), if you want to know how you can become an admin on your CS2 Pro server.
 :::
 
-| InGame Commands | Description |
+## In-Game Commands
+| In-Game Commands | Description |
 | ------------ | ----------- |
 | /comp | Switching to Competitive Gamemode (MatchZy Practice-Mode is auto-activated) |
 | /casual | Switching to Casual Gamemode |
@@ -28,14 +29,16 @@ Have you not added yourself as an admin yet?
 | /retake | Switching to Retake Mode |
 | /wingman | Switching to Wingman Gamemode | 
 
-| Maps Commands | 
-| :------------: |
-| /mirage |
-| /overpass |
-| /anubis |
-| /vertigo |
-| /ancient | 
-| /nuke |
-| /inferno |
-| /dust2 |
-| /train |
+
+## Maps Commands
+| Commands | Description |
+| ---- | ---- |
+| `/mirage` | Switching to Mirage |
+| `/overpass` | Switching to Overpass |
+| `/anubis` | Switching to Anubis |
+| `/vertigo` | Switching to Vertigo |
+| `/ancient` | Switching to Ancient |
+| `/nuke` | Switching to Nuke |
+| `/inferno` | Switching to Inferno |
+| `/dust2` | Switching to Dust2 |
+| `/train` | Switching to Train |
