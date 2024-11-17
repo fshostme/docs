@@ -1,7 +1,7 @@
 ---
 slug: ingamecommands
 id: cs2-plugins-ingamecommands
-title: "In-Game Commands"
+title: "In-Game Commands [Pro]"
 ---
 **Here’s a comprehensive overview of the commands you can use on your CS2 Pro server.**
 

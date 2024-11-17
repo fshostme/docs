@@ -104,7 +104,19 @@ const sidebars = {
         "cs2/cs2-firststeps-dashboard",
         "cs2/cs2-becomeadmin",
         "cs2/cs2-rcon",
+        "cs2/plugins/cs2-plugins-ingamecommands",
         "cs2/source-gsltoken",
+        {
+          type: "category",
+          label: "Pro Plugins",
+          items: [
+            "cs2/plugins/cs2-plugins-gotvdiscord",
+            "cs2/plugins/cs2-plugins-matchzy",
+            "cs2/plugins/cs2-plugins-openprefireprac",
+            "cs2/plugins/cs2-plugins-retakes",
+            "cs2/plugins/cs2-plugins-skins",
+          ]
+        },
         "cs2/cs2-pluginslist",
       ],
     },
