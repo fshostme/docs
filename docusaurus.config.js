@@ -6,7 +6,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'FSHOST Docs',
-  tagline: 'FREE game server hosting for CS2, CoD4, CoD2, CS1.6, CSS, and more! We also offer paid game servers via Pro.',
+  tagline: 'Get FREE game server hosting for CS2, CoD4, CoD2, CS 1.6, CSS, and more! Upgrade to Pro for premium paid server options.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -175,15 +175,15 @@ const config = {
         path: './cs2update/',
         blogTitle: 'CS2 Update',
         blogDescription: 'A little blog for CS2 updates for our Pro',
-        blogSidebarTitle: 'All CS2 updates posts',
+        blogSidebarTitle: 'CS2 Pro Updates',
         blogSidebarCount: 'ALL',
         showReadingTime: false,
         truncateMarker: /<!--\s*(truncate)\s*-->/,
         onUntruncatedBlogPosts: 'ignore',
         feedOptions: {
           type: 'all',
-          title: 'CS2 Update @ FSHOST.me',
-          description: 'Updates behind our CS2 servers',
+          title: 'CS2 Updates',
+          description: 'Stay informed with the latest CS2Pro news from FSHOST.me, featuring updates and enhancements for our CS2Pro servers.',
         },
       },
     ],
@@ -233,9 +233,26 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'gameserverSidebar',
             position: 'left',
-            label: 'Server Help',
+            label: 'Gameserver Help',
           },
-          {to: '/blog', label: 'News', position: 'left'},
+        {
+          // Dropdown menu in the navbar for "Learn" section
+          type: "dropdown",
+          position: "left",
+          label: "News",
+          items: [
+            {
+              label: "CS2 Server News",
+              to: `/cs2update`,
+              activeBaseRegex: 'cs2update',
+          },
+            {
+              label: "Website News",
+              to: `/blog`,
+              activeBaseRegex: 'blog',
+            },
+          ],
+        },
           {
             href: 'https://github.com/fshostme/docs',
             label: 'GitHub',

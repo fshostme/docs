@@ -33,6 +33,10 @@ Changing the game mode is done with these commands, but it will only take effect
 then  
 `/rcon map_restart`
 
+### Map Rotation
+Changing the gametype and map rotation (Example)
+<br />`/rcon sv_maprotation "gametype sd map mp_backlot map mp_citystreets map mp_crash map mp_strike map mp_crossfire"`
+
 | Command                | Name                      |
 |------------------------|---------------------------|
 | /rcon g_gametype dm    | Free For All / Deathmatch |

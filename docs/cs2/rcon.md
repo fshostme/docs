@@ -12,15 +12,15 @@ title: "RCON Commands"
 :::tip
 If you have a Pro server, you do not need to use `fake_rcon` in your game’s console.
 
-You can directly add yourself in-game as a server admin on your Pro server.
+You can easily assign yourself as a server admin directly in-game on your Pro server.
 \
 \
-Click here > [CS2Pro: Become an Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
+Click here to learn more: [CS2Pro: How to Become a Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
 
 ## Log into RCON
-Open your in-game console and enter one of the following commands to log in as an admin on your server.
+Open your in-game console and use one of the following commands to log in as an admin on your server.
 
 The RCON password will be displayed on your [free server panel](https://fshost.me/free-panel) or within your [Pro area](https://fshost.me/pro).
 
@@ -32,17 +32,16 @@ The RCON password will be displayed on your [free server panel](https://fshost.m
 
 ## General Settings
 **Maps**<br />
-List all maps.
+Displays a list of all available maps.
 <br /> `rcon maps *`
 
 You can change the current map to any stock one.
-<br />**In-Game: Say/Say_team** `!map mapnamehere` - Example: `!map dust2`
-
+<br />**In-Game: Use say or say_team** `!map mapnamehere` - Example: `!map dust2`
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>FREE only</span> 
 
-To restart the game after X seconds.
-<br /> `fake_rcon mp_restartgame seconds`
+Restart the game after a specified number of seconds.
+<br /> `fake_rcon mp_restartgame <seconds>`
 
 This command sets how much money players are given at the beginning of a half. The default is 800.
 <br /> `fake_rcon mp_startmoney Amount`
@@ -63,16 +62,15 @@ This command, if set to 1, will make you automatically bunnyhop by holding down 
 <br />`fake_rcon sv_cheats 1`
 
 
-
 ## Load a different config/gamemode/map
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free server only</span>
 <br />Loads the predefined settings.
 
 | Chat Command | Description |
 | ------------ | ----------- |
-| !esl5on5     | This is a default esl5on5 file (**No ready system available.**) |
-| !scrim       | Scrim config with all rounds enabled (**No pause/unpause command is available!**) |
-| !prac        | Default Practice CFG (**No public commands are available! To access commands like `.throw`, `.bot`, and others, a Pro server is required.**)
+| !esl5on5     | This is the standard ESL 5on5 configuration file. (**Note: A ready system is not included.**) |
+| !scrim       | A configuration for scrims with all rounds enabled. (**Note: Pause and unpause commands are not available.**) |
+| !prac        | The default practice configuration file. (**Note: Public commands are not accessible.** To use commands like `.throw`, `.bot`, and more, a Pro server is required.)
 | !dm          | Deathmatch Gamemode |
 | !retake      | Retake Gamemode |
 | !wingman     | Wingman Gamemode |

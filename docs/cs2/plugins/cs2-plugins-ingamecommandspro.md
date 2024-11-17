@@ -3,13 +3,13 @@ slug: ingamecommands
 id: cs2-plugins-ingamecommands
 title: "In-Game Commands"
 ---
-**Here you have an overview of which commands can be used on your CS2 Pro server.**
+**Here’s a comprehensive overview of the commands you can use on your CS2 Pro server.**
 
 :::note
-**Please note that the commands are only available if you have added yourself as admin.**
+**Please note that these commands are accessible only if you have granted yourself admin privileges.**
 <br />
-Have you not added yourself as an admin yet?
-[Go to this page](https://help.fshost.me/docs/cs2/becomeadmin), if you want to know how you can become an admin on your CS2 Pro server.
+If you're looking to learn how to become an admin on your CS2 Pro server, here's what you need to know:
+[Go to this page](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
 ## In-Game Commands
@@ -19,9 +19,10 @@ Have you not added yourself as an admin yet?
 | /casual | Switching to Casual Gamemode |
 | /dmmulticfg | Multi-CFG Deathmatch (Aliases: `!dmon`) |
 | /dmvalve | VALVe Deathmatch (Aliases: `!valvedm`) |
-| /help | Printing available commands in chat |
-| /rcon | Control RCON, from say/say_team |
+| /help | Display a list of available commands in the chat for quick reference. |
+| /rcon | Execute RCON commands directly from the chat using the `say` or `say_team` functions. |
 | /map `mapname` | Switch to the map you like to play - Example: `/map nuke` |
+| /wsmap `workshop ID` | Switch to the map you want to play using its Workshop ID. For example: `/wsmap 3331819777` | 
 | /maps | Printing available maps commands in chat |
 | /matchzy | Switching to MatchZy Practice Mode (Available if you're playing Open Prefire Prac, Retake or Deathmatch) |
 | /prefireon | Switching to Open Prefire Prac - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac) |

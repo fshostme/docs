@@ -16,16 +16,51 @@ How can I become an administrator on my CS2 Pro server for the first time? Below
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO only</span>
 
 **There are two different methods to do this, as shown in the videos below.**
-<details>
-  <summary>How to use the `/login <rcon password>` command with Say / Say_Team In-Game?</summary>
+<details style={{
+  '--docusaurus-details-summary-arrow-size': '0',
+  '--docusaurus-details-summary-arrow': 'none',
+  position: 'relative',
+  border: '1px solid #3d3d40',
+  borderRadius: '8px',
+  backgroundColor: '#1c1c1e',
+  cursor: 'pointer',
+  overflow: 'hidden',
+}}>
+<summary style={{
+    fontWeight: 'bold',
+    color: '#00ff88',
+    display: 'flex',
+    alignItems: 'center',
+    padding: '0.5rem',
+}}>
 
+How to use the `/login <rconpassword>` command with Say / Say_team? (**Video**)
+</summary>
 <video playsinline autoPlay muted width="100%">
   <source src="https://dl.fsho.st/videos/cs2-admin-login2.mp4"/>
 </video>
 </details>
 
-<details>
- <summary>How to use the `login <rcon password>` command with my ingame console? (Open the console first)</summary>
+<details style={{
+  '--docusaurus-details-summary-arrow-size': '0',
+  '--docusaurus-details-summary-arrow': 'none',
+  position: 'relative',
+  border: '1px solid #3d3d40',
+  borderRadius: '8px',
+  backgroundColor: '#1c1c1e',
+  cursor: 'pointer',
+  overflow: 'hidden',
+}}>
+<summary style={{
+    fontWeight: 'bold',
+    color: '#00ff88',
+    display: 'flex',
+    alignItems: 'center',
+    padding: '0.5rem',
+}}>
+
+How to use the `login <rconpassword>` command with my ingame console? (**Video**)
+</summary>
 
 <video playsinline autoPlay muted width="100%">
   <source src="https://dl.fsho.st/videos/cs2-admin-console-login.mp4" type="video/mp4"/>

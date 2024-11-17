@@ -68,7 +68,6 @@ const sidebars = {
       label: 'Account',
       items: [
         "banned",
-        "account-termination-and-cancellation-period",
         "account-paymentoptions",
       ]
     },
@@ -88,6 +87,27 @@ const sidebars = {
     },
     "server-faqs",
     "server-rcon",
+    {  
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          default: return "Popular Games";
+        }
+      })(),
+      defaultStyle: false,
+    },
+    {
+      type: "category",
+      label: "Counter-Strike 2",
+      items: [
+        "cs2/cs2-firststeps-dashboard",
+        "cs2/cs2-becomeadmin",
+        "cs2/cs2-rcon",
+        "cs2/source-gsltoken",
+        "cs2/cs2-pluginslist",
+      ],
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -96,7 +116,7 @@ const sidebars = {
           default: return "All Games (A-Z)";
         }
       })(),
-      defaultStyle: true,
+      defaultStyle: false,
     },
     {
       type: "category",
@@ -166,31 +186,6 @@ const sidebars = {
       items: [
         "css/css-firststeps-dashboard",
         "css/css-rcon"
-      ],
-    },
-    {
-      type: "category",
-      label: "Counter-Strike 2",
-      className: 'icon-1', // Adds icon-1 class
-      items: [
-        "cs2/cs2-firststeps-dashboard",
-        "cs2/cs2-becomeadmin",
-        "cs2/cs2-rcon",
-        "cs2/source-gsltoken",
-        "cs2/cs2-pluginslist",
-        {
-          type: "category",
-          label: "Plugins in Pro Server",
-          items: [
-            "cs2/plugins/cs2-plugins-matchzy",
-            "cs2/plugins/cs2-plugins-retakes",
-            "cs2/plugins/cs2-plugins-skins",
-            "cs2/plugins/cs2-plugins-simpleadmin",
-            "cs2/plugins/cs2-plugins-gotvdiscord",
-            "cs2/plugins/cs2-plugins-openprefireprac",
-            "cs2/plugins/cs2-plugins-ingamecommands"
-          ]
-        },
       ],
     },
     {

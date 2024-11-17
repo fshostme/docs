@@ -1,5 +1,5 @@
 ---
-slug: GOTVDiscord
+slug: gotvdiscord
 id: cs2-plugins-gotvdiscord
 title: "CSTV Discord"
 ---

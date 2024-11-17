@@ -1,51 +1,47 @@
 ---
 slug: becomeadmin
 id: cs16-becomeadmin
-title: "CS 1.6: Become an admin on your own server"
+title: "CS 1.6: Become an admin on FSHOST server"
 description: "Information on how to become an admin on your CS 1.6 server from FSHOST"
 sidebar_label: "Become admin"
 ---
 
 **How can I become admin on CS1.6 server?**<br />
-First, connect to the CS1.6 server and open your console in the game
+To become an admin on a CS 1.6 server, start by connecting to the server and opening the in-game console. From there, follow the necessary steps to authenticate or set up admin privileges, as directed by the server's guidelines.
 
 :::tip
-You need to remember the RCON Password you has made. if you have closed the browser down, you can open it again to find the passwords. [this panel](https://fshost.me/free-panel)
+Make sure to remember the RCON password you created. If you've closed your browser, you can reopen it to retrieve the password from where it was saved or noted. [Free Server Panel](https://fshost.me/free-panel)
 :::
 
-When you open the console in the game, we need the RCON password we have saved.
+When you open the in-game console, you'll need to enter the RCON password that you previously saved.
 
-Here is a **example console** screenshot:
+Here is an **example of a console** screenshot:
 ![image](https://help.fshost.me/img/cs16-console.png)
 
-We want to make sure it works, so we type this command on the console: `rcon say hello` 
+To ensure everything is working correctly, type the following command in the console: `rcon say hello`.
 ![image](https://help.fshost.me/img/cs16-console2.png)
 
-On this screenshot, we can confirm our RCON work
+In this screenshot, we can confirm that our RCON is functioning correctly.
 ![image](https://help.fshost.me/img/cs16-say.png)
 
 :::danger
-**We do NOT recommend entering a password, if you have done so, please contact support so we can remove it!**
+**We strongly advise against entering your password directly. If you have already done so, please contact support immediately so we can assist in removing it!**
 :::
 
 `rcon amx_addadmin "nickname" "flags"`
 
-**Here below, we will show you a full example (screenshot)**:
-
+**Below, we will provide a full example with a screenshot for reference.**
 ![image](https://help.fshost.me/img/cs16-console3.png)
 
-Done, you are now an administrator on the CS1.6 server and you have access to this command: `amxmodmenu`.
+Congratulations! You are now an administrator on the CS 1.6 server. You can access the admin menu using the command: `amxmodmenu`.
 
 :::note
-**You do not get permanent admin on our free CS 1.6 service.**
+**Please note that our free CS 1.6 service does not grant permanent admin privileges.**
 
-If you want permanent admin for CS 1.6 server, we recommend taking a look at this product: [Pro](https://fshost.me/pro)
+If you're interested in obtaining permanent admin privileges for your CS 1.6 server, we recommend checking out this product: [Pro](https://fshost.me/pro)
 :::
 
-
-**Authorization level**
-
-| Authorization level | Description                                                  |
+| Access level | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
 | a                   | immunity (can't be kicked/baned/slayed/slaped and affected by other commmands) |
 | b                   | reservation (can join on reserved slots)                     |
