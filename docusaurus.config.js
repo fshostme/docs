@@ -187,6 +187,26 @@ const config = {
         },
       },
     ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'news',
+        routeBasePath: 'news',
+        path: './news/',
+        blogTitle: 'Website Update',
+        blogDescription: 'A little blog for Website updates',
+        blogSidebarTitle: 'Website Updates',
+        blogSidebarCount: 'ALL',
+        showReadingTime: false,
+        truncateMarker: /<!--\s*(truncate)\s*-->/,
+        onUntruncatedBlogPosts: 'ignore',
+        feedOptions: {
+          type: 'all',
+          title: 'Website Updates',
+          description: 'Stay informed with the latest CS2Pro news from FSHOST.me, featuring updates and enhancements for our CS2Pro servers.',
+        },
+      },
+    ],
   ],
 
 
@@ -248,7 +268,7 @@ const config = {
           },
             {
               label: "Website News",
-              to: `/blog`,
+              to: `/news`,
               activeBaseRegex: 'blog',
             },
           ],
