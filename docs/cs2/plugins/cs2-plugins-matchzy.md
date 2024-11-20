@@ -9,6 +9,8 @@ MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches w
 :::info
 **We've disabled some commands during matches/scrims due to the risk of your server crashing. (CSTV only)**
 <br />
+**This is temporarily unavailable until we get a permanent solution for the server crash between CSTV and tv_stoprecord. (Commands is still available until a fix is ready)**
+<br />
 We have had to disable the following commands;
 * !map, !rcon
 * Map commands (e.g. !dust2, !nuke, !mirage).
