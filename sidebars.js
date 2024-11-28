@@ -106,6 +106,7 @@ const sidebars = {
         "cs2/cs2-rcon",
         "cs2/plugins/cs2-plugins-ingamecommands",
         "cs2/source-gsltoken",
+        "cs2/cs2-cstv",
         {
           type: "category",
           label: "Pro Plugins",

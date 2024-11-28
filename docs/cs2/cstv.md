@@ -1,21 +1,16 @@
 ---
 slug: cstv
 id: cs2-cstv
-title: "CS2: CSTV "
+title: "CS2: CSTV"
 description: "Information about CSTV for CS2 Server from FSHOST"
-sidebar_label: "CSTV"
+sidebar_label: "GOTV [Pro]"
 ---
-
-
-
-:::caution
-CS2 has just recently been released. The game is currently receiving quite a few updates and changes. This also affects the functionality and structure of the CS2 servers. We do our best to keep the guides as correct and up to date as quickly as possible in case something has changed concerning this.
-:::
-
-
 
 ## Introduction
 
+:::caution
+Due to issues with tv_stoprecord and changemap, we have temporarily set all CS2 Pro servers to use **tv_delay 0**.
+:::
 
 CSTV offers the possibility to broadcast games live with a little delay. This means that outsiders who are not involved in the game can also follow what is happening on the server. This technology is also used in the well-known counter-strike tournaments so that the spectators can watch the spectacle. Furthermore, the transmissions can also be saved automatically, so that you can watch them again afterwards.
 
@@ -33,7 +28,6 @@ The above commands are mandatory so that the CSTV master server is activated and
 |            Command            |                         Description                         |
 | :--------------------------: | :----------------------------------------------------------: |
 |        tv_name "name"        | CSTV hostname. Defines the CSTV name as it appears in the server browser and the status bar |
-|    tv_password "password"    |       Protects the CSTV transmission with a password       |
 |     tv_record "filename"     |             Starts recording a CSTV demo             |
 |        tv_stoprecord         |            Stops recording a CSTV demo             |
 
@@ -47,5 +41,6 @@ If the function is activated on the server, access is possible via the IP addres
 connect SERVERIP:XXXX
 ```
 
+## Errors
 
-Manual and automatic recorded demos are stored in the main directory /cs2/game/csgo/demos/ServerID) of the CS2 server. These can be downloaded via the HTTP/Discord access provided.
+- **[Demo] 2024-11-28_XX-XX-XX_XXXX_de_mirage_team_XXXX_vs_team_XXXXXX.dem:  unable to extract addons from file** - [Follow this link](https://www.reddit.com/r/cs2/comments/18ei4n4/cant_play_demos_cs2_unable_to_extract_addons_from/)
