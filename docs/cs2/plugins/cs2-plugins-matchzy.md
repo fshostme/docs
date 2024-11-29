@@ -96,7 +96,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.forcepause` | Pauses the match as an admin (Players cannot unpause the admin-paused game). (`.fp` for a shorter command) |
 | `.forceunpause` | Force unpauses the match. (`.fup` for a shorter command) |
 | `.restore round-number-here` | Restores the backup of the provided round number. |
-| `!rk` | Toggles the knife round. If disabled, the match will skip the Warmup phase and go directly to the Live phase. (Shortcut commands: `!kr`, `!kniferound`) |
+| `.knife / .rk` | Toggles the knife round. If disabled, the match will skip the Warmup phase and go directly to the Live phase. (Shortcut commands: `!kr`, `!kniferound`) |
 | `.match` | Activates match mode. **All 10 players must ready up, knife round enabled by default in this mode.** |
 | `.scrim` | Activates scrim mode. **All 10 players must ready up, knife round is disabled** - All rounds would be played irrespective of the winner. Useful in scrims! |
 | `.readyrequired number-here` | Sets the number of ready players required to start the match. **All connected players must be ready to start the game.** |
