@@ -177,8 +177,8 @@ const config = {
         blogDescription: 'A little blog for CS2 updates for our Pro',
         blogSidebarTitle: 'CS2 Pro Updates',
         blogSidebarCount: 'ALL',
-        showReadingTime: false,
-        truncateMarker: /<!--\s*(truncate)\s*-->/,
+        showReadingTime: true,
+        truncateMarker: /<!--\s*truncate\s*-->/,
         onUntruncatedBlogPosts: 'ignore',
         feedOptions: {
           type: 'all',
@@ -197,7 +197,7 @@ const config = {
         blogDescription: 'A little blog for Website updates',
         blogSidebarTitle: 'Website Updates',
         blogSidebarCount: 'ALL',
-        showReadingTime: false,
+        showReadingTime: true,
         truncateMarker: /<!--\s*(truncate)\s*-->/,
         onUntruncatedBlogPosts: 'ignore',
         feedOptions: {
