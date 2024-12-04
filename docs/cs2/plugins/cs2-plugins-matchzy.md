@@ -6,18 +6,6 @@ title: "MatchZy"
 
 MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches with easy configuration!
 
-:::info
-**We've disabled some commands during matches/scrims due to the risk of your server crashing. (CSTV only)**
-<br />
-**This is temporarily unavailable until we get a permanent solution for the server crash between CSTV and tv_stoprecord. (Commands is still available until a fix is ready)**
-<br />
-We have had to disable the following commands;
-* !map, !rcon
-* Map commands (e.g. !dust2, !nuke, !mirage).
-
-_When your match/scrim is complete, you will need to wait at least 5 seconds before you can change the map._
-:::
-
 ## What can MatchZy do?
 MatchZy can solve a lot of match management requirements. It provides basic commands like `!ready`, `!unready`, `!pause`, `!unpause`, `!tac`, `!tech`, match stats, and much more!
 
@@ -104,3 +92,4 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.ctname / .tname <teamname>` | Sets team name for Team CT / Team T |
 | `.prac` | Starts Practice Mode |
 | `.exitprac` | Exits from Practice mode and loads Match mode |
+| `.exitdry` | Exits from DryRun mode and loads back to Practice Mode |

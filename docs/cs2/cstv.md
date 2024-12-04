@@ -8,13 +8,7 @@ sidebar_label: "GOTV [Pro]"
 
 ## Introduction
 
-:::caution
-Due to issues with tv_stoprecord and changemap, we have temporarily set all CS2 Pro servers to use **tv_delay 0**.
-:::
-
 CSTV offers the possibility to broadcast games live with a little delay. This means that outsiders who are not involved in the game can also follow what is happening on the server. This technology is also used in the well-known counter-strike tournaments so that the spectators can watch the spectacle. Furthermore, the transmissions can also be saved automatically, so that you can watch them again afterwards.
-
-
 
 ## Activation
 
