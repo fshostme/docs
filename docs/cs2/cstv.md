@@ -19,12 +19,11 @@ The activation of the CSTV service is done via our **panel** page.
 
 The above commands are mandatory so that the CSTV master server is activated and accessible. However, there are other commands for advanced configuration below:
 
-|            Command            |                         Description                         |
-| :--------------------------: | :----------------------------------------------------------: |
-|        tv_name "name"        | CSTV hostname. Defines the CSTV name as it appears in the server browser and the status bar |
-|     tv_record "filename"     |             Starts recording a CSTV demo             |
-|        tv_stoprecord         |            Stops recording a CSTV demo             |
-
+| Command          | Description                                                              |
+|------------------|--------------------------------------------------------------------------|
+| tv_name "name"   | CSTV hostname. Defines the CSTV name as it appears in the server browser |
+| tv_record "filename" | Starts recording a CSTV demo                                         |
+| tv_stoprecord    | Stops recording a CSTV demo                                              |
 
 
 ## Establishing the connection

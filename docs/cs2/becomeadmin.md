@@ -85,8 +85,8 @@ How to use the `login <rconpassword>` command with my ingame console? (**Video**
 ![2024-08-22_13-24](https://github.com/user-attachments/assets/74a456ce-627a-4508-ab33-c827415b6593)
 
 
-| Chat Command | Description |
-| ------------ | ----------- |
-| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their SteamID64 |
-| `/removeadmin [target]` | To remove an administrator from the server, you can enter their SteamID64 |
-| `/listadmins` | Show a list of administrators on your CS2 server along with their SteamID64 and nickname. |
+| Chat Command      | Example                             | Description                                                                                     |
+|-------------------|-------------------------------------|-------------------------------------------------------------------------------------------------|
+| /addadmin [target] | `/addadmin 76561198975357634`       | To add a new administrator to your CS2 server, you need to input their SteamID64. Alternatively, you can add their Steam nickname, but they must be actively connected to the game server for this to work. |
+| /removeadmin [target] | `/removeadmin 76561198975357634` | To remove an administrator from your server, simply enter their SteamID64 or Steam nickname.    |
+| /listadmins       | the command make sense             | Show a list of administrators on your CS2 server along with their SteamID64 and nickname.      |

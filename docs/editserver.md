@@ -13,7 +13,7 @@ Below is an example of a Counter-Strike 2 server.
 
 ![image](https://help.fshost.me/img/panel-serversetup.png)
 
-| Dashboard | Description of what these means |
+| Dashboard | Explanation |
 | :-------: | :-----------------------------: |
 | Description  | So you can easily tell which server is which in the list. This is only for you to see.   |
 | Hostname | This is the name of your server. People see it in the server browser, searching online, and pressing TAB in-game. |
