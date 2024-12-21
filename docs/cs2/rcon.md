@@ -4,27 +4,24 @@ id: cs2-rcon
 title: "RCON Commands"
 ---
 
-::::danger[RCON Info]
-<span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon` or follow the alternative options provided below.**</span>
-::::
+:::danger[RCON Info]
+<span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon` (**Free servers only** – temporarily unavailable for Pro servers until a fix becomes available).**</span>
+:::
 
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO only</span>
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
 :::tip
-If you have a Pro server, you do not need to use `fake_rcon` in your game’s console.
+If you have a Pro server and want to learn how to become a Server Admin, click the link below for more information.
 
-You can easily assign yourself as a server admin directly in-game on your Pro server.
-\
-\
-Click here to learn more: [CS2Pro: How to Become a Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
+Click here to learn more: [CS2 Pro: How to Become a Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
 
 ## Log into RCON
 Open your in-game console and use one of the following commands to log in as an admin on your server.
 
-The RCON password will be displayed on your [free server panel](https://fshost.me/free-panel) or within your [Pro area](https://fshost.me/pro).
+The RCON password will be displayed on your [Free server panel](https://fshost.me/free-panel) or within your [Pro area](https://fshost.me/pro).
 
-**Temporary Admin Access on Free Server** - using Fake RCON
+**Temporary Admin Access on Free Server** - using fake_rcon
 <br />`fake_rcon_password type_rcon_pass_here`
 <br />`fake_rcon say hi`
 
@@ -66,7 +63,7 @@ This command, if set to 1, will make you automatically bunnyhop by holding down 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free server only</span>
 <br />Loads the predefined settings.
 
-| Chat Command | Description |
+| Chat Command (`Say`/`Say_Team`) | Description |
 | ------------ | ----------- |
 | !esl5on5     | This is the standard ESL 5on5 configuration file. (**Note: A ready system is not included.**) |
 | !scrim       | A configuration for scrims with all rounds enabled. (**Note: Pause and unpause commands are not available.**) |

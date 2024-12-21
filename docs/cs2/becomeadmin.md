@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 ## Introduction
 How can I become an administrator on my CS2 Pro server for the first time? Below, we've provided step-by-step instructions to guide you through the process.
 
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO only</span>
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
 
 **There are two different methods to do this, as shown in the videos below.**
 <details style={{
