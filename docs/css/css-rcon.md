@@ -1,11 +1,12 @@
 ---
 slug: rcon
 id: css-rcon
-title: "RCON Commands"
+title: "CSS: RCON Commands"
+description: "CS Source RCON Commands"
 ---
 
-## Log into RCON/SourceMod
-Open the console in-game and run the login command to gain access to all the following commands. The RCON password will be displayed on your [panel](https://fshost.me/free-panel).
+## Log into RCON or SourceMod
+To access the following commands, open the in-game console and use the login command. Your RCON password will be displayed for reference. [Panel](https://fshost.me/free-panel).
 <span style={{padding: '0.75rem', display: 'block', marginTop: '0.5rem', marginBottom: '1rem', borderRadius: '0.25rem', fontWeight: '600', backgroundColor: '#1F2937', color: 'white'}}>RCON (in-game console)<br />`rcon_password type_rcon_pass_here`<br />SourceMod (In-game Say / Say_Team)<br />`/login type_rcon_pass_here`</span>
 
 ## SteamID64 Admin
@@ -39,6 +40,8 @@ Changing the map (any stock or custom map).
 To restart the game after X amount of seconds.
 <br /> `rcon sv_restart seconds`
 
+To change max rounds of the game. (example 20 rounds)
+<br /> `rcon mp_maxrounds 20`
 
 **Password** <br />You can change or remove the password to join your server by leaving the value empty.
 <br /> `rcon sv_password ""`
