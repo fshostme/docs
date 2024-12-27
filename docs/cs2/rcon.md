@@ -5,15 +5,16 @@ title: "RCON Commands"
 ---
 
 :::danger[RCON Info]
-<span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon` (NOT AVAILABLE FOR PRO!)**</span>
-
-<span style={{color: 'white'}}>(**Free servers only** – temporarily unavailable for Pro servers until a fix becomes available)</span>
+<span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon`**</span>
+<br />
+<br />
+<span style={{color: 'white'}}>(**Works only for Free servers**) – **Temporarily unavailable for Pro servers until a fix becomes available.**</span>
 :::
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
 :::tip
 If you have a Pro server and want to learn how to become a Server Admin on CS2, click the link below for more information.
-
+<br />
 [Click here to learn more](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
