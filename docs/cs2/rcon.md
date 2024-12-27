@@ -5,14 +5,16 @@ title: "RCON Commands"
 ---
 
 :::danger[RCON Info]
-<span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon` (**Free servers only** – temporarily unavailable for Pro servers until a fix becomes available).**</span>
+<span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon` (NOT AVAILABLE FOR PRO!)**</span>
+
+<span style={{color: 'white'}}>(**Free servers only** – temporarily unavailable for Pro servers until a fix becomes available)</span>
 :::
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
 :::tip
-If you have a Pro server and want to learn how to become a Server Admin, click the link below for more information.
+If you have a Pro server and want to learn how to become a Server Admin on CS2, click the link below for more information.
 
-Click here to learn more: [CS2 Pro: How to Become a Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
+[Click here to learn more](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
 
@@ -35,7 +37,7 @@ Displays a list of all available maps.
 You can change the current map to any stock one.
 <br />**In-Game: Use say or say_team** `!map mapnamehere` - Example: `!map dust2`
 
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>FREE only</span> 
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>FREE server only</span> 
 
 Restart the game after a specified number of seconds.
 <br /> `fake_rcon mp_restartgame <seconds>`
