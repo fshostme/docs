@@ -6,6 +6,7 @@ description: "Information on how to become an admin on your CS 1.6 server from F
 sidebar_label: "Become admin"
 ---
 
+## Information
 **How can I become admin on CS1.6 server?**<br />
 To become an admin on a CS 1.6 server, start by connecting to the server and opening the in-game console. From there, follow the necessary steps to authenticate or set up admin privileges, as directed by the server's guidelines.
 
@@ -24,10 +25,12 @@ To ensure everything is working correctly, type the following command in the con
 In this screenshot, we can confirm that our RCON is functioning correctly.
 ![image](https://help.fshost.me/img/cs16-say.png)
 
+### Important
 :::danger
-**We strongly advise against entering your password directly. If you have already done so, please contact support immediately so we can assist in removing it!**
+**We strongly recommend that you avoid entering your password directly. If you have already done so and encounter the error message, 'You have no entry to the server...' <br /><br />Please contact our support team immediately.**
 :::
 
+## Become Admin Command (Example)
 `rcon amx_addadmin "nickname" "flags"`
 
 **Below, we will provide a full example with a screenshot for reference.**
@@ -41,6 +44,8 @@ Congratulations! You are now an administrator on the CS 1.6 server. You can acce
 If you're interested in obtaining permanent admin privileges for your CS 1.6 server, we recommend checking out this product: [Pro](https://fshost.me/pro)
 :::
 
+
+### Admin Levels
 | Access level | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
 | a                   | immunity (can't be kicked/baned/slayed/slaped and affected by other commmands) |
