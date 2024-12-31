@@ -43,6 +43,9 @@ To restart the game after X amount of seconds.
 To change max rounds of the game. (example 20 rounds)
 <br /> `rcon mp_maxrounds 20`
 
+Switch teams and game will be restarted.
+<br /> `rcon mp_switchteams`
+
 **Password** <br />You can change or remove the password to join your server by leaving the value empty.
 <br /> `rcon sv_password ""`
 
