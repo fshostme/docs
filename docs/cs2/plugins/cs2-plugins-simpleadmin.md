@@ -1,23 +1,23 @@
 ---
-slug: simpleadmin
+slug: CS2: Simpleadmin
 id: cs2-plugins-simpleadmin
-title: "SimpleAdmin"
+title: "CS2: SimpleAdmin"
 ---
 
 Manage your Counter-Strike 2 server by simple commands :)
 
 ### Commands
-| Command | Description |
+| Console / Chat Command | Description |
 | ------- | ----------- |
-| css_hide | Hide admin on scoreboard and commands action |
-| css_admin | Display all admin commands (Only for this plugin) |
-| css_who `<#userid or name>` | Display informations about player |
+| css_hide / !hide | Hide admin on scoreboard and commands action |
+| css_admin / !admin | Display all admin commands (Only for this plugin) |
+| css_who `<#userid or name>` / !who `<#userid or name>` | Display informations about player |
 | css_players | Display player list |
-| css_ban `<#userid or name>` [time in minutes/0 perm] [reason] | Ban Player |
-| css_addban `<steamid>` [time in minutes/0 perm] [reason] | Ban player via steamid64 |
-| css_banip `<ip>` [time in minutes/0 perm] [reason] | Ban player via IP address |
-| css_unban `<steamid or name or ip>` | Unban player |
-| css_kick `<#userid or name>` [reason] | Kick player |
+| css_ban / !ban `<#userid or name>` [time in minutes/0 perm] [reason] | Ban Player |
+| css_addban / !addban `<steamid>` [time in minutes/0 perm] [reason] | Ban player via steamid64 |
+| css_banip / !banip  `<ip>` [time in minutes/0 perm] [reason] | Ban player via IP address |
+| css_unban / !unban `<steamid or name or ip>` | Unban player |
+| css_kick / !kick `<#userid or name>` [reason] | Kick player |
 | css_gag `<#userid or name>` [time in minutes/0 perm] [reason] | Gag player |
 | css_addgag `<steamid>` [time in minutes/0 perm] [reason] | Gag player via steamid64 |
 | css_ungag `<steamid or name>` | Ungag player |

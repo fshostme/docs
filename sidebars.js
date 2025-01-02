@@ -116,6 +116,7 @@ const sidebars = {
             "cs2/plugins/cs2-plugins-openprefireprac",
             "cs2/plugins/cs2-plugins-retakes",
             "cs2/plugins/cs2-plugins-skins",
+            "cs2/plugins/cs2-plugins-simpleadmin",
           ]
         },
         "cs2/cs2-pluginslist",

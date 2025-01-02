@@ -1,7 +1,8 @@
 // @ts-check
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+const prismThemes = require('prism-react-renderer').themes;
+const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,7 +38,6 @@ const config = {
     defaultLocale: 'en-GB',
     locales: ['en-GB'],
   },
-
   plugins: [
     [
       '@docusaurus/plugin-pwa',
@@ -174,16 +174,15 @@ const config = {
         routeBasePath: 'cs2update',
         path: './cs2update/',
         blogTitle: 'CS2 Update',
-        blogDescription: 'A little blog for CS2 updates for our Pro',
-        blogSidebarTitle: 'CS2 Pro Updates',
+        blogDescription: 'A little blog for CS2 updates',
+        blogSidebarTitle: 'Recent Posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
-        truncateMarker: /<!--\s*truncate\s*-->/,
         onUntruncatedBlogPosts: 'ignore',
         feedOptions: {
-          type: 'all',
-          title: 'CS2 Updates',
-          description: 'Stay informed with the latest CS2Pro news from FSHOST.me, featuring updates and enhancements for our CS2Pro servers.',
+          type: 'rss',
+          title: 'CS2 Updates Blog',
+          description: 'Stay informed with the latest CS2 news from FSHOST.me, featuring updates and enhancements for our CS2 servers.',
         },
       },
     ],
@@ -198,8 +197,8 @@ const config = {
         blogSidebarTitle: 'Website Updates',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
-        truncateMarker: /<!--\s*(truncate)\s*-->/,
         onUntruncatedBlogPosts: 'ignore',
+        truncateMarker: /<!--\s*truncate\s*-->/,
         feedOptions: {
           type: 'all',
           title: 'Website Updates',
@@ -235,6 +234,7 @@ const config = {
           respectPrefersColorScheme: false,
       },
       navbar: {
+        hideOnScroll: false,
         title: 'FSHOST.me Help Guide',
         logo: {
           href: "/docs/welcome",

@@ -116,8 +116,8 @@ h1 {
   font-size: 2rem !important;
 }
 
-h2 {
-  font-size: 1.5rem !important;
+h2, .custom-header {
+  font-size: 1.5rem !important; /* Adjust as needed */
 }
 
 h3 {
