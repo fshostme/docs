@@ -1,7 +1,7 @@
 ---
-slug: CS2: Simpleadmin
+slug: Simpleadmin
 id: cs2-plugins-simpleadmin
-title: "CS2: SimpleAdmin"
+title: CS2-SimpleAdmin
 ---
 
 Manage your Counter-Strike 2 server by simple commands :)
