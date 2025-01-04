@@ -3,7 +3,7 @@ slug: cstv
 id: cs2-cstv
 title: "CS2: CSTV"
 description: "Information about CSTV for CS2 Server from FSHOST"
-sidebar_label: "GOTV [Pro]"
+sidebar_label: "CSTV [Pro]"
 ---
 
 ## Introduction

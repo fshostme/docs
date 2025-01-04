@@ -107,6 +107,7 @@ const sidebars = {
         "cs2/plugins/cs2-plugins-ingamecommands",
         "cs2/source-gsltoken",
         "cs2/cs2-cstv",
+        "cs2/cs2-pluginslist",
         {
           type: "category",
           label: "Pro Plugins",
@@ -119,7 +120,6 @@ const sidebars = {
             "cs2/plugins/cs2-plugins-simpleadmin",
           ]
         },
-        "cs2/cs2-pluginslist",
       ],
     },
     {

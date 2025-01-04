@@ -22,7 +22,7 @@ Utilize the full extent of your game server with FSHOST. We try to make our guid
     <Card title="Call of Duty: United Offensive" description="Placeholder" link="coduo/dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/coduo.jpg"/>
     <Card title="Call of Duty: World at War" description="Placeholder" link="codwaw/dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/codwaw.jpg"/>
     <Card title="Counter-Strike: 1.6" description="Placeholder" link="cs16/dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg?t=1666823513"/>
-    <Card title="Counter-Strike: Czero" description="Placeholder" link="cscz/dashboard" image="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/80/header.jpg?t=1715995767"/>
+    <Card title="Counter-Strike: Condition Zero" description="Placeholder" link="cscz/dashboard" image="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/80/header.jpg?t=1715995767"/>
     <Card title="Counter-Strike: Source" description="Placeholder" link="css/dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg?t=1666823740"/>
     <Card title="Counter-Strike: 2" description="Placeholder" link="cs2/dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
     <Card title="Half-Life: Deathmatch" description="Placeholder" link="hldm/dashboard" image="https://fshost.me/assets/img/bg/hldm.jpg"/>
