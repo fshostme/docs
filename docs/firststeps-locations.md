@@ -18,7 +18,7 @@ As briefly mentioned in advance, we are continuously developing and expanding th
 | Locations               | Gameserver |
 | ----------------------- | :---------:|
 | Frankfurt am Main, DE	  | ✓          |
-| Falkenstein, DE	        | ✓          |
+| Falkenstein, DE         | ✓          |
 | Helsinki, FI            | ✓          |
 | Ashburn, USA            | ✓          |
 | Singapore, Asia         | ✓          |
