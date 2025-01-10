@@ -235,7 +235,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'FSHOST.me Help Guide',
+        title: 'FSHOST Help',
         logo: {
           href: "/docs/welcome",
           alt: 'FSHOST',
@@ -253,7 +253,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'gameserverSidebar',
             position: 'left',
-            label: 'Gameserver Help',
+            label: 'Game Server Help',
           },
         {
           // Dropdown menu in the navbar for "Learn" section
