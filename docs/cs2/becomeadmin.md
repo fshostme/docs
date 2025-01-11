@@ -1,8 +1,8 @@
 ---
 slug: becomeadmin
 id: cs2-becomeadmin
-title: "CS2: Become as Server Admin"
-description: "How can I become a serveradmin on my CS2 Pro server"
+title: "CS2: Become a Server Admin"
+description: "How to Become a Server Admin on Your CS2 Pro Server"
 sidebar_label: "Become as Server Admin"
 ---
 
@@ -11,7 +11,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ## Introduction
-How can I become an administrator on my CS2 Pro server for the first time? Below, we've provided step-by-step instructions to guide you through the process.
+Wondering how to set yourself as an admin on your CS2 Pro server? Follow these step-by-step instructions to get started.
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
 
@@ -34,7 +34,7 @@ How can I become an administrator on my CS2 Pro server for the first time? Below
     padding: '0.5rem',
 }}>
 
-How to use the `/login <rconpassword>` command with Say / Say_team? (**Video**)
+How to use the `/login RconPass` command with `say`/`say_team`? (**Watch Video**)
 </summary>
 <video playsinline autoPlay muted width="100%">
   <source src="https://dl.fsho.st/videos/cs2-admin-login2.mp4"/>
@@ -59,7 +59,7 @@ How to use the `/login <rconpassword>` command with Say / Say_team? (**Video**)
     padding: '0.5rem',
 }}>
 
-How to use the `login <rconpassword>` command with my ingame console? (**Video**)
+How to use the `login RconPass` command in the in-game console? (**Watch Video**)
 </summary>
 
 <video playsinline autoPlay muted width="100%">
@@ -67,21 +67,21 @@ How to use the `login <rconpassword>` command with my ingame console? (**Video**
 </video>
 </details>
 
-:::note[You can use the `Say` or `Say_team` commands directly from your in-game chat.]
-1. What RCON password did you set for your CS2 Pro Server? (Make sure to remember it!)
-2. Join your CS2Pro Server
-3. **Say**/**Say_team**: `/login YourGameServer's RCON Password`
-4. **Say**/**Say_team**: `/addadmin YourSteamID64` to add yourself or your friend as admin.
+:::note[You can use the `say` or `say_team` commands directly from in-game chat.]
+1. Enter the RCON password you set for your CS2 Pro Server. (Don’t forget it!)
+2. Connect to your CS2 Pro Server.
+3. Use `say`/`say_team`: `/login RconPass` replace RconPass with your rcon password.
+4. Use `say`/`say_team`: `/addadmin YourSteamID64` to add yourself or a friend as an admin.
 :::
 
-:::note[Open your console, from your in-game]
-1. What RCON password did you set for your CS2 Pro Server? (Make sure to remember it!)
-2. Join your CS2Pro Server
-3. `login YourGameServer's RCON Password` 
-4. `addadmin YourSteamID64` to add yourself or your friend as admin.
+:::note[Open your in-game console]
+1. Enter the RCON password you set for your CS2 Pro Server. (Don't forget it!)
+2. Connect to your CS2 Pro Server.
+3. Run: `login RconPass` replace RconPass with your rcon password. 
+4. Run: `addadmin YourSteamID64` to add yourself or a friend as an admin.
 :::
 
-**This is an example of what it looks like after you've added yourself as a server admin.**
+**Here's an example of how it looks after adding yourself as a server admin.**
 ![2024-08-22_13-24](https://github.com/user-attachments/assets/74a456ce-627a-4508-ab33-c827415b6593)
 
 

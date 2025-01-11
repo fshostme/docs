@@ -6,9 +6,6 @@ title: "RCON Commands"
 
 :::danger[RCON Info]
 <span style={{color: 'white'}}>**The RCON provided by Valve is currently broken and non-functional. Please use `fake_rcon`**</span>
-<br />
-<br />
-<span style={{color: 'white'}}>(**Works only for Free servers**) – **Temporarily unavailable for Pro servers until a fix becomes available.**</span>
 :::
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
@@ -36,7 +33,7 @@ Displays a list of all available maps.
 <br /> `rcon maps *`
 
 You can change the current map to any stock one.
-<br />**In-Game: Use say or say_team** `!map mapnamehere` - Example: `!map dust2`
+<br />**In-Game**: Use `say` or `say_team` with `!map mapnamehere`. Example: `!map dust2`.
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>FREE server only</span> 
 

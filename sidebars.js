@@ -42,8 +42,18 @@ const sidebars = {
       defaultStyle: true,
     },
     "welcome",
+    {
+      type: 'category',
+      label: 'Account',
+      items: [
+        "banned",
+        "account-paymentoptions",
+      ]
+    },
     "faq",
     "free-vs-pro",
+    "firststeps-locations",
+    "network/network-analysis",
     {
       type: 'category',
       label: 'Pro Control Panel',
@@ -53,22 +63,12 @@ const sidebars = {
         "editserver"
       ]
     },
-    "network/network-analysis",
-    "firststeps-locations",
     {
       type: 'category',
       label: 'Support',
       items: [
         "contactsupport",
         "create-screenshots"
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Account',
-      items: [
-        "banned",
-        "account-paymentoptions",
       ]
     },
   ],
@@ -101,23 +101,23 @@ const sidebars = {
       type: "category",
       label: "Counter-Strike 2",
       items: [
-        "cs2/cs2-firststeps-dashboard",
         "cs2/cs2-becomeadmin",
-        "cs2/cs2-rcon",
-        "cs2/plugins/cs2-plugins-ingamecommands",
-        "cs2/source-gsltoken",
+        "cs2/cs2-firststeps-dashboard",
         "cs2/cs2-cstv",
+        "cs2/source-gsltoken",
+        "cs2/plugins/cs2-plugins-ingamecommands",
         "cs2/cs2-pluginslist",
+        "cs2/cs2-rcon",
         {
           type: "category",
           label: "Pro Plugins",
           items: [
-            "cs2/plugins/cs2-plugins-gotvdiscord",
+            "cs2/plugins/cs2-plugins-cstvdiscord",
+            "cs2/plugins/cs2-plugins-simpleadmin",
             "cs2/plugins/cs2-plugins-matchzy",
             "cs2/plugins/cs2-plugins-openprefireprac",
             "cs2/plugins/cs2-plugins-retakes",
             "cs2/plugins/cs2-plugins-skins",
-            "cs2/plugins/cs2-plugins-simpleadmin",
           ]
         },
       ],

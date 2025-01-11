@@ -4,16 +4,15 @@ id: cs2-plugins-openprefireprac
 title: "OpenPrefirePrac"
 ---
 
-An open-source CounterStrikeSharp powered server-side practicing plugin for CS2. It provides multiple prefire practices on competitive map pool maps and supports multiplayer practicing concurrently.
+An open-source server-side practice plugin for CS2, powered by CounterStrikeSharp. It offers multiple prefire practice scenarios on competitive map pool maps and supports concurrent multiplayer practice sessions.
 
 :::tip
-1. To play Open Prefire Practice, type the command: `!prefireon` in the chat.
-2. After the server changes the map, use the command: `!prefire` to enable Prefire Practice.<br />
-You can also refer to the list below for all available commands.
+1. To start Open Prefire Practice, type `!prefireon` in the chat.
+2. Once the server changes the map, use `!prefire` to enable Prefire Practice.<br />
+For a full list of available commands, see below.
 :::
 
 ## In-Game Commands
-You can also use several shortcut commands for quicker access.
   - `!prefire prac [number]`: Start practicing on a selected route.
   - `!prefire map [map name]`: Switch to another map.
   - `!prefire df [1-6]`: Set the difficulty.

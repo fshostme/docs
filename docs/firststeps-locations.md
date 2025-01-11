@@ -8,12 +8,11 @@ sidebar_label: "Locations"
 
 ## Introduction
 
-We offer server products in **FFM, DE, FSN DE, HEL, FI Ashburn, USA (East), Singapore, Asia**. 
-
+We provide server products in **FFM (Germany)**, **FSN (Germany)**, **HEL (Finland)**, **Ashburn (USA East)**, and **Singapore (Asia)**.
 
 ## Availability of locations
 
-As briefly mentioned in advance, we are continuously developing and expanding the scope of our products. However, this is not necessarily always easy and uncomplicated to implement. For that reason, it can happen that we are not able to offer every product at every location from the beginning. You will find an overview of the availability of the server products at the respective locations below. 
+As mentioned earlier, we are constantly developing and expanding our product offerings. However, implementing these changes isn’t always straightforward. As a result, some products may not be available at all locations initially. Below, you’ll find an overview of server product availability by location.
 
 | Locations               | Gameserver |
 | ----------------------- | :---------:|
@@ -26,8 +25,8 @@ As briefly mentioned in advance, we are continuously developing and expanding th
 
 ## Connection quality to the locations
 
-You are unsure which location is the best for you? That's no problem! We have developed a looking glass, which allows you to test the connection from the locations to you. This way you will get an overview of all ping results at a glance and you can choose the best location for you.
+Not sure which location is best for you? No problem! We've developed a Looking Glass tool that lets you test the connection from our locations to yours. This provides an overview of all ping results at a glance, helping you choose the optimal location.
 
-You can click on this link to try testing ping: [Looking Glass](https://fshost.me/lg) 
+Click this link to test your ping: [Looking Glass](https://fshost.me/lg) 
 
 ![image](https://help.fshost.me/img/lg.png)

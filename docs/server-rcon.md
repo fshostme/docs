@@ -13,7 +13,7 @@ import Cards from '@site/src/components/Cards/Cards';
 
 **RCON** (Remote Console) allows you to manage your server remotely without direct access to the server console. Any commands sent via RCON are executed directly on the server, providing powerful administrative control.
 
-For more information, select your game from the list below.
+For more details, choose your game from the list below.
 <Cards>
     <Card title="Call of Duty" description="Placeholder" link="cod/rcon" image="https://fshost.me/assets/img/bg/cod.jpg"/>
     <Card title="Call of Duty 2" description="Placeholder" link="cod2/rcon" image="https://fshost.me/assets/img/bg/cod2.jpg"/>

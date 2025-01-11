@@ -3,43 +3,42 @@ slug: ingamecommands
 id: cs2-plugins-ingamecommands
 title: "In-Game Commands [Pro]"
 ---
-**Here’s a comprehensive overview of the commands you can use on your CS2 Pro server.**
+**Here’s a detailed overview of the commands available on your CS2 Pro server.**
 
 :::tip
-**Please note that these commands are accessible only if you have granted yourself admin privileges.**
-<br />
-If you're looking to learn how to become an admin on your CS2 Pro server, here's what you need to know:
-[Click on this to read, How 2 become Server Admin](https://help.fshost.me/docs/cs2/becomeadmin)
+**These commands are available only if you have admin privileges.**<br />
+If you’re unsure how to become an admin on your CS2 Pro server, here’s what you need to know:
+[Click here to learn how to become a Server Admin.](https://help.fshost.me/docs/cs2/becomeadmin)
 :::
 
-**You should be aware that commands with a `/` & `!` prefix are intended for the say/say_team chat and cannot be used directly from the in-game console.**
+**Commands with a `/` or `!` prefix are designed for the say/say_team chat and cannot be used directly in the in-game console.**
 ## In-Game Commands
 | Command             | Syntax                        | Explanation                                                                                   |
 |---------------------|-------------------------------|-----------------------------------------------------------------------------------------------|
-| /comp               | css_comp                      | Switching to Competitive Game Mode (Practice Mode of MatchZy is auto-activated).             |
-| /casual             | css_casual                    | Switching to Casual Game Mode.                                                               |
-| /dmmulticfg         | css_dmon                      | Switching to Multi-CFG Deathmatch Mode (Aliases: `!dmon`).                                    |
-| /dmvalve            | css_dmvalve                   | Switching to VALVe Deathmatch Mode (Aliases: `!valvedm`).                                     |
-| /help               | css_help                      | Display a list of available commands for the server.                                          |
-| /rcon               | css_rcon                      | Execute RCON commands.                                                                        |
-| /map `mapname`      | css_map `de_dust2`            | Switch to the map you like to play. Example: `/map nuke`.                                     |
-| /wsmap `name or id` | css_wsmap `3331819777`        | Switch to the workshop map you want to play using its Workshop ID.                           |
-| /maps               | css_maps                      | Printing available map commands in chat.                                                     |
-| /matchzy            | css_matchzy                   | Switching to MatchZy Mode (Available if you're playing Open Prefire Prac, Retake or Deathmatch). |
-| /prefireon          | css_prefireon                 | Switching to Open Prefire Prac mode - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac). |
-| /pracc              | css_pracc                     | Switching to Practice Mode of MatchZy (Available if you're playing Open Prefire Prac, Retake or Deathmatch). |
-| /retake             | css_retake                    | Switching to Retake Mode.                                                                     |
-| /wingman            | css_wingman                   | Switching to Wingman Game Mode.                                                              |
+| /casual             | css_casual                    | Switches to Casual Game Mode for a more relaxed experience.                                   |
+| /comp               | css_comp                      | Activates Competitive Game Mode with MatchZy Practice Mode enabled by default.                |
+| /dmmulticfg         | css_dmon                      | Switches to Multi-CFG Deathmatch Mode (Alias: `!dmon`).                                       |
+| /dmvalve            | css_dmvalve                   | Activates VALVe-style Deathmatch Mode (Alias: `!valvedm`).                                    |
+| /help               | css_help                      | Lists all available server commands in chat.                                                 |
+| /map `mapname`      | css_map `de_dust2`            | Changes the map to the one specified. Example: `/map nuke`.                                   |
+| /maps               | css_maps                      | Displays a list of available map commands in chat.                                           |
+| /matchzy            | css_matchzy                   | Activates MatchZy Mode, ideal for Open Prefire Prac, Retake, or Deathmatch sessions.          |
+| /pracc              | css_pracc                     | Enables MatchZy Practice Mode, compatible with Prefire Prac, Retake, or Deathmatch modes.     |
+| /prefireon          | css_prefireon                 | Activates Open Prefire Practice mode. [Learn more about commands here](https://help.fshost.me/docs/cs2/plugins/openprefireprac). |
+| /rcon               | css_rcon                      | Runs RCON commands for server management.                                                    |
+| /retake             | css_retake                    | Activates Retake Mode for retake-focused gameplay.                                            |
+| /wingman            | css_wingman                   | Switches to Wingman Game Mode, designed for 2v2 matches.                                      |
+| /wsmap `name or id` | css_wsmap `3331819777`        | Loads a workshop map using its name or Workshop ID.                                           | 
 
 ## Maps Commands
 | Say/Say_team Chat | Console Commands | Description                                            |
 |-------------------|------------------|--------------------------------------------------------|
-| `/mirage`         | css_mirage       | Change the current map to Mirage, a classic bomb map. |
-| `/overpass`       | css_overpass     | Switch to Overpass, a map known for its tight chokepoints. |
+| `/ancient`        | css_ancient      | Switch to Ancient, a map with a jungle and ruins setting. |
 | `/anubis`         | css_anubis       | Set Anubis as the next map, featuring Egyptian themes. |
-| `/vertigo`        | css_vertigo      | Move to Vertigo, a unique high-rise construction map. |
-| `/ancient`        | css_ancient      | Change to Ancient, a map with a jungle and ruins setting. |
-| `/nuke`           | css_nuke         | Switch to Nuke, an iconic map with vertical gameplay. |
+| `/dust2`          | css_dust2        | Go to Dust2, the most famous CS map ever.              |
 | `/inferno`        | css_inferno      | Set the map to Inferno, a fan-favorite with alleys and bombsites. |
-| `/dust2`          | css_dust2        | Go to Dust2, the most famous CS map ever.             |
+| `/mirage`         | css_mirage       | Change the current map to Mirage, a classic bomb map.  |
+| `/nuke`           | css_nuke         | Switch to Nuke, an iconic map with vertical gameplay.  |
+| `/overpass`       | css_overpass     | Switch to Overpass, a map known for its tight chokepoints. |
 | `/train`          | css_train        | Change the map to Train, a map with unique train yard layouts. |
+| `/vertigo`        | css_vertigo      | Move to Vertigo, a unique high-rise construction map.  |
