@@ -21,5 +21,10 @@ title: "WeaponPaints (Skins)"
 | `!knife`     | Show menu with knives (You can select other knife skin) |
 | `!gloves`    | Show menu with gloves (You can select other gloves skin) |
 | `!agents`    | Show menu with agents (You can select other agents skin) |
+| `!pins`      | Show menu with pins (You can select other pins) |
+| `!music`     | Show menu with music (You can select other music) |
 
 **We recommend using the website for more advanced customization, such as adjusting float/seed or selecting skins for individual weapons.**
+
+## MVP Kits
+Before you can use the `!music` MVP. Make sure to select the default CS2 Music Kit from your in-game inventory before it can function!
