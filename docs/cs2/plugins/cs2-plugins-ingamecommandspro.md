@@ -16,7 +16,7 @@ If you’re unsure how to become an admin on your CS2 Pro server, here’s what 
 | Command             | Syntax                        | Explanation                                                                                   |
 |---------------------|-------------------------------|-----------------------------------------------------------------------------------------------|
 | /casual             | css_casual                    | Switches to Casual Game Mode for a more relaxed experience.                                   |
-| /comp               | css_comp                      | Activates Competitive Game Mode with MatchZy Practice Mode enabled by default.                |
+| /comp               | css_comp                      | Activates Competitive Game Mode **without MatchZy**.                |
 | /dmmulticfg         | css_dmon                      | Switches to Multi-CFG Deathmatch Mode (Alias: `!dmon`).                                       |
 | /dmvalve            | css_dmvalve                   | Activates VALVe-style Deathmatch Mode (Alias: `!valvedm`).                                    |
 | /help               | css_help                      | Lists all available server commands in chat.                                                 |
