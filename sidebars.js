@@ -210,6 +210,14 @@ const sidebars = {
         "hldm/hldm-rcon"
       ],
     },
+        {
+      type: "category",
+      label: "Minecraft",
+      items: [
+        "minecraft/minecraft-firststeps-dashboard",
+        "minecraft/minecraft-rcon"
+      ],
+    }
   ],
 };
 
