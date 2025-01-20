@@ -16,16 +16,16 @@ If you’re unsure how to become an admin on your CS2 Pro server, here’s what 
 | Command             | Syntax                        | Explanation                                                                                   |
 |---------------------|-------------------------------|-----------------------------------------------------------------------------------------------|
 | /casual             | css_casual                    | Switches to Casual Game Mode for a more relaxed experience.                                   |
-| /comp               | css_comp                      | Activates Competitive Game Mode **without MatchZy**.                |
+| /comp               | css_comp                      | Activates Competitive Game Mode **without MatchZy**.                                          |
 | /dmmulticfg         | css_dmon                      | Switches to Multi-CFG Deathmatch Mode (Alias: `!dmon`).                                       |
 | /dmvalve            | css_dmvalve                   | Activates VALVe-style Deathmatch Mode (Alias: `!valvedm`).                                    |
-| /help               | css_help                      | Lists all available server commands in chat.                                                 |
+| /help               | css_help                      | Lists all available server commands in chat.                                                  |
 | /map `mapname`      | css_map `de_dust2`            | Changes the map to the one specified. Example: `/map nuke`.                                   |
-| /maps               | css_maps                      | Displays a list of available map commands in chat.                                           |
-| /matchzy            | css_matchzy                   | Activates MatchZy Mode, ideal for Open Prefire Prac, Retake, or Deathmatch sessions.          |
-| /pracc              | css_pracc                     | Enables MatchZy Practice Mode, compatible with Prefire Prac, Retake, or Deathmatch modes.     |
-| /prefireon          | css_prefireon                 | Activates Open Prefire Practice mode. [Learn more about commands here](https://help.fshost.me/docs/cs2/plugins/openprefireprac). |
-| /rcon               | css_rcon                      | Runs RCON commands for server management.                                                    |
+| /maps               | css_maps                      | Displays a list of available map commands in chat.                                            |
+| /matchzy            | css_matchzy                   | Switching back to MatchZy/Practice Mode is necessary if you have previously used or are using OpenPrefirePrac, Retake or Deathmatch. |
+| /pracc              | css_pracc                     | Switching back to MatchZy/Practice Mode is necessary if you have previously used or are using OpenPrefirePrac, Retake or Deathmatch. |
+| /prefireon          | css_prefireon                 | Activates OpenPrefirePrac mode. [Learn more about commands here](https://help.fshost.me/docs/cs2/plugins/openprefireprac). |
+| /rcon               | css_rcon                      | Runs RCON commands for server management.                                                     |
 | /retake             | css_retake                    | Activates Retake Mode for retake-focused gameplay.                                            |
 | /wingman            | css_wingman                   | Switches to Wingman Game Mode, designed for 2v2 matches.                                      |
 | /wsmap `name or id` | css_wsmap `3331819777`        | Loads a workshop map using its name or Workshop ID.                                           | 
