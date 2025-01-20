@@ -8,14 +8,21 @@ An open-source server-side practice plugin for CS2, powered by CounterStrikeShar
 
 :::tip
 1. To start Open Prefire Practice, type `!prefireon` in the chat.
-2. Once the server changes the map, use `!prefire` to enable Prefire Practice.<br />
 For a full list of available commands, see below.
 :::
 
-## In-Game Commands
-  - `!prefire prac [number]`: Start practicing on a selected route.
-  - `!prefire map [map name]`: Switch to another map.
-  - `!prefire df [1-6]`: Set the difficulty.
-  - `!prefire mode [rand/full]`: Set training mode.
-  - `!prefire bw [rand/ump/ak/sct/awp]`: Set weapons for bots.
-  - `!prefire exit`: Stop practicing.
+### Start prefire practice in game
+
+Send "**!prefire**" in chatbox or use command "**css_prefire**" in console. This will bring up the main menu.
+
+There are also some shortcut commands you can use.
+
+  - !prefire prac [number]: Start practicing on a selected route.
+  - !prefire map [map name]: Switch to another map.
+  - !prefire df [1-6]: Set the difficulty.
+  - !prefire mode [rand/full]: Set training mode.
+  - !prefire bw [rand/ump/ak/sct/awp]: Set weapons for bots.
+  - !prefire lang [en/pt/zh]: Set language. en for English, pt para português, 中文选择 zh。
+  - !prefire exit: Stop practicing.
+
+You can always use **!prefire help** to see how to use them.
