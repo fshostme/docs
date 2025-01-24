@@ -50,7 +50,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.delay <seconds>`              | Sets a delay on your last grenade for use with `.rethrow` or `.throwindex`.                                           |
 | `.deletenade <name>`            | Deletes a lineup from file (Alias: `.dn`).                                                                            |
 | `.dryrun`                       | Turns on dry-run mode (Alias: `.dry`).                                                                                |
-| `.fas` / `.watchme`             | Forces all players into spectator except the player who called this command.                                          |
+| `.fas` / `.watchme`             | Moves all players into spectator except the player who called this command.                                          |
 | `.fastforward`                  | Fast-forwards the server time to 20 seconds (Alias: `.ff`).                                                           |
 | `.god`                          | Turns on god mode.                                                                                                    |
 | `.impacts`                      | Toggles `sv_showimpacts` in practice mode.                                                                            |
@@ -59,8 +59,8 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.lastindex`                    | Prints the index number of your last thrown grenade.                                                                  |
 | `.listnades <filter>`           | Lists all saved lineups or those matching the given filter (Alias: `.lin`).                                           |
 | `.loadnade <name>`              | Loads a lineup (Alias: `.ln`).                                                                                        |
-| `.nadecam`                      | Toggles `sv_grenade_trajectory_prac_pipreview` in practice mode.                                                      |
-| `.nobots`                       | Removes all the bots.                                                                                                 |
+| `.nadecam` / `.traj`            | Toggles `sv_grenade_trajectory_prac_pipreview` in practice mode.                                                      |
+| `.nobots`                       | Removes all bots.                                                                                                 |
 | `.noflash`                      | Toggles immunity to flashbangs (it will still blind others with noflash disabled).                                    |
 | `.rethrow`                      | Rethrows your last thrown grenade (Alias: `.rt`).                                                                     |
 | `.rethrowdecoy`                 | Rethrows your last thrown decoy.                                                                                      |
@@ -69,7 +69,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.rethrowsmoke`                 | Rethrows your last thrown smoke grenade.                                                                              |
 | `.rethrowmolotov`               | Rethrows your last thrown molotov.                                                                                    |
 | `.savenade <name> <description>`| Saves a lineup (Alias: `.sn`).                                                                                        |
-| `.solid`                        | Toggles `mp_solid_teammates` in practice mode.                                                                        |
+| `.solid`                        | Set whether team mates are solid.                                                                        |
 | `.spawn <number>`               | Spawns to the provided competitive spawn number of the same team.                                                     |
 | `.tspawn <number>`              | Spawns to the provided competitive spawn number of T (Alias: `.ts`).                                                  |
 | `.throwindex <index>...`        | Throws grenades from specific positions in your history. Example: `.throwindex 1 2` throws your 1st and 2nd grenades. |
