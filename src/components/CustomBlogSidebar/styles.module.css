@@ -1,0 +1,47 @@
+/* @site/src/components/CustomBlogSidebar/styles.module.css */
+.sidebar {
+  padding: 1rem;
+}
+
+.sidebarTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarItem {
+  margin-bottom: 0.75rem;
+}
+
+.sidebarLink {
+  display: block;
+  color: var(--ifm-color-content);
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.sidebarLink:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.sidebarLink.active {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.postTitle {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.postDate {
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+}

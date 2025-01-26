@@ -9,35 +9,19 @@ const config = {
   title: 'FSHOST Docs',
   tagline: 'Get FREE game server hosting for CS2, CoD4, CoD2, CS 1.6, CSS, and more! Upgrade to Pro for premium paid server options.',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'https://help.fshost.me',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'fshostme', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'fshostme',
+  projectName: 'docs',
   trailingSlash: false,
-
-  //onBrokenLinks: 'throw',
-  //onBrokenMarkdownLinks: 'throw',
-  //onDuplicateRoutes: 'throw',
-  //onBrokenAnchors: 'throw',
-
   customFields: {
     marketingSite: 'https://fshost.me',
   },
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en-GB',
     locales: ['en-GB'],
   },
+
   plugins: [
     [
       '@docusaurus/plugin-pwa',
@@ -101,33 +85,14 @@ const config = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
-        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
-        redirects: [
-          // /docs/oldDoc -> /docs/newDoc
-          /*{
-            to: '/docs/contribution-guides',
-            from: '/docs/contribution-submission',
-          },
-          {
-            to: '/docs/contribution-guides-guidelines',
-            from: '/docs/contribution-guidelines',
-          },
-          {
-            to: '/docs/vserver-root-difference',
-            from: '/docs/vserver-root-unterschied',
-          },
-          // Redirect from multiple old paths to the new path
-          /*{
-            to: '/docs/newDoc2',
-            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
-          },*/
-        ],
+        fromExtensions: ['html', 'htm'],
+        toExtensions: ['exe', 'zip'],
+        redirects: [],
       },
     ],
     [ 
       {
-        languages: ['en'], // language codes
+        languages: ['en'],
       }
     ]
   ],
@@ -139,24 +104,20 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/fshostme/docs/tree/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
         blog: {
-        feedOptions: {
-          type: 'all',
-          title: 'FSHOST.me Update Blog',
-          description: 'Description of the updates behind FSHOST.me',
-          copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
-        },
+          feedOptions: {
+            type: 'all',
+            title: 'FSHOST.me Update Blog',
+            description: 'Description of the updates behind FSHOST.me',
+            copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
+          },
           showReadingTime: false,
           readingTime: ({content, frontMatter, defaultReadingTime}) =>
             defaultReadingTime({content, options: {wordsPerMinute: 300}}),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
@@ -177,11 +138,13 @@ const config = {
         blogDescription: 'A little blog for CS2 updates',
         blogSidebarTitle: 'Recent Posts',
         blogSidebarCount: 'ALL',
+        sortPosts: 'descending',
         showReadingTime: true,
         onUntruncatedBlogPosts: 'ignore',
         feedOptions: {
           type: 'rss',
           title: 'CS2 Updates Blog',
+          copyright: `Copyright © ${new Date().getFullYear()}`,
           description: 'Stay informed with the latest CS2 news from FSHOST.me, featuring updates and enhancements for our CS2 servers.',
         },
       },
@@ -208,11 +171,9 @@ const config = {
     ],
   ],
 
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'undefined',
       docs: {
         sidebar: {
@@ -220,18 +181,10 @@ const config = {
           autoCollapseCategories: false,
         },
       },
-      /*announcementBar: {
-        id: 'announcement-bar',
-        content:
-        'Welcome to our new Docs/FAQ page!',
-        backgroundColor: '#3949AB',
-        textColor: '#FFFFFF',
-        isCloseable: false,
-      },*/
       colorMode: {
         defaultMode: 'dark',
-          disableSwitch: true,
-          respectPrefersColorScheme: false,
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         hideOnScroll: false,
@@ -255,68 +208,66 @@ const config = {
             position: 'left',
             label: 'Game Server Help',
           },
-        {
-          // Dropdown menu in the navbar for "Learn" section
-          type: "dropdown",
-          position: "left",
-          label: "News",
-          items: [
-            {
-              label: "CS2 Server News",
-              to: `/cs2update`,
-              activeBaseRegex: 'cs2update',
+          {
+            type: "dropdown",
+            position: "left",
+            label: "News",
+            items: [
+              {
+                label: "CS2 Server News",
+                to: `/cs2update`,
+                activeBaseRegex: 'cs2update',
+              },
+              {
+                label: "Website News",
+                to: `/news`,
+                activeBaseRegex: 'blog',
+              },
+            ],
           },
-            {
-              label: "Website News",
-              to: `/news`,
-              activeBaseRegex: 'blog',
-            },
-          ],
-        },
           {
             href: 'https://github.com/fshostme/docs',
             label: 'GitHub',
             position: 'right',
           },
-        {
-          type: 'html',
-          position: 'right',
-          className: 'externalLink',
-          value: (() => {
-            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-              default: return '<a href="https://fshost.me/pro/pricing/">Rent Pro Server</a>';
-            }
-          })(),
-        },
-        {
-          type: 'html',
-          position: 'right',
-          className: 'externalLink',
- 
-          value: (() => {
-            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-              default: return '<a href="https://fshost.me/">Back to Website ⤾</a>';
-            }
-          })(),
-        },
-      ],
-    },
+          {
+            type: 'html',
+            position: 'right',
+            className: 'externalLink',
+            value: (() => {
+              switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+                default: return '<a href="https://fshost.me/pro/pricing/">Rent Pro Server</a>';
+              }
+            })(),
+          },
+          {
+            type: 'html',
+            position: 'right',
+            className: 'externalLink',
+            value: (() => {
+              switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+                default: return '<a href="https://fshost.me/">Back to Website ⤾</a>';
+              }
+            })(),
+          },
+        ],
+      },
       footer: {
         style: 'dark',
         links: [
           {
-          title: 'Rent a Server',
-          items: [
-            {
-              label: 'Rent a Game Server',
-              href: 'https://fshost.me/pro/pricing',
-            },
-            {
-              label: 'Top-up your account',
-              href: 'https://fshost.me/pro/top-up',
-            },
-          ],
-        },
+            title: 'Rent a Server',
+            items: [
+              {
+                label: 'Rent a Game Server',
+                href: 'https://fshost.me/pro/pricing',
+              },
+              {
+                label: 'Top-up your account',
+                href: 'https://fshost.me/pro/top-up',
+              },
+            ],
+          },
           {
             title: 'Social',
             items: [
@@ -358,9 +309,9 @@ const config = {
                 label: 'Refund Policy',
                 href: 'https://fshost.me/refund-policy',
               },
-          ],
-        },
-      ],
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} FSHOST.me`,
       },
       prism: {
