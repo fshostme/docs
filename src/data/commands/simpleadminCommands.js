@@ -104,6 +104,14 @@ const simpleAdminCommands = [
         },
       },
       {
+        command: "css_money <#userid or name> [money]",
+        description: "Set player money",
+        example: "css_money fshost 1337",
+        arguments: {
+          "name": "Required: The name of the player to give money."
+        },
+      },
+      {
         command: "css_mute <#userid or name> [time in minutes/0 perm] [reason]",
         description: "Mute a player by user ID or name for a specific time with an optional reason.",
         example: "css_mute 1 5 Disruptive behavior",
