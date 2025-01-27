@@ -29,6 +29,14 @@ const simpleAdminCommands = [
         arguments: {},
       },
       {
+        command: "css_godmode <#userid or name>",
+        description: "Turn on godmode for the player",
+        example: "css_godmode fshost",
+        arguments: {
+          "#userid or name": "Required: The user's ID or name."
+        },
+      },
+      {
         command: "css_ban / !ban <#userid or name> [time in minutes/0 perm] [reason]",
         description: "Ban a player by user ID or name for a specific time with an optional reason.",
         example: "css_ban 1 60 Cheating",
@@ -112,6 +120,14 @@ const simpleAdminCommands = [
         },
       },
       {
+        command: "css_noclip <#userid or name>",
+        description: "Turn on the player's noclip",
+        example: "css_noclip fshost",
+        arguments: {
+          "name": "Required: The name of the player to turn on noclip."
+        },
+      },
+      {
         command: "css_mute <#userid or name> [time in minutes/0 perm] [reason]",
         description: "Mute a player by user ID or name for a specific time with an optional reason.",
         example: "css_mute 1 5 Disruptive behavior",
@@ -188,6 +204,14 @@ const simpleAdminCommands = [
         example: "css_hsay Welcome to the server!",
         arguments: {
           message: "Required: The message to display."
+        },
+      },
+      {
+        command: "css_hp <#userid or name> <health>",
+        description: "Set the player's health",
+        example: "css_hp fshost 101",
+        arguments: {
+          "#userid or name": "Required: The user's ID or name."
         },
       },
       {

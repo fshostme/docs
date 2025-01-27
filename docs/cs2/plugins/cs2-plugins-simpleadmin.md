@@ -13,3 +13,5 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 Use the search bar below to find a command:
 
 <CommandSearch commandCategories={simpleadminCommands} />
+
+**If you are looking for more commands, you can find them at this URL: [CS2 - SimpleAdmin](https://cs2-simpleadmin.daffyy.love/)**
