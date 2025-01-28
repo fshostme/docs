@@ -225,7 +225,7 @@ const matchzyCommands = [
       {
         command: '.force',
         aliases: ['.start'],
-        description: 'Force-starts match.',
+        description: 'Starts the match while skipping the knife round.',
         example: '.force'
       },
       {
