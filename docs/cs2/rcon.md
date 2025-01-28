@@ -69,7 +69,7 @@ This command, if set to 1, will make you automatically bunnyhop by holding down 
 | !scrim       | A configuration for scrims with all rounds enabled. (**Note: Pause and unpause commands are not available.**) |
 | !prac        | The default practice configuration file. (**Note: Public commands are not accessible.** To use commands like `.throw`, `.bot`, and more, a Pro server is required.)
 | !dm          | Deathmatch Gamemode |
-| !retake      | Retake Gamemode |
+| ~~!retake~~  | ~~Retake Gamemode~~ (**Disabled due to bug with valve's retake mode.**) |
 | !wingman     | Wingman Gamemode |
 | !map ancient | !ancient         |
 | !map anubis  | !anubis          |
