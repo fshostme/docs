@@ -17,7 +17,7 @@ Below is a list showing the plugins and their availability on free and pro serve
 | Workshop Map (!wsmap workshop ID of map)              |  &#x2718; No   | ✅ Yes |
 | CS2Rcon (!rcon)                         |  &#x2718; No   | ✅ Yes |
 | AddAdmin/RemoveAdmin           |  &#x2718; No   | ✅ Yes |
-| MatchZy w/ Practice Mode                |  &#x2718; No   | ✅ Yes (Enabled by default in Practice Mode.) |
+| MatchZy w/ Practice Mode                |  &#x2718; No   | ✅ Yes |
 | OpenPrefirePrac                      |  &#x2718; No   | ✅ Yes |
 | CS2-Retakes                            |  &#x2718; No   | ✅ Yes |
 | WeaponPaints (Skins)                   |  &#x2718; No   | ✅ Yes (**GSLT required**) |
