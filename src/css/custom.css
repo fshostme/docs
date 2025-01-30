@@ -48,6 +48,71 @@ details {
   --docusaurus-details-decoration-color: transparent; /* No decoration */
 }
 
+/********** Ensure long titles wrap properly **********/
+.recent-posts li a {
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+
+/********** Fix layout and ensure spacing **********/
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main-content {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+/* Limit scrolling for main content */
+.main-content {
+  margin-left: 320px; /* Matches sidebar width */
+}
+
+/*********** Consolidated Sidebar Styles ***********/
+.sidebar {
+  width: 300px; /* Default width for desktop */
+  max-width: 300px;
+  padding-right: 10px;
+  overflow-y: auto;
+  position: relative; /* Fix layout issues */
+}
+
+/* Responsive sidebar for mobile view */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Full width on mobile */
+    position: static; /* Remove fixed position */
+    padding-bottom: 20px;
+    overflow-y: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+    overflow-y: visible;
+  }
+}
+
+/*********** Fix Content Layout ***********/
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/*********** Smooth Scrolling for Links ***********/
+html {
+  scroll-behavior: smooth;
+}
 
 /* Add the vertical bar using a pseudo-element */
 details::before {
@@ -132,11 +197,15 @@ img, iframe {
   z-index: 100;
 }
 
+/********** Smooth Scrolling **********/
+html {
+  scroll-behavior: smooth;
+}
+
 /* make tables fullwidth */
 table {
-    display: table;
-    width: auto;
-    margin: 0 auto;
+  width: auto;
+  margin: 0 auto;
 }
 
 /* smaller edit button */
@@ -155,6 +224,13 @@ table {
 
 .theme-doc-sidebar-menu {
   font-size: 16px;
+}
+
+.sidebar-title {
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .menu>.menu__list .menu__list{
@@ -179,14 +255,6 @@ table {
 /* Optional: Improve alignment or add additional styles */
 .menu__list-item a span img {
   vertical-align: middle;
-}
-
-.sidebar-title {
-  font-size: 0.8rem;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--ifm-color-gray-600);
 }
 
 .sidebar-title:not(:first-child) {
@@ -268,8 +336,7 @@ table {
   width: 100%;
 }
 
-/* Navigation Bar Scaling */
-@media (max-width: 1550px) and (min-width: 996px){
+@media (max-width: 1550px) and (min-width: 996px) {
   .navbar {
     height: auto;
   }
@@ -279,29 +346,15 @@ table {
     grid-template-columns: auto auto auto;
     justify-items: right;
     column-gap: 0px;
-    row-gap: 0px;
     align-items: center;
-    padding: 0.3rem;
-    padding-top: 0px;
-  }
-
-  .navbar__items--right .navbarSearchContainer_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
-    grid-row: 2;
-    grid-column: span 3;
   }
 }
 
-@media (max-width: 1350px) and (min-width: 996px){
-  .navbar__items:not(.navbar__items--right) {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: left;
-    column-gap: 0px;
-    row-gap: 0px;
-    align-items: center;
-    padding: 0.3rem;
+@media (max-width: 996px) {
+  .navbar__search-input {
+    width: 2rem;
   }
-
+}
   .navbar__brand {
     grid-row: span 2;
   }
@@ -309,10 +362,9 @@ table {
   .navbar__inner {
     align-items: center;
   }
-}
 
-@media (max-width: 996px){
+@media (max-width: 996px) {
   .navbar__search-input {
-      width: 2rem;
+    width: 2rem;
   }
 }
