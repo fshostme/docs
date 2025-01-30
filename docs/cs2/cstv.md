@@ -34,6 +34,15 @@ If the function is activated on the server, access is possible via the IP addres
 connect SERVERIP:XXXX
 ```
 
+## Demo Playback
+To hear all player's voice chat, use the following commands in your console before loading up the demo:
+```
+tv_listen_voice_indices -1
+tv_listen_voice_indices_h -1
+
+playdemo yourdemo.dem
+```
+
 ## Errors
 
 - **[Demo] 2024-11-28_XX-XX-XX_XXXX_de_mirage_team_XXXX_vs_team_XXXXXX.dem:  unable to extract addons from file** - [Follow this link](https://www.reddit.com/r/cs2/comments/18ei4n4/cant_play_demos_cs2_unable_to_extract_addons_from/)

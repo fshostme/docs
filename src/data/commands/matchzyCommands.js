@@ -35,11 +35,17 @@ const matchzyCommands = [
       },
       {
         command: '.stop',
-	description: 'Requests to restore the current round. Both teams must type .stop to restore.',
+	      description: 'Requests to restore the current round. Both teams must type .stop to restore.',
         example: '.stop'
       },
       {
+        command: '.uncoach',
+	      description: 'Leaves coaching slot',
+        example: '.uncoach'
+      },      
+      {
         command: '.coach',
+        aliases: ['.coach ct'],
         description: 'Starts coaching the specified team side (t/ct).',
         example: '.coach t',
       },
@@ -60,7 +66,7 @@ const matchzyCommands = [
     title: 'Practice Commands',
     commands: [
       {
-        command: '.back',
+        command: '.back <number>',
         description: 'Teleports to a specific position in grenade history.',
         example: '.back 1',
         arguments: {
@@ -73,7 +79,18 @@ const matchzyCommands = [
         example: '.bot'
       },
       {
+        command: '.nobot',
+        description: 'Removes one bot each.',
+        example: '.nobot'
+      },
+      {
+        command: '.nobots',
+        description: 'Removes all the bots',
+        example: '.nobots'
+      },      
+      {
         command: '.crouchbot',
+        aliases: ['.cbot'],
         description: 'Adds a crouched bot at your position.',
         example: '.crouchbot'
       },
@@ -87,6 +104,11 @@ const matchzyCommands = [
         description: 'Breaks all breakable entities (glass, doors, vents).',
         example: '.break'
       },
+      {
+        command: '.breakrestore',
+        description: 'Restore all breakable entities (glass, doors, vents).',
+        example: '.breakrestore'
+      },      
       {
         command: '.clear',
         description: 'Removes all active utility (smokes, molotovs, incendiaries).',
@@ -116,6 +138,11 @@ const matchzyCommands = [
         }
       },
       {
+        command: '.spawn <number>',
+        description: 'Spawns to the provided competitive spawn number of same team',
+        example: '.spawn 1',
+      },
+      {
         command: '.dryrun',
         aliases: ['.dry'],
         description: 'Enables dry-run mode for practice.',
@@ -133,9 +160,117 @@ const matchzyCommands = [
         example: '.god'
       },
       {
+        command: '.bestspawn',
+        description: 'Teleports you to your team closest spawn from your current position',
+        example: '.bestspawn'
+      },
+      {
+        command: '.worstspawn',
+        description: 'Teleports you to your team furthest spawn from your current position',
+        example: '.worstspawn'
+      },
+      {
+        command: '.bestctspawn',
+        description: ' Teleports you to CT team closest spawn from your current position',
+        example: '.bestctspawn'
+      },
+      {
+        command: '.worstctspawn',
+        description: 'Teleports you to CT team furthest spawn from your current position',
+        example: '.worstctspawn'
+      },
+      {
+        command: '.besttspawn',
+        description: 'Teleports you to T team closest spawn from your current position',
+        example: '.besttspawn'
+      },
+      {
+        command: '.worsttspawn',
+        description: 'Teleports you to T team furthest spawn from your current position',
+        example: '.worsttspawn'
+      },
+      {
+        command: '.showspawns',
+        description: 'Highlights all the competitive spawns',
+        example: '.showspawns'
+      },
+      {
+        command: '.hidespawns',
+        description: 'Hides the highlighted spawns',
+        example: '.hidespawns'
+      },
+      {
+        command: '.watchme',
+        aliases: ['.fas'],
+        description: 'Forces all players into spectator except the player who called this command',
+        example: '.watchme'
+      },
+      {
+        command: '.noflash',
+        aliases: ['.noblind'],
+        description: 'Toggles immunity for flashbang',
+        example: '.noflash'
+      },
+      {
+        command: '.rethrow',
+        aliases: ['.rt'],
+        description: 'Rethrows your last thrown grenade',
+        example: '.rethrow'
+      },
+      {
+        command: '.timer',
+        description: 'Starts a timer immediately and stops it when you type .timer again, telling you the duration of time',
+        example: '.timer'
+      },
+      {
+        command: '.throwindex <index> <optional index> <optional index>',
+        description: 'Throws grenade of provided position(s) from your grenade thrown history.',
+        example: '.throwindex 1 2'
+      },
+      {
+        command: '.lastindex',
+        description: 'Prints index number of your last thrown grenade.',
+        example: '.lastindex'
+      },
+      {
+        command: '.rethrowsmoke',
+        description: 'Throws your last thrown smoke grenade.',
+        example: '.rethrowsmoke'
+      },
+      {
+        command: '.rethrownade',
+        description: 'Throws your last thrown HE grenade.',
+        example: '.rethrownade'
+      },
+      {
+        command: '.rethrowflash',
+        description: 'Throws your last thrown flash.',
+        example: '.rethrowflash'
+      },
+      {
+        command: '.rethrowmolotov',
+        description: 'Throws your last thrown molotov.',
+        example: '.rethrowmolotov'
+      },
+      {
+        command: '.rethrowdecoy',
+        description: 'Throws your last thrown decoy.',
+        example: '.rethrowdecoy'
+      },      
+      {
+        command: '.solid',
+        description: 'Toggles mp_solid_teammates',
+        example: '.solid'
+      },
+      {
         command: '.impacts',
-        description: 'Toggles impact visualization.',
+        description: 'Toggles sv_showimpacts',
         example: '.impacts'
+      },
+      {
+        command: '.traj',
+        description: 'Toggles sv_grenade_trajectory_prac_pipreview',
+        example: '.traj'
       }
     ]
   },
@@ -162,11 +297,6 @@ const matchzyCommands = [
         command: '.last',
         description: 'Returns to last grenade throw position.',
         example: '.last'
-      },
-      {
-        command: '.lastindex',
-        description: 'Shows index of last thrown grenade.',
-        example: '.lastindex'
       },
       {
         command: '.listnades',
@@ -230,11 +360,13 @@ const matchzyCommands = [
       },
       {
         command: '.forcepause',
+        aliases: ['.fp'],
         description: 'Admin-pauses match (players cannot unpause).',
         example: '.forcepause'
       },
       {
         command: '.forceunpause',
+        aliases: ['.fup'],
         description: 'Force-unpauses match.',
         example: '.forceunpause'
       },
@@ -251,6 +383,7 @@ const matchzyCommands = [
       },
       {
         command: '.prac',
+        aliases: ['.tactics'],
         description: 'Starts Practice mode.',
         example: '.prac'
       },

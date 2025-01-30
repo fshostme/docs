@@ -8,16 +8,17 @@ This page provides a detailed overview of the plugins available in our CS2 free 
 
 Below is a list showing the plugins and their availability on free and pro servers.
 
-| CS2 Plugins                                 | Free           | Pro |
-|:---                                       |:---:              |:---      |
-| CS2-SimpleAdmin |  &#x2718; No   | ✅ Yes |
-| CSTV Demo URL to Discord                |  &#x2718; No   | ✅ Yes |
-| CS2-Deathmatch                          |  &#x2718; No   | ✅ Yes |
-| Map Change (!map de_mapname)          |      ✅ Yes    | ✅ Yes |
-| Workshop Map (!wsmap workshop ID of map)              |  &#x2718; No   | ✅ Yes |
-| CS2Rcon (!rcon)                         |  &#x2718; No   | ✅ Yes |
-| AddAdmin/RemoveAdmin           |  &#x2718; No   | ✅ Yes |
-| MatchZy w/ Practice Mode                |  &#x2718; No   | ✅ Yes |
-| OpenPrefirePrac                      |  &#x2718; No   | ✅ Yes |
-| CS2-Retakes                            |  &#x2718; No   | ✅ Yes |
-| WeaponPaints (Skins)                   |  &#x2718; No   | ✅ Yes (**GSLT required**) |
+| CS2 Plugins                                   | Free      | Pro               |
+|-----------------------------------------------|:---------:|:-----------------:|
+| CS2-SimpleAdmin                               | ❌ No     | ✅ Yes            |
+| AddAdmin/RemoveAdmin (`/login RconPass`)      | ❌ No     | ✅ Yes            |
+| CS2Rcon (!rcon)                               | ❌ No     | ✅ Yes            |
+| CSTV Demo URL to Discord                      | ❌ No     | ✅ Yes            |
+| CS2-FixDemoVoiceChat                          | ❌ No     | ✅ Yes            |
+| CS2-Deathmatch                                | ❌ No     | ✅ Yes            |
+| CS2-Retakes w/ RetakesAllocator               | ❌ No     | ✅ Yes            |
+| MatchZy w/ Practice Mode                      | ❌ No     | ✅ Yes            |
+| OpenPrefirePrac                               | ❌ No     | ✅ Yes            |
+| Map Change (!map de_mapname)                  | ✅ Yes    | ✅ Yes            |
+| Workshop Map (!wsmap workshop ID of map)      | ❌ No     | ✅ Yes            |
+| WeaponPaints (Skins)                          | ❌ No     | ✅ Yes (**GSLT required**) |
