@@ -13,6 +13,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'fshostme',
   projectName: 'docs',
+  onBrokenLinks: 'ignore',
   trailingSlash: false,
   customFields: {
     marketingSite: 'https://fshost.me',
