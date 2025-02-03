@@ -1,7 +1,7 @@
 ---
 slug: rcon
 id: css-rcon
-title: "CSS: RCON Commands"
+title: "RCON Commands"
 description: "CS Source RCON Commands"
 ---
 

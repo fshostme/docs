@@ -41,6 +41,10 @@ details {
   overflow: hidden; /* Prevent bar or content overflow */
 }
 
+.pagination-nav {
+  display: none;
+}
+
 /* Disable the arrow by overriding the custom Docusaurus variable */
 .details_lb9f {
   --docusaurus-details-summary-arrow-size: 0; /* Set arrow size to 0 */

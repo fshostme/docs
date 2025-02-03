@@ -100,6 +100,10 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike 2",
+      link: {
+        type: 'doc',
+        id: 'cs2/index',
+      },
       items: [
         "cs2/cs2-becomeadmin",
         "cs2/cs2-firststeps-dashboard",
@@ -111,7 +115,6 @@ const sidebars = {
         {
           type: "category",
           label: "CS2 Pro Plugins",
-          collapsed: false,
           items: [
             "cs2/plugins/cs2-plugins-cstvdiscord",
             "cs2/plugins/cs2-plugins-simpleadmin",
@@ -136,6 +139,10 @@ const sidebars = {
     {
       type: "category",
       label: "Call of Duty",
+      link: {
+        type: 'doc',
+        id: 'cod/index',
+      },
       items: [
         "cod/cod-firststeps-dashboard",
         "cod/cod-rcon"
@@ -144,6 +151,10 @@ const sidebars = {
     {
       type: "category",
       label: "Call of Duty 2",
+      link: {
+        type: 'doc',
+        id: 'cod2/index',
+      },
       items: [
         "cod2/cod2-firststeps-dashboard",
         "cod2/cod2-rcon"
@@ -152,6 +163,10 @@ const sidebars = {
     {
       type: "category",
       label: "Call of Duty 4: Modern Warfare",
+      link: {
+        type: 'doc',
+        id: 'cod4/index',
+      },
       items: [
         "cod4/cod4-landing",
         "cod4/cod4-rcon",
@@ -172,6 +187,10 @@ const sidebars = {
     {
       type: "category",
       label: "Call of Duty: United Offensive",
+      link: {
+        type: 'doc',
+        id: 'coduo/index',
+      },
       items: [
         "coduo/coduo-firststeps-dashboard",
         "coduo/coduo-rcon"
@@ -180,6 +199,10 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike 1.6",
+      link: {
+        type: 'doc',
+        id: 'cs16/index',
+      },
       items: [
         "cs16/cs16-firststeps-dashboard",
         "cs16/cs16-becomeadmin",
@@ -189,6 +212,10 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike Condition Zero",
+      link: {
+        type: 'doc',
+        id: 'cscz/index',
+      },
       items: [
         "cscz/cscz-firststeps-dashboard",
         "cscz/cscz-becomeadmin",
@@ -198,6 +225,10 @@ const sidebars = {
     {
       type: "category",
       label: "Counter-Strike Source",
+      link: {
+        type: 'doc',
+        id: 'css/index',
+      },
       items: [
         "css/css-firststeps-dashboard",
         "css/css-rcon"
@@ -206,6 +237,10 @@ const sidebars = {
     {
       type: "category",
       label: "Half-Life 1: Deathmatch",
+      link: {
+        type: 'doc',
+        id: 'hldm/index',
+      },
       items: [
         "hldm/hldm-firststeps-dashboard",
         "hldm/hldm-rcon"
@@ -214,6 +249,10 @@ const sidebars = {
         {
       type: "category",
       label: "Minecraft",
+      link: {
+        type: 'doc',
+        id: 'hldm/index',
+      },
       items: [
         "minecraft/minecraft-firststeps-dashboard",
         "minecraft/minecraft-rcon"

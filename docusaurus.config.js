@@ -178,7 +178,7 @@ const config = {
       docs: {
         sidebar: {
           hideable: false,
-          autoCollapseCategories: false,
+          autoCollapseCategories: true,
         },
       },
       colorMode: {
@@ -321,7 +321,7 @@ const config = {
     }),
   future: {
     experimental_faster: true,
-  }
+  },
 };
 
 export default config;

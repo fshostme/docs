@@ -2,13 +2,20 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import styles from './Card.module.css';
 
-const Card = ({ image, title, description, link, type }) => {
+const Card = ({ image, title, description, link, type, hidden }) => {
+  if (hidden) {
+    return null;  // Do not render the card if hidden is true
+  }
+
   return (
     <div className={styles.card}>
       <Link to={link} autoAddBaseUrl="true" isNavLink="true" className={styles.cardLink}>
-
         <div className={styles.imageContainer}>
-          <img className={type == "product-categories" ? styles.objectContain : styles.objectCover} src={image} alt={title} />
+          <img
+            className={type === "product-categories" ? styles.objectContain : styles.objectCover}
+            src={image}
+            alt={title}
+          />
         </div>
         <div className={styles.textContainer}>
           <p className={styles.textContainerTitle}>{title}</p>
