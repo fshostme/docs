@@ -110,7 +110,8 @@ const sidebars = {
         "cs2/cs2-rcon",
         {
           type: "category",
-          label: "Pro Plugins",
+          label: "CS2 Pro Plugins",
+          collapsed: false,
           items: [
             "cs2/plugins/cs2-plugins-cstvdiscord",
             "cs2/plugins/cs2-plugins-simpleadmin",
