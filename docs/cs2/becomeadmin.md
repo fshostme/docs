@@ -67,19 +67,13 @@ How to use the `login RconPass` command in the in-game console? (**Watch Video**
 </video>
 </details>
 
-:::note[You can use the `say` or `say_team` commands directly from in-game chat.]
+:::note
 1. Enter the RCON password you set for your CS2 Pro Server. (Don’t forget it!)
 2. Connect to your CS2 Pro Server.
-3. Use `say`/`say_team`: `/login RconPass` replace RconPass with your rcon password.
-4. Use `say`/`say_team`: `/addadmin YourSteamID64` to add yourself or a friend as an admin.
+3. Open your `say` chat and type: `/login RconPass` replace RconPass with your actual RCON password.
+4. Open your `say` chat and type: `/addadmin YourSteamID64` to add yourself or a friend as an admin.
 :::
 
-:::note[Open your in-game console]
-1. Enter the RCON password you set for your CS2 Pro Server. (Don't forget it!)
-2. Connect to your CS2 Pro Server.
-3. Run: `login RconPass` replace RconPass with your rcon password. 
-4. Run: `addadmin YourSteamID64` to add yourself or a friend as an admin.
-:::
 
 **Here's an example of how it looks after adding yourself as a server admin.**
 ![2024-08-22_13-24](https://github.com/user-attachments/assets/74a456ce-627a-4508-ab33-c827415b6593)

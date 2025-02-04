@@ -9,7 +9,7 @@ slug: /cod4/
 This section contains guides, RCON commands, and mods to help you set up and manage a Call of Duty 4 server efficiently.
 
 ### **Core Guides**
-- [Creating a Server](./cod4/dashboard) - Step-by-step instructions to set up your server.
+- [Creating a Server](./cod4/creating-a-server) - Step-by-step instructions to set up your server.
 - [RCON Commands](./cod4/rcon) - Manage your server using RCON commands.
 
 ---

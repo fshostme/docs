@@ -19,7 +19,7 @@ Utilize the full extent of your game server with FSHOST. We try to make our guid
 <Cards>
     <Card title="Call of Duty (2003)" description="Placeholder" link="cod" image="https://fshost.me/assets/img/bg/cod.jpg"/>
     <Card title="Call of Duty 2" description="Placeholder" link="cod2" image="https://fshost.me/assets/img/bg/cod2.jpg"/>
-    <Card title="Call of Duty 4: Modern Warfare" description="Placeholder" link="cod4/" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/cod4.jpg"/>
+    <Card title="Call of Duty 4: Modern Warfare" description="Placeholder" link="cod4" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/cod4.jpg"/>
     <Card title="Call of Duty: United Offensive" description="Placeholder" link="coduo" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/coduo.jpg"/>
     <Card title="Call of Duty: World at War" description="Placeholder" link="codwaw" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/codwaw.jpg" hidden={true} />
     <Card title="Counter-Strike: 1.6" description="Placeholder" link="cs16" image="https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg?t=1666823513"/>
