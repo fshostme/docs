@@ -251,7 +251,7 @@ const sidebars = {
       label: "Minecraft",
       link: {
         type: 'doc',
-        id: 'hldm/index',
+        id: 'minecraft/index',
       },
       items: [
         "minecraft/minecraft-firststeps-dashboard",
