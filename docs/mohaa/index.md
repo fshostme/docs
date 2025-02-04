@@ -1,6 +1,6 @@
 ---
 id: index
-title: Medal of Honor: Allied Assault Game Server Documentation
+title: Medal of Honor Allied Assault Game Server Documentation
 slug: /mohaa/
 ---
 
