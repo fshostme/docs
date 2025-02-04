@@ -246,7 +246,7 @@ const sidebars = {
         "hldm/hldm-rcon"
       ],
     },
-        {
+    {
       type: "category",
       label: "Minecraft",
       link: {
@@ -257,8 +257,20 @@ const sidebars = {
         "minecraft/minecraft-firststeps-dashboard",
         "minecraft/minecraft-rcon"
       ],
-    }
-  ],
+    },
+    {
+      type: "category",
+      label: "Medal of Honor: Allied Assault",
+      link: {
+        type: 'doc',
+        id: 'mohaa/index',
+      },
+      items: [
+        "mohaa/moha-dashboard",
+        "mohaa/rcon"
+      ],
+    },
+  ]
 };
 
 export default sidebars;

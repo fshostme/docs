@@ -1,6 +1,6 @@
 ---
 slug: dashboard
-id: mohaa-firststeps-dashboard
+id: moha-dashboard
 title: "Creating a server"
 ---
 
