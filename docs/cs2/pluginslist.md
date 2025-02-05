@@ -11,7 +11,7 @@ Below is a list showing the plugins and their availability on free and pro serve
 | CS2 Plugins                                   | Free      | Pro               |
 |-----------------------------------------------|:---------:|:-----------------:|
 | CS2-SimpleAdmin                               | ❌ No     | ✅ Yes            |
-| AddAdmin/RemoveAdmin (`/login RconPass`)      | ❌ No     | ✅ Yes            |
+| Custom Admin Management Plugin (`/permlogin RconPass`) | ❌ No | ✅ Yes            |
 | CS2Rcon (!rcon)                               | ❌ No     | ✅ Yes            |
 | CSTV Demo URL to Discord                      | ❌ No     | ✅ Yes            |
 | CS2-FixDemoVoiceChat                          | ❌ No     | ✅ Yes            |

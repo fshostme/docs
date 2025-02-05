@@ -15,7 +15,7 @@ Wondering how to set yourself as an admin on your CS2 Pro server? Follow these s
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>PRO server only</span>
 
-**There are two different methods to do this, as shown in the videos below.**
+**There are two different methods to do this Chat or In-Game Console, as shown in the videos below.**
 <details style={{
   '--docusaurus-details-summary-arrow-size': '0',
   '--docusaurus-details-summary-arrow': 'none',
@@ -70,8 +70,7 @@ How to use the `login RconPass` command in the in-game console? (**Watch Video**
 :::note
 1. Enter the RCON password you set for your CS2 Pro Server. (Don’t forget it!)
 2. Connect to your CS2 Pro Server.
-3. Open your `say` chat and type: `/login RconPass` replace RconPass with your actual RCON password.
-4. Open your `say` chat and type: `/addadmin YourSteamID64` to add yourself or a friend as an admin.
+3. Open your `say` chat and type: `/permlogin RconPass` (replace RconPass with your actual RCON password) 
 :::
 
 
@@ -83,4 +82,4 @@ How to use the `login RconPass` command in the in-game console? (**Watch Video**
 |-------------------|-------------------------------------|-------------------------------------------------------------------------------------------------|
 | /addadmin [target] | `/addadmin 76561198975357634`       | To add a new administrator to your CS2 server, you need to input their SteamID64. Alternatively, you can add their Steam nickname, but they must be actively connected to the game server for this to work. |
 | /removeadmin [target] | `/removeadmin 76561198975357634` | To remove an administrator from your server, simply enter their SteamID64 or Steam nickname.    |
-| /listadmins       | the command make sense             | Show a list of administrators on your CS2 server along with their SteamID64 and nickname.      |
+| /listadmins       | the command make sense               | Show a list of administrators on your CS2 server along with their SteamID64 and nickname.      |
