@@ -51,14 +51,16 @@ Get players list
 Kick a player
 <br />`rcon kick #id or name`
 
-## Other Commands
+## Other RCon Commands
 | RCON Command | Description |
 | ------------ | ----------- |
+| rcon mp_buytime 2 | Designate the desired amount of buy time for each round. |
+| rcon mp_startmoney 1337 | Sets the amount of money players start with. |
 | rcon mp_timelimit [amount of time in minutes] | Change the map timelimit |
 | rcon mp_autokick 0/1 | Autokicks an idling person 1 is on, 0 is off |
 | rcon mp_autoteambalance 0/1 | Toggles the forcing of clients to join teams to make it balanced – Setting of 1 = ‘on’, and 0 = ‘off’. |
-| rcon mp_c4timer x | Sets the amount of time in between C4 placement and its explosion – ranges between 15 and 90 seconds. |
-| rcon mp_freezetime x | Sets the amount of “freeze” time at the beginning of each round to buy weapons and equipment – Use a setting of ‘0’ to disable. |
+| rcon mp_c4timer 45 | Sets the amount of time in between C4 placement and its explosion – ranges between 15 and 90 seconds. |
+| rcon mp_freezetime 3 | Sets the amount of “freeze” time at the beginning of each round to buy weapons and equipment – Use a setting of ‘0’ to disable. |
 | rcon mp_friendlyfire 0/1 | Toggles friendly fire |
 | rcon sv_alltalk 0/1 | Toggles team only or entire server mic chat |
 | rcon sv_voiceenable 0/1 | Allows clients to use mic |
@@ -70,7 +72,7 @@ If you want to make use of `impulse 101`, (client side) then you need to enable 
 
 
 ## PODBot Commands
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span><br />
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro server only</span><br />
 :::tip
 You can use **amx_pbmenu** to control bots. You only need to be an admin on your CS1.6 server for this to be possible.
 
