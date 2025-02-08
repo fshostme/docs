@@ -58,10 +58,19 @@ Changing the gametype and map rotation (Example)
 <br />`/rcon pb_sv_plist`
 
 - Kick a player
-<br />`/rcon clientkick clientslot`
+<br />`/rcon clientkick clientslot or id`
 
 - Kick all players
 <br />`/rcon kickall`
+
+- Permanently bans a player by their ID.
+<br />`/rcon banClient id`
+
+- Kicks and temporarily bans a player by their name.
+<br />`/rcon tempBanUser name`
+
+- Kicks and temporarily bans a player by their ID.
+<br />`/rcon tempBanClient id`
 
 ## Screenshots
 :::tip
