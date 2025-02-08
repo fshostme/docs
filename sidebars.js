@@ -255,7 +255,8 @@ const sidebars = {
       },
       items: [
         "minecraft/minecraft-firststeps-dashboard",
-        "minecraft/minecraft-rcon"
+        "minecraft/minecraft-rcon",
+        "minecraft/minecraft-join"
       ],
     },
     {

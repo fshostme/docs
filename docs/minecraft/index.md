@@ -11,3 +11,4 @@ Set up and enhance your Minecraft servers using the available topics below.
 ## **Available Topics**
 - [Creating a Server](./minecraft/dashboard) - Learn how to deploy and configure a Minecraft server.
 - [RCON Login [Pro]](./minecraft/rcon) - Access remote server controls with RCON.
+- [Connecting to Server](./minecraft/connect) - Howto connecting to FSHOST's MC Service.
