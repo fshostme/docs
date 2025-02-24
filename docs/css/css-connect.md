@@ -1,7 +1,7 @@
 ---
 slug: connect
 id: css-connect
-title: "Connecting to CS Source Server"
+title: "Connecting to CSS Server"
 ---
 
 ### Steam Players only
@@ -9,7 +9,7 @@ If you select this version as a free/pro server, only **Steam users** will be ab
 
 ### Steam and Non-Steam v92 Players  
 To play with **non-Steam** users, you must downgrade your build on Steam.  
-![image](https://help.fshost.me/src/images/css-steam.png)
+![image](https://help.fshost.me/img/css-steam.png)
 
 ### Any Updates on the Latest Build?  
 We currently **don't know** when non-Steam servers will be updated to **build 9540945**. 

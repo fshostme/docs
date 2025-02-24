@@ -231,7 +231,8 @@ const sidebars = {
       },
       items: [
         "css/css-firststeps-dashboard",
-        "css/css-rcon"
+        "css/css-rcon",
+	"css/css-connect"
       ],
     },
     {
