@@ -8,9 +8,9 @@ A C# implementation of Retakes for CS2, built using CounterStrikeSharp and inspi
 
 **We use RetakesAllocator from Yoni [cs2-retakes-allocator](https://github.com/yonilerner/cs2-retakes-allocator)**
 
-## Plugin Configuration for Pro Server
+## Retake Allocation Configuration for Pro Server
 <details>
-  <summary>Click to expand</summary>
+  <summary>Retake Allocation Config</summary>
 ```json
 {
   "UsableWeapons": [
@@ -139,7 +139,7 @@ A C# implementation of Retakes for CS2, built using CounterStrikeSharp and inspi
   "EnableBombSiteAnnouncementChat": false,
   "EnableNextRoundTypeVoting": false,
   "NumberOfExtraVipChancesForPreferredWeapon": 1,
-  "AllowPreferredWeaponForEveryone": false,
+  "AllowPreferredWeaponForEveryone": true,
   "ChanceForPreferredWeapon": 100,
   "MaxPreferredWeaponsPerTeam": {
     "Terrorist": 1,
@@ -153,11 +153,11 @@ A C# implementation of Retakes for CS2, built using CounterStrikeSharp and inspi
   "LogLevel": "Information",
   "ChatMessagePluginName": "Retakes",
   "ChatMessagePluginPrefix": null,
-  "InGameGunMenuCenterCommands": "gunsmenu,gunmenu,!gunmenu,!gunsmenu,!menugun,!menuguns,/gunsmenu,/gunmenu",
-  "InGameGunMenuChatCommands": "guns,!guns,/guns",
+  "InGameGunMenuCenterCommands": "gunsmenu,gunmenu,!gunmenu,!gunsmenu,!menugun,!menuguns",
+  "InGameGunMenuChatCommands": "guns,!guns,gun,!gun",
   "ZeusPreference": "Never",
   "DatabaseProvider": "Sqlite",
-  "DatabaseConnectionString": "Data Source=data.db; Pooling=False",
+  "DatabaseConnectionString": "Data Source=data.db",
   "AutoUpdateSignatures": true
 }
 ```
