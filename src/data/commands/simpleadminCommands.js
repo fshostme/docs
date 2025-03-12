@@ -6,13 +6,11 @@ const simpleAdminCommands = [
         command: "css_hide / !hide",
         description: "Hide admin on scoreboard and commands action.",
         example: "css_hide",
-        arguments: {},
       },
       {
         command: "css_admin / !admin",
         description: "Display all admin commands (Only for this plugin).",
         example: "css_admin",
-        arguments: {},
       },
       {
         command: "css_who <#userid or name> / !who <#userid or name>",
@@ -26,7 +24,6 @@ const simpleAdminCommands = [
         command: "css_players",
         description: "Display a list of players currently on the server.",
         example: "css_players",
-        arguments: {},
       },
       {
         command: "css_godmode <#userid or name>",

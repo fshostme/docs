@@ -117,8 +117,10 @@ const sidebars = {
           label: "CS2 Pro Plugins",
           items: [
             "cs2/plugins/cs2-plugins-cstvdiscord",
+            "cs2/plugins/cs2-plugins-rcon",
             "cs2/plugins/cs2-plugins-simpleadmin",
             "cs2/plugins/cs2-plugins-matchzy",
+            "cs2/plugins/cs2-plugins-deathmatch",
             "cs2/plugins/cs2-plugins-openprefireprac",
             "cs2/plugins/cs2-plugins-retakes",
             "cs2/plugins/cs2-plugins-skins",

@@ -60,7 +60,7 @@ export default function CommandSearch({ commandCategories }) {
                     <ReactMarkdown
                       components={{
                         p: ({ node, children }) => (
-                          <div style={{ margin: '5px 0', color: '#888' }}>{children}</div>
+                          <div style={{ margin: '5px 0', color: '#88' }}>{children}</div>
                         ),
                       }}
                     >

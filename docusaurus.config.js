@@ -108,6 +108,8 @@ const config = {
           editUrl: 'https://github.com/fshostme/docs/tree/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          remarkPlugins: [require('remark-gfm')],  // Enables GitHub-Flavored Markdown
+          rehypePlugins: [],
         },
         blog: {
           feedOptions: {

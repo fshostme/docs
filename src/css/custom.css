@@ -210,6 +210,7 @@ html {
 table {
   width: auto;
   margin: 0 auto;
+  overflow-x: auto;
 }
 
 /* smaller edit button */

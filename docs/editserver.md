@@ -25,3 +25,4 @@ Below is an example of a Counter-Strike 2 server.
 | WeaponPaints (Skins) | Skins is automatically loaded **GSLT required!** |
 | VAC (Valve-Anti-Cheat) | You can run your server with Valve Anti-Cheat. |
 | CSTV | Enable the ability to record demos of the game. |
+| In-Game Bots | Enable the ability to play with bots (e.g. Practice Mode) |
