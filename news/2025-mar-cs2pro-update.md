@@ -16,4 +16,4 @@ To enable this feature:
 3. Scroll down and check the option **"Enable Maxplayers Override"**  
 
 Enjoy the enhanced competitive experience! 🚀
-![image](https://help.fshost.me/img/maxplayers-cs2.png)
+[![image](https://help.fshost.me/img/maxplayers-cs2.png)](https://help.fshost.me/img/maxplayers-cs2.png)
