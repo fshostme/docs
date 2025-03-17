@@ -4,14 +4,17 @@ id: css-connect
 title: "Connecting to CSS Server"
 ---
 
-### Steam Players only
-If you select this version as a free/pro server, only **Steam users** will be able to connect to the game server.  
+### Playing with Steam Players Only
+If you want to play **only with Steam users**, make sure your **Betas** setting is set to **None**.
+If you host a **free/pro server** with this version, only **Steam users** will be able to connect.
 
-### Steam and Non-Steam v92 Players  
-To play with **non-Steam** users, you must downgrade your build on Steam.  
+### Playing with Steam & Non-Steam v92 Players
+To play with **non-Steam users**, you must downgrade your game build.
 ![image](https://help.fshost.me/img/css-steam.png)
 
-**If this does not work, try this method:**<br />
+**⚠ Important: You cannot connect to a non-Steam server if your Betas setting is None.**
+
+**If the downgrade doesn’t work, try this method:**<br />
 How to downgrade successfully. Everything is done via the "Properties" menu. Right click css on steam and click "Properties.
 
 1.    Go to "Betas" and select previous previous_build. Wait until downloaded in steam...
