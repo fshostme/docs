@@ -25,9 +25,9 @@ Then you already have access to use `!admin` and `!map mapname` already.
 If you want additional custom maps added that we don't already have, please [check here first](https://dl.fsho.st/css/maps/). If the maps you'd like to play are not there then [contact us](https://fshost.me/contact) with the map download links.
 
 <br />**We suggest these site below**:
-<br /> [Gamebanana](https://gamebanana.com/mods/cats/5181?)
-<br /> [CS-BG.info](https://maps.cs-bg.info/maps/cz/) 
-<br /> [7buddies.rocks](https://www.17buddies.rocks/17b2/View/Maps/Gam/1/Mod/11/Cat/93/All/0/Pag/1/Maps%20Cs%3ACz.html)
+<br /> [Gamebanana](https://gamebanana.com/mods/cats/5535)
+<br /> [CS-BG.info](https://maps.cs-bg.info/maps/css/) 
+<br /> [7buddies.rocks](https://www.17buddies.rocks/17b2/View/Maps/Gam/2/Mod/4/Cat/0/All/0/Pag/1/CS%3ASource.html)
 :::
 
 **Maps**<br />

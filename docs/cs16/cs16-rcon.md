@@ -13,7 +13,7 @@ Open console in-game and run the login command to gain access to all the followi
 If you want additional custom maps added that we don't already have, please [check here first](https://dl.fsho.st/cs16/maps/). If the maps you want are not there then [contact us](https://fshost.me/contact) with the map download links.
 
 <br />**We suggest these site below**:
-<br /> [Gamebanana](https://gamebanana.com/)
+<br /> [Gamebanana](https://gamebanana.com/mods/cats/5474)
 <br /> [CS-BG.info](https://maps.cs-bg.info/) 
 <br /> [gamemaps.com](https://www.gamemaps.com/cs/maps)
 <br /> [tsarvar.com](https://tsarvar.com/en/maps/counter-strike-1.6)
