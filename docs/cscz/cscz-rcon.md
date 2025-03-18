@@ -10,7 +10,7 @@ Open console in-game and run the login command to gain access to all the followi
 
 ## General Settings
 :::tip
-If you want additional custom maps added that we don't already have, please [check here first](https://dl.fsho.st/cs16/maps/). If the maps you want are not there then [contact us](https://fshost.me/contact) with the map download links.
+If you want additional custom maps added that we don't already have, please [check here first](https://dl.fsho.st/cscz/maps/). If the maps you want are not there then [contact us](https://fshost.me/contact) with the map download links.
 
 <br />**We suggest these site below**:
 <br /> [Gamebanana](https://gamebanana.com/mods/cats/5181?)
