@@ -71,3 +71,10 @@ Changing the gametype and map rotation (Example)
 
 - Kicks and temporarily bans a player by their ID.
 <br />`/rcon tempBanClient id`
+
+**Screenshots**
+- Take a screenshot for **v1.7** (you will need PB enabled for this)
+<br />`/rcon pb_sv_getss`
+
+- Take a screenshot on **CoD4x**
+<br />`/rcon getss`
