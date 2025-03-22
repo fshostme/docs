@@ -11,7 +11,7 @@ This section contains guides, RCON commands, and mods to help you set up and man
 ### **Core Guides**
 - [Creating a Server](./cod4/creating-a-server) - Step-by-step instructions to set up your server.
 - [RCON Commands](./cod4/rcon) - Manage your server using RCON commands.
-
+- [Screenshots](https://fshost.me/screenshots) - We cache the images every few minutes so please allow time for them to be added.
 ---
 
 ### **Mods**

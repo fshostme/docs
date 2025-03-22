@@ -61,10 +61,6 @@ Changing the game mode is easy with this command but remember to restart the map
 - Kick all players
 `/rcon kickall`
 
-## Screenshots
-:::tip
-We have no timeframe for when screenshots will be available to be viewed on our site.
-:::
-
-- **Take a screenshot (you will need PB enabled for this)**
+**Screenshots**
+- Take a screenshot (you will need PB enabled for this)
 `/rcon pb_sv_getss clientslot`

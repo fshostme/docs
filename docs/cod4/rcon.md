@@ -71,8 +71,3 @@ Changing the gametype and map rotation (Example)
 
 - Kicks and temporarily bans a player by their ID.
 <br />`/rcon tempBanClient id`
-
-## Screenshots
-:::tip
-You can view screenshots taken on our servers by [clicking here](https://fshost.me/screenshots). We cache the images every few minutes so please allow time for them to be added.
-::: 

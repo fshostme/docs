@@ -147,7 +147,12 @@ const sidebars = {
       },
       items: [
         "cod/cod-firststeps-dashboard",
-        "cod/cod-rcon"
+        "cod/cod-rcon",
+        {
+          type: 'link',
+          label: 'Screenshots',
+          href: 'https://fshost.me/screenshots',
+        },
       ],
     },
     {
@@ -159,7 +164,12 @@ const sidebars = {
       },
       items: [
         "cod2/cod2-firststeps-dashboard",
-        "cod2/cod2-rcon"
+        "cod2/cod2-rcon",
+        {
+          type: 'link',
+          label: 'Screenshots',
+          href: 'https://fshost.me/screenshots',
+        },
       ],
     },
     {
@@ -172,6 +182,11 @@ const sidebars = {
       items: [
         "cod4/cod4-landing",
         "cod4/cod4-rcon",
+        {
+          type: 'link',
+          label: 'Screenshots',
+          href: 'https://fshost.me/screenshots',
+        },
         {
           type: "category",
           label: "Mods",

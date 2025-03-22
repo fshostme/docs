@@ -57,10 +57,5 @@ Kick a player
 Kick all players
 <br />`/rcon kickall`
 
-## Screenshots
-:::tip
-You can view screenshots taken on our servers by [clicking here](https://fshost.me/screenshots). We cache the images every few minutes so please allow time for them to be added.
-:::
-
 Take a screenshot (you will need PB enabled for this)
 <br />`/rcon pb_sv_getss clientslot`
