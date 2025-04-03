@@ -48,3 +48,11 @@ Wondering how to set yourself as an admin on your CS2 Pro server? Follow these s
 | `/css_addadmin [PlayerName\|SteamID64] VIP` | Gives player VIP role |
 | `/css_removeRole Owner` | Deletes Owner role |
 | `/css_roles` | Lists all roles |
+
+
+## Web version
+**Manage in-game admins from the web**
+
+You can now add and remove in-game admins from the server edit page. You'll see their Steam profile avatar and name so you can tell who is who.
+
+Just head to the edit form, then click "Manage Admins".

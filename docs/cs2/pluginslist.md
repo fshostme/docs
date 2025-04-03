@@ -11,7 +11,7 @@ Below is a list showing the plugins and their availability on free and pro serve
 | Plugin Name                                   | Free      | Pro               |
 |-----------------------------------------------|:---------:|:-----------------:|
 | CS2-SimpleAdmin                               | ❌ No     | ✅ Yes            |
-| AdminLogin Management Plugin                  | ❌ No     | ✅ Yes            |
+| FSH-AdminManager                              | ❌ No     | ✅ Yes            |
 | CS2Rcon (!rcon)                               | ❌ No     | ✅ Yes            |
 | FakeRcon (fake_rcon - **ingame console**)     | ✅ Yes    | ✅ Yes            |
 | CSTV Demo URL to Discord                      | ❌ No     | ✅ Yes            |
@@ -33,7 +33,7 @@ Click on a plugin name to view more information.
 | Plugin Name                                  | Pro    |
 |----------------------------------------------|--------|
 | [**CS2-SimpleAdmin**](plugins/Simpleadmin)      | ✅ Yes |
-| [**AdminLogin Management Plugin**](becomeadmin) | ✅ Yes |
+| [**FSH-AdminManager**](becomeadmin)             | ✅ Yes |
 | [**CS2Rcon**](plugins/cs2rcon)                  | ✅ Yes |
 | [**CSTV Demo URL to Discord**](plugins/cstvdiscord) | ✅ Yes |
 | [**CS2-FixDemoVoiceChat**](cstv#demo-playback)  | ✅ Yes |
