@@ -51,16 +51,16 @@ As you're using our free servers, they will go offline if there's no players onl
     padding: '0.5rem',
   }}>**How do I add plugins/mods/bots?**</summary>
 
-We don't offer uploading files on our free or Pro servers. If you want us to add something that we don't already provide, please let us know, and we'll take a look.
+We don't offer uploading files on our free servers. If you want us to add something that we don't already provide, please let us know, and we'll take a look.
 \
 \
-**FTP access is not available** for free/pro servers.
+**plugins/cfgs via FTP (available on request)** for pro servers.
 \
 Bots are **not included** with free servers.
 \
 Bots are available as part of the Pro package for the following games: **CS 1.6**, **CS: Source**, and **CS2**.
 \
-Plugins are **not supported** on our free servers.
+Custom Plugins are **not supported** on our free servers.
 </details>
 
 
