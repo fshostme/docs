@@ -1,23 +1,32 @@
 ---
 slug: cstvdiscord
 id: cs2-plugins-cstvdiscord
-title: "CSTV Demo on Discord"
+title: "CSTV DemoURL on Discord"
 ---
 
-This plugin sends a demo URL to a designated Discord server via a webhook. **A valid webhook URL is required for proper functionality**!
+# 🎯 Demo URL Webhook Integration
 
-CSTV organizes your server's demo files using a unique server ID, ensuring they stay properly sorted and never mix with demos from other servers.
+This plugin sends a **demo URL** to your Discord server via a **webhook**.
 
-## Screenshots
+> ⚠️ **A valid webhook URL is required for proper functionality!**
+
+## 📸 Demo Notification Example
+
 ![alt text](https://help.fshost.me/img/image.png)
 
-## How to Create a Webhook on Discord
-Right-click the channel where you want the plugin to send the demo URL and select **Edit**.
+## 🛠️ How to Create a Webhook on Discord
 
-Go to **Integrations**, click **Webhooks**, and then select **New Webhook** to create one.
+1. **Right-click** the target channel where you want the demo URL to be sent, then click **Edit**.
+2. Go to **Integrations**, click **Webhooks**, and select **New Webhook**.
 
-![alt text](https://help.fshost.me/img/image-1.png)
-**You can assign it any nickname.**
+You’ll see something like this:
+
+![Webhook Setup Example](https://help.fshost.me/img/image-1.png)
+
+> 🔧 You can assign it any nickname and choose any text channel.
+
+## 🔗 Connect the Webhook to Your Server
+
 1. Click **Copy Webhook URL**.
-2. Open your ProPanel, click **Edit**, and paste the URL into the **Discord Webhook URL (Optional)** field.
-3. Click **Save** and restart your CS2 Pro server to apply the changes!
+2. In your **ProPanel**, click **Edit**, and paste the URL into the `Discord Webhook URL (Optional)` field.
+3. Click **Save**, then **restart your CS2 Pro server** to apply the changes!
