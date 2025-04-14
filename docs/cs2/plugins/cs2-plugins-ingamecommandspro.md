@@ -47,13 +47,6 @@ These commands require admin privileges. If you're unsure how to become an admin
         <div className="command-example">Example: <code>!dmon</code></div>
       </div>
 
-      <div className="command-item" id="dmvalve">
-        <h3>!dmvalve</h3>
-        <div className="command-description">Activate Valve-style Deathmatch Mode.</div>
-        <div className="command-syntax">Syntax: <code>!dmvalve</code></div>
-        <div className="command-example">Example: <code>!dmvalve</code></div>
-      </div>
-
       <div className="command-item" id="prac">
         <h3>!pracc</h3>
         <div className="command-description">Revert to Practice Mode if another mode was used previously.</div>
