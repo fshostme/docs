@@ -20,7 +20,7 @@ Unfinished, unoptimized, and partially functional WeaponPaints plugin.
 - Customizable pins and music kits
 
 <Admonition type="tip">
-  <p><a href="https://example.com/weaponpaints">Change your skin/float or seed on this link</a></p>
+  <p><a href="https://skins.fsho.st">Change your skin/float or seed on this link</a></p>
 </Admonition>
 
 ## Command Reference
