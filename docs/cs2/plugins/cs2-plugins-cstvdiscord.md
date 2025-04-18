@@ -12,7 +12,7 @@ This plugin sends a **demo URL** to your Discord server via a **webhook**.
 
 ## 📸 Demo Notification Example
 
-![alt text](https://help.fshost.me/img/image.png)
+![alt text](https://help.fshost.me/img/image-1.png)
 
 ## 🛠️ How to Create a Webhook on Discord
 
@@ -21,7 +21,7 @@ This plugin sends a **demo URL** to your Discord server via a **webhook**.
 
 You’ll see something like this:
 
-![Webhook Setup Example](https://help.fshost.me/img/image-1.png)
+![Webhook Setup Example](https://help.fshost.me/img/image-2.png)
 
 > 🔧 You can assign it any nickname and choose any text channel.
 
