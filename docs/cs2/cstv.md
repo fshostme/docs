@@ -43,6 +43,10 @@ tv_listen_voice_indices_h -1
 playdemo yourdemo.dem
 ```
 
+## CSTV Camera Positions
+`spec_pos` - which gives you the coordinations of your current location as a spectator (must have sv_cheats enabled)
+`spec_goto <coordinations>` - which instantly switches to that angle (or teleports you to the entered coordinations)
+
 ## Errors
 
 - **[Demo] 2024-11-28_XX-XX-XX_XXXX_de_mirage_team_XXXX_vs_team_XXXXXX.dem:  unable to extract addons from file** - [Follow this link](https://www.reddit.com/r/cs2/comments/18ei4n4/cant_play_demos_cs2_unable_to_extract_addons_from/)
