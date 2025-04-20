@@ -19,155 +19,6 @@ Wondering how to set yourself up as an admin on your CS2 Pro server? Follow thes
 These admin commands are only available on Pro servers.
 :::
 
-## Getting Admin Access
-
-<div className="steps-container">
-  <div className="step-item">
-    <div className="step-number">1</div>
-    <div className="step-content">
-      <p>Enter the RCON password you set for your CS2 Pro Server</p>
-      <p className="step-note">This is the password you configured when setting up your server</p>
-    </div>
-  </div>
-  
-  <div className="step-item">
-    <div className="step-number">2</div>
-    <div className="step-content">
-      <p>Connect to your CS2 Pro Server</p>
-      <p className="step-note">Join your server through the in-game server browser or direct connect</p>
-    </div>
-  </div>
-  
-  <div className="step-item">
-    <div className="step-number">3</div>
-    <div className="step-content">
-      <p>Open your <code>say</code> chat and type the login command</p>
-      <div className="command-example">
-        <code>/login RconPass</code>
-        <p className="command-note">Replace RconPass with your actual RCON password</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-### Success Example
-
-When successfully logged in, you'll see confirmation messages in chat:
-
-<div className="terminal-example">
-  <div className="admin-message success-message">[Admin Manager] Processing login request...</div>
-  <div className="admin-message success-message">[Admin Manager] Login successful. You are now an admin.</div>
-</div>
-
-## Admin Commands
-
-<Tabs>
-  <TabItem value="chat" label="Chat Commands" default>
-    <div className="table-wrapper">
-      <table>
-        <thead>
-          <tr>
-            <th>Command</th>
-            <th>Example</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><code>/login [RconPass]</code></td>
-            <td>-</td>
-            <td>Gives you server admin access using RCON password</td>
-          </tr>
-          <tr>
-            <td><code>/addadmin &lt;SteamID64|Name&gt; &lt;immunity&gt; &lt;flags&gt;</code></td>
-            <td><code>/addadmin 76561198975357634 99 z</code></td>
-            <td>Add admin with SteamID64</td>
-          </tr>
-          <tr>
-            <td><code>/addadmin &lt;SteamID64|Name&gt; &lt;role&gt;</code></td>
-            <td><code>/addadmin 76561198975357634 Helper</code></td>
-            <td>Add admin with a role</td>
-          </tr>
-          <tr>
-            <td><code>/removeadmin [target]</code></td>
-            <td><code>/removeadmin 76561198975357634</code></td>
-            <td>Removes admin by SteamID64 or name</td>
-          </tr>
-          <tr>
-            <td><code>/admins</code></td>
-            <td>-</td>
-            <td>Shows list of admins</td>
-          </tr>
-          <tr>
-            <td><code>/addadmin help</code></td>
-            <td>-</td>
-            <td>Lists <code>/addadmin</code> usage</td>
-          </tr>
-          <tr>
-            <td><code>/rolehelp</code></td>
-            <td>-</td>
-            <td>Lists role-related commands</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </TabItem>
-  <TabItem value="roles" label="Role Management">
-    <div className="table-wrapper">
-      <table>
-        <thead>
-          <tr>
-            <th>Command</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><code>/css_addrole VIP ao 10</code></td>
-            <td>VIP role with reservation, immunity 10</td>
-          </tr>
-          <tr>
-            <td><code>/css_addrole Moderator abdh 50</code></td>
-            <td>Moderator role with ban/kick/chat, immunity 50</td>
-          </tr>
-          <tr>
-            <td><code>/css_addrole Admin abcdefghijklmn 100</code></td>
-            <td>Full admin role, immunity 100</td>
-          </tr>
-          <tr>
-            <td><code>/css_addrole Owner z 100</code></td>
-            <td>Full permissions, max immunity</td>
-          </tr>
-          <tr>
-            <td><code>/css_addadmin [PlayerName|SteamID64] VIP</code></td>
-            <td>Gives player VIP role</td>
-          </tr>
-          <tr>
-            <td><code>/css_removeRole Owner</code></td>
-            <td>Deletes Owner role</td>
-          </tr>
-          <tr>
-            <td><code>/css_roles</code></td>
-            <td>Lists all roles</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </TabItem>
-  <TabItem value="common" label="Common Tasks">
-    <div className="common-tasks">
-      <div className="task-card">
-        <h3>Player Management</h3>
-        <ul>
-          <li><code>/css_kick &lt;player&gt; [reason]</code> - Kick a player</li>
-          <li><code>/css_ban &lt;player&gt; &lt;minutes&gt; [reason]</code> - Ban a player (0 = permanent)</li>
-          <li><code>/css_mute &lt;player&gt;</code> - Mute a player</li>
-        </ul>
-      </div>      
-    </div>
-  </TabItem>
-</Tabs>
-
 ## Web Management Interface
 
 You can also add and remove in-game admins from the web interface.
@@ -349,3 +200,152 @@ You can also add and remove in-game admins from the web interface.
   }
 `}
 </style>
+
+## Getting Admin Access
+
+<div className="steps-container">
+  <div className="step-item">
+    <div className="step-number">1</div>
+    <div className="step-content">
+      <p>Enter the RCON password you set for your CS2 Pro Server</p>
+      <p className="step-note">This is the password you configured when setting up your server</p>
+    </div>
+  </div>
+  
+  <div className="step-item">
+    <div className="step-number">2</div>
+    <div className="step-content">
+      <p>Connect to your CS2 Pro Server</p>
+      <p className="step-note">Join your server through the in-game server browser or direct connect</p>
+    </div>
+  </div>
+  
+  <div className="step-item">
+    <div className="step-number">3</div>
+    <div className="step-content">
+      <p>Open your <code>say</code> chat and type the login command</p>
+      <div className="command-example">
+        <code>/login RconPass</code>
+        <p className="command-note">Replace RconPass with your actual RCON password</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+### Success Example
+
+When successfully logged in, you'll see confirmation messages in chat:
+
+<div className="terminal-example">
+  <div className="admin-message success-message">[Admin Manager] Processing login request...</div>
+  <div className="admin-message success-message">[Admin Manager] Login successful. You are now an admin.</div>
+</div>
+
+## Admin Commands
+
+<Tabs>
+  <TabItem value="chat" label="Chat Commands" default>
+    <div className="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Command</th>
+            <th>Example</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>/login [RconPass]</code></td>
+            <td>-</td>
+            <td>Gives you server admin access using RCON password</td>
+          </tr>
+          <tr>
+            <td><code>/addadmin &lt;SteamID64|Name&gt; &lt;immunity&gt; &lt;flags&gt;</code></td>
+            <td><code>/addadmin 76561198975357634 99 z</code></td>
+            <td>Add admin with SteamID64</td>
+          </tr>
+          <tr>
+            <td><code>/addadmin &lt;SteamID64|Name&gt; &lt;role&gt;</code></td>
+            <td><code>/addadmin 76561198975357634 Helper</code></td>
+            <td>Add admin with a role</td>
+          </tr>
+          <tr>
+            <td><code>/removeadmin [target]</code></td>
+            <td><code>/removeadmin 76561198975357634</code></td>
+            <td>Removes admin by SteamID64 or name</td>
+          </tr>
+          <tr>
+            <td><code>/admins</code></td>
+            <td>-</td>
+            <td>Shows list of admins</td>
+          </tr>
+          <tr>
+            <td><code>/addadmin help</code></td>
+            <td>-</td>
+            <td>Lists <code>/addadmin</code> usage</td>
+          </tr>
+          <tr>
+            <td><code>/rolehelp</code></td>
+            <td>-</td>
+            <td>Lists role-related commands</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </TabItem>
+  <TabItem value="roles" label="Role Management">
+    <div className="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>/css_addrole VIP ao 10</code></td>
+            <td>VIP role with reservation, immunity 10</td>
+          </tr>
+          <tr>
+            <td><code>/css_addrole Moderator abdh 50</code></td>
+            <td>Moderator role with ban/kick/chat, immunity 50</td>
+          </tr>
+          <tr>
+            <td><code>/css_addrole Admin abcdefghijklmn 100</code></td>
+            <td>Full admin role, immunity 100</td>
+          </tr>
+          <tr>
+            <td><code>/css_addrole Owner z 100</code></td>
+            <td>Full permissions, max immunity</td>
+          </tr>
+          <tr>
+            <td><code>/css_addadmin [PlayerName|SteamID64] VIP</code></td>
+            <td>Gives player VIP role</td>
+          </tr>
+          <tr>
+            <td><code>/css_removeRole Owner</code></td>
+            <td>Deletes Owner role</td>
+          </tr>
+          <tr>
+            <td><code>/css_roles</code></td>
+            <td>Lists all roles</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </TabItem>
+  <TabItem value="common" label="Common Tasks">
+    <div className="common-tasks">
+      <div className="task-card">
+        <h3>Player Management</h3>
+        <ul>
+          <li><code>/css_kick &lt;player&gt; [reason]</code> - Kick a player</li>
+          <li><code>/css_ban &lt;player&gt; &lt;minutes&gt; [reason]</code> - Ban a player (0 = permanent)</li>
+          <li><code>/css_mute &lt;player&gt;</code> - Mute a player</li>
+        </ul>
+      </div>      
+    </div>
+  </TabItem>
+</Tabs>
