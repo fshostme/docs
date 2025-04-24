@@ -165,6 +165,33 @@ details[open] {
   }
 }
 
+/* Force line wrap in <pre><code> blocks inside <details> */
+details pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: block;
+}
+
+/* Style for the visible error block */
+.demo-error-block {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  overflow-x: auto;
+}
+
+.demo-error-block pre {
+  background-color: var(--ifm-code-background);
+  padding: 1rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.9rem;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #18E888;

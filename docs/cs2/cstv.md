@@ -44,9 +44,31 @@ playdemo yourdemo.dem
 ```
 
 ## CSTV Camera Positions
-`spec_pos` - which gives you the coordinations of your current location as a spectator (must have sv_cheats enabled)
+`spec_pos` - which gives you the coordinations of your current location as a spectator (must have sv_cheats enabled)<br />
 `spec_goto <coordinations>` - which instantly switches to that angle (or teleports you to the entered coordinations)
 
-## Errors
+## ❌ Errors
 
-- **[Demo] 2024-11-28_XX-XX-XX_XXXX_de_mirage_team_XXXX_vs_team_XXXXXX.dem:  unable to extract addons from file** - [Follow this link](https://www.reddit.com/r/cs2/comments/18ei4n4/cant_play_demos_cs2_unable_to_extract_addons_from/)
+You have downloaded the demo, but you can't view it due to the following errors:
+
+<div className="demo-error-block">
+```text
+[Demo] Requesting playback of '2025-XX-XX_XX-XX-XX_3_de_mirage_team_XXXXX_vs_team_XXXXX.dem'
+CRealMemoryDemoBuffer::Init: demo file '2025-XX-XX_XX-XX-XX_3_de_mirage_team_XXXXX_vs_team_XXXXX.dem' doesn't exist in pathid ''
+[DemoFile] CDemoFile::Open: couldn't open file 2025-XX-XX_XX-XX-XX_3_de_mirage_team_XXXXX_vs_team_XXXXX.dem for reading.
+[DemoFile] ReadDemoHeader: invalid pBuffer.
+[Demo] 2025-XX-XX_XX-XX-XX_3_de_mirage_team_XXXXX_vs_team_XXXXX.dem: unable to extract addons from file
+```
+</div><br />
+
+Please delete the file you downloaded earlier and re-download it.
+
+**Then follow these steps:**
+1. Open **Steam**  
+2. Right-click on **Counter-Strike 2**  
+3. Select **Properties**  
+4. Go to the **Installed Files** tab  
+5. Click **Browse**  
+6. In the window that opens, navigate to the folder: `game` → `csgo`
+
+This is where the `.dem` file should be located.
