@@ -26,9 +26,9 @@ Utilize the full extent of your game server with FSHOST. We try to make our guid
     <Card title="Counter-Strike: Condition Zero" description="Placeholder" link="cscz" image="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/80/header.jpg?t=1715995767"/>
     <Card title="Counter-Strike: Source" description="Placeholder" link="css" image="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg?t=1666823740"/>
     <Card title="Counter-Strike: 2" description="Placeholder" link="cs2" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
-    <Card title="Half-Life: Deathmatch" description="Placeholder" link="hldm" image="https://fshost.me/assets/img/bg/hldm.jpg"/>
+    <Card title="Half-Life Deathmatch" description="Placeholder" link="hldm" image="https://fshost.me/assets/img/bg/hldm.jpg"/>
     <Card title="Medal of Honor: Allied Assault" description="Placeholder" link="mohaa/dashboard" image="https://fshost.me/assets/img/bg/mohaa.jpg"/>
     <Card title="Minecraft" description="Placeholder" link="minecraft" image="https://fshost.me/assets/img/bg/minecraft.jpg"/>
-    <Card title="Team Fortress 2" description="Placeholder" link="tf2/dashboard" image="https://fshost.me/assets/img/bg/tf2.jpg"/>
-    <Card title="Valheim" description="Placeholder" link="valheim/dashboard"  image="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg?t=1698860631"/>
+<!-- <Card title="Team Fortress 2" description="Placeholder" link="tf2/dashboard" image="https://fshost.me/assets/img/bg/tf2.jpg"/>-->
+<!-- <Card title="Valheim" description="Placeholder" link="valheim/dashboard"  image="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg?t=1698860631"/>-->
 </Cards>
