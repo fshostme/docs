@@ -27,10 +27,10 @@ These guides will help you get started with server setup, management, and basic 
 These plugins provide additional functionality to enhance gameplay and server management on Pro servers.
 
 - [CSTV DemoURL on Discord](./cs2/plugins/cstvdiscord) - Automatically send match demos to a Discord channel.
-- [CS2-SimpleAdmin](./cs2/plugins/simpleadmin) - A simplified admin interface for common server tasks.
+- [CS2-SimpleAdmin](./cs2/plugins/cs2-simpleadmin) - A simplified admin interface for common server tasks.
 - [MatchZy w/ Practice Mode](./cs2/plugins/matchzy) - Configure practice modes and player matching.
 - [OpenPrefirePrac](./cs2/plugins/openprefireprac) - Set up prefire practice scenarios on your server.
-- [Retakes w/ RetakesAllocator](./cs2/plugins/retakes) - Manage and customize retake scenarios.
+- [Retakes w/ RetakesAllocator](./cs2/plugins/cs2-retakes) - Manage and customize retake scenarios.
 - [WeaponPaints (Skins)](./cs2/plugins/skins) - Enable or restrict weapon skins for players.
 
 ---
