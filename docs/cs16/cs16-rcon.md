@@ -5,7 +5,7 @@ title: "RCON Commands"
 ---
 
 ## Log into RCON
-Open console in-game and run the login command to gain access to all the following commands. The RCON password will be displayed on your [panel](https://fshost.me/free-panel).
+Open console in-game by clicking § (below ESC) and run the login command to gain access to all the following commands. The RCON password will be displayed on your [panel](https://fshost.me/free-panel).
 <br /> `rcon_password type_rcon_pass_here`
 
 ## General Settings
@@ -65,7 +65,8 @@ Kick a player
 | rcon sv_alltalk 0/1 | Toggles team only or entire server mic chat |
 | rcon sv_voiceenable 0/1 | Allows clients to use mic |
 | rcon sv_cheats 0/1 | Toggles cheats |
-
+| rcon sv_gravity 800 | Sets the amount of gravity |
+<br />
 :::tip
 If you want to make use of `impulse 101`, (client side) then you need to enable sv_cheats and do changemap to a random map.
 :::
