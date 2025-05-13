@@ -92,7 +92,7 @@ This page provides a detailed overview of all plugins available for our CS2 free
             <td>CS2MapChange</td>
             <td className="centered"><span className="yes-icon">✓</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
-            <td>Map voting and rotation system</td>
+            <td>Easier MapChange</td>
           </tr>
           <tr>
             <td>Workshop Map</td>

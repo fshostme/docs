@@ -56,15 +56,16 @@ Kick a player
 | ------------ | ----------- |
 | rcon mp_buytime 2 | Designate the desired amount of buy time for each round. |
 | rcon mp_startmoney 1337 | Sets the amount of money players start with. |
-| rcon mp_timelimit [amount of time in minutes] | Change the map timelimit |
-| rcon mp_autokick 0/1 | Autokicks an idling person 1 is on, 0 is off |
-| rcon mp_autoteambalance 0/1 | Toggles the forcing of clients to join teams to make it balanced – Setting of 1 = ‘on’, and 0 = ‘off’. |
+| rcon mp_timelimit 20 | Change the map timelimit |
+| rcon mp_roundtime 2 | Sets the amount of roundtime |
+| rcon mp_autokick 1 | Autokicks an idling person 1 is on, 0 is off |
+| rcon mp_autoteambalance 1 | Toggles the forcing of clients to join teams to make it balanced – Setting of 1 = ‘on’, and 0 = ‘off’. |
 | rcon mp_c4timer 45 | Sets the amount of time in between C4 placement and its explosion – ranges between 15 and 90 seconds. |
 | rcon mp_freezetime 3 | Sets the amount of “freeze” time at the beginning of each round to buy weapons and equipment – Use a setting of ‘0’ to disable. |
-| rcon mp_friendlyfire 0/1 | Toggles friendly fire |
-| rcon sv_alltalk 0/1 | Toggles team only or entire server mic chat |
-| rcon sv_voiceenable 0/1 | Allows clients to use mic |
-| rcon sv_cheats 0/1 | Toggles cheats |
+| rcon mp_friendlyfire 1 | Toggles friendly fire. 1 is on, 0 is off |
+| rcon sv_alltalk 1 | Toggles team only or entire server mic chat - 1 is on, 0 is off |
+| rcon sv_voiceenable 1 | Allows clients to use mic - 1 is on, 0 is off |
+| rcon sv_cheats 1 | Toggles cheats - 1 is on, 0 is off |
 | rcon sv_gravity 800 | Sets the amount of gravity |
 <br />
 :::tip
