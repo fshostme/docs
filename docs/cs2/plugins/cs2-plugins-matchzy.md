@@ -658,7 +658,7 @@ MatchZy can solve a lot of match management requirements. It provides basic comm
       <div className="command-card">
         <div className="command-header">.match</div>
         <div className="command-description">
-          Activates Match mode with knife round enabled.
+          Activates Match mode with knife round enabled - Standard 24 rounds
         </div>
         <div className="command-syntax">
           <div className="syntax-label">Syntax:</div>
@@ -692,7 +692,7 @@ MatchZy can solve a lot of match management requirements. It provides basic comm
       <div className="command-card">
         <div className="command-header">.scrim</div>
         <div className="command-description">
-          Activates Scrim mode (no knife round, all rounds played).
+          Activates Scrim mode (no knife round, all rounds will be played - not locked to 24 rounds).
         </div>
         <div className="command-syntax">
           <div className="syntax-label">Syntax:</div>
