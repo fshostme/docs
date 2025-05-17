@@ -101,8 +101,6 @@ After gaining RCON access, you can use these commands to manage your server:
 ## Troubleshooting
 
 <div className="troubleshooting">
-  <h3>Common Issues</h3>
-  
   <details>
     <summary>RCON command not working</summary>
     <p>Make sure you've correctly entered the <code>fake_rcon_password</code> command first. Check for any typos in the password.</p>
@@ -161,17 +159,26 @@ After gaining RCON access, you can use these commands to manage your server:
     margin-top: 10px;
   }
   
-  .troubleshooting {
-    background-color: #f8f8f8;
-    border-left: 4px solid #1a73e8;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 4px;
+  .troubleshooting details {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 0;
+    margin-bottom: 10px;
+    --docusaurus-details-summary-arrow-size: 0;
+    --docusaurus-details-summary-arrow: none;
   }
-  
-  [data-theme='dark'] .troubleshooting {
-    background-color: #2d2d2d;
-    border-left: 4px solid #4285f4;
+
+  .troubleshooting summary {
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+  }
+
+  .troubleshooting details p {
+    padding: 0 15px 15px;
+    margin: 0;
   }
 `}
 </style>

@@ -1,41 +1,23 @@
 ---
 slug: matchzy
 id: cs2-plugins-matchzy
-title: "MatchZy w/ Practice Mode"
-description: "Comprehensive match management for CS2 servers with practice mode, knife rounds, and more"
+title: "MatchZy w/ PracticeMode"
+description: ""
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 
-# MatchZy | CS2 Match Management Plugin
+# MatchZy | Match Management Plugin
 
-MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches with easy configuration!
+MatchZy streamlines management for practice, PUGs, scrims, and matches.
 
-## What can MatchZy do?
-MatchZy can solve a lot of match management requirements. It provides basic commands like `!ready`, `!unready`, `!pause`, `!unpause`, `!tac`, `!tech`, match stats, and much more!
-
-**Feature highlights:**
-- Practice Mode with many powerful commands
-- Warmup with infinite money 🤑
-- Knife round (With expected logic, i.e., the team with the most players wins. If the same number of players, then the team with HP advantage wins. If the same HP, the winner is decided randomly)
-- Start live match (after knife winner makes side selection.
-- Automatically starts demo recording and stops recording when the match is ended
-- Coaching system - **(Coach need to join team, before `.coach ct` or `.coach t` work)**
-- Damage report after every round
-- Support for round restore (Currently using the vanilla valve's backup system)
-- Provides easy configuration
-
-<Admonition type="info">
-  Most commands can be used with <code>.</code> prefix, <code>!</code> prefix, or <code>/</code> prefix (e.g., <code>.ready</code>, <code>!ready</code>, or <code>/ready</code>).
-</Admonition>
-
-## 🎮 Command Reference
+## 🎮 Commands Reference
 
 <Tabs>
   <TabItem value="match" label="Match Control" default>
-    <h3 className="command-category-header">🔄 Match Control Commands</h3>
+    <h3 className="command-category-header">🔄 Match Commands</h3>
     
     <div className="command-list">
       <div className="command-card">
@@ -651,9 +633,8 @@ MatchZy can solve a lot of match management requirements. It provides basic comm
     </div>
   </TabItem>
 
-  <TabItem value="admin" label="Admin Controls">
-    <h3 className="command-category-header">🛡️ Admin Commands</h3>
-    
+  <TabItem value="admin" label="Admin Commands">
+
     <div className="command-list">
       <div className="command-card">
         <div className="command-header">.match</div>

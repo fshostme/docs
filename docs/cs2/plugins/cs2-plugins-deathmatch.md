@@ -1,7 +1,7 @@
 ---
 slug: deathmatch
 id: cs2-plugins-deathmatch
-title: "CS2-Deathmatch"
+title: "Deathmatch"
 ---
 
 ## Player Commands:

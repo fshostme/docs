@@ -1,8 +1,8 @@
 ---
 slug: cs2-retakes
 id: cs2-plugins-retakes
-title: "CS2 Retakes w/ RetakesAllocator"
-description: Documentation for the CS2 Retakes plugin with RetakesAllocator
+title: "Retakes w/ RetakesAllocator"
+description: CS2 Retakes plugin with RetakesAllocator
 ---
 
 # CS2 Retakes Plugin

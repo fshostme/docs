@@ -6,6 +6,7 @@ title: "CS2 Server Plugins"
 description: Complete list of plugins available for CS2 servers
 ---
 
+import React, { useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -41,7 +42,7 @@ This page provides a detailed overview of all plugins available for our CS2 free
             <td>Advanced admin management with hierarchy</td>
           </tr>
           <tr>
-            <td><a href="plugins/cs2rcon">CS2Rcon (!rcon)</a></td>
+            <td>CS2Rcon (!rcon)</td>
             <td className="centered"><span className="no-icon">✕</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
             <td>Remote console management interface</td>
@@ -53,25 +54,25 @@ This page provides a detailed overview of all plugins available for our CS2 free
             <td>Command-line RCON via in-game console</td>
           </tr>
           <tr>
-            <td><a href="plugins/cstvdiscord">CSTV DemoURL to Discord</a></td>
+            <td><a href="plugins/cstvdiscord">DemoURL to Discord</a></td>
             <td className="centered"><span className="no-icon">✕</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
-            <td>Automatically posts demo links to Discord</td>
+            <td>Automatically posts demo links to Discord (CSTV required)</td>
           </tr>
           <tr>
-            <td>CS2-FixDemoVoiceChat</td>
+            <td>FixDemoVoiceChat</td>
             <td className="centered"><span className="no-icon">✕</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
             <td>Fixes voice chat in demo recordings</td>
           </tr>
           <tr>
-            <td><a href="plugins/deathmatch">CS2-Deathmatch</a></td>
+            <td><a href="plugins/deathmatch">Deathmatch</a></td>
             <td className="centered"><span className="no-icon">✕</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
             <td>Full-featured deathmatch game mode</td>
           </tr>
           <tr>
-            <td><a href="plugins/cs2-retakes">CS2-Retakes w/ RetakesAllocator</a></td>
+            <td><a href="plugins/cs2-retakes">Retakes w/ RetakesAllocator</a></td>
             <td className="centered"><span className="no-icon">✕</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
             <td>Customizable bomb site retake practice</td>
@@ -156,13 +157,13 @@ This page provides a detailed overview of all plugins available for our CS2 free
         },
         {
           id: "deathmatch",
-          name: "CS2-Deathmatch",
+          name: "Deathmatch",
           command: null,
           description: "Full-featured deathmatch game mode."
         },
         {
           id: "cs2-retakes",
-          name: "CS2-Retakes w/ RetakesAllocator",
+          name: "Retakes w/ RetakesAllocator",
           command: null,
           description: "Customizable bomb site retake practice."
         },
@@ -211,12 +212,6 @@ This page provides a detailed overview of all plugins available for our CS2 free
     </div>
   </TabItem>
 </Tabs>
-
-## Plugin Details
-
-:::info
-Click on any plugin name above for more detailed information about its features, commands, and configuration options.
-:::
 
 ### FakeRcon {#fakercon}
 
@@ -363,19 +358,22 @@ CS2MapChange provides a mapchange. It allows admins to change maps directly.
     border-radius: 8px;
     padding: 0;
     margin-bottom: 10px;
+    --docusaurus-details-summary-arrow-size: 0;
+    --docusaurus-details-summary-arrow: none;
   }
   
   .faq-container summary {
     padding: 15px;
     cursor: pointer;
     font-weight: bold;
+    list-style: none;
   }
   
   .faq-container details p {
     padding: 0 15px 15px;
     margin: 0;
   }
-  
+
   /* Light mode overrides */
   html[data-theme='light'] .plugin-table th {
     background-color: #f0f0f0;

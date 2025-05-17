@@ -106,18 +106,17 @@ const sidebars = {
       },
       items: [
         "cs2/cs2-becomeadmin",
-        "cs2/cs2-firststeps-dashboard",
-        "cs2/cs2-cstv",
-        "cs2/source-gsltoken",
-        "cs2/plugins/cs2-plugins-ingamecommands",
-        "cs2/cs2-pluginslist",
         "cs2/cs2-rcon",
+        "cs2/cs2-cstv",
+        "cs2/plugins/cs2-plugins-ingamecommandsfree",
+        "cs2/plugins/cs2-plugins-ingamecommands",
+        "cs2/source-gsltoken",
+        "cs2/cs2-pluginslist",
         {
           type: "category",
           label: "CS2 Pro Plugins",
           items: [
             "cs2/plugins/cs2-plugins-cstvdiscord",
-            "cs2/plugins/cs2-plugins-rcon",
             "cs2/plugins/cs2-plugins-simpleadmin",
             "cs2/plugins/cs2-plugins-matchzy",
             "cs2/plugins/cs2-plugins-deathmatch",

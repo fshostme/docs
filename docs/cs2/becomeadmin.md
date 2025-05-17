@@ -9,15 +9,13 @@ sidebar_label: "Become as Server Admin"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# CS2 Pro Server Admin Guide
+:::caution PRO SERVER ONLY
+These admin commands are only available on Pro servers.
+:::
 
 ## Introduction
 
 Wondering how to set yourself up as an admin on your CS2 Pro server? Follow these step-by-step instructions to get started.
-
-:::caution PRO SERVER ONLY
-These admin commands are only available on Pro servers.
-:::
 
 ## Web Management Interface
 
