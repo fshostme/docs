@@ -35,7 +35,7 @@ These commands require admin privileges. If you're unsure how to become an admin
 
       <div className="command-item" id="comp">
         <h3>!comp</h3>
-        <div className="command-description">Activate Competitive Game Mode.</div>
+        <div className="command-description">Activate Competitive Game Mode. (THIS WILL NOT LOAD MATCHZY - USE `!matchzy`)</div>
         <div className="command-syntax">Syntax: <code>!comp</code></div>
         <div className="command-example">Example: <code>!comp</code></div>
       </div>
