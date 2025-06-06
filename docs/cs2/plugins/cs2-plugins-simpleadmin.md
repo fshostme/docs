@@ -335,6 +335,16 @@ import Admonition from '@theme/Admonition';
   <p>If you are looking for more commands, you can find them at <a href="https://cs2-simpleadmin.daffyy.dev/" target="_blank">this CS2 Wiki</a>.</p>
 </div>
 
+## Errors
+
+<div className="ban-error-block">
+```text
+your client is not allowed to join this server cs2
+```
+</div>
+
+You has been banned from other server, or banned yourself from your own server.<br />Contact us on Discord to be unbanned (**You need to give us SteamID64**)
+
 <style>
 {`
 /* Dark Theme Command Layout Styles */

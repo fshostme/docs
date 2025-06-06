@@ -16,7 +16,7 @@
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.25.9",
     "@babel/preset-react": "^7.26.3",
-    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/core": "^3.8.0",
     "@docusaurus/faster": "^3.7.0",
     "@docusaurus/plugin-client-redirects": "^3.7.0",
     "@docusaurus/plugin-content-blog": "^3.7.0",
@@ -39,7 +39,8 @@
     "rehype": "^13.0.2",
     "remark": "^15.0.1",
     "rss": "^1.2.2",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "webpack-dev-server": "^5.2.2"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.7.0",

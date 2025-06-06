@@ -40,6 +40,7 @@ Unfinished, unoptimized, and partially functional WeaponPaints plugin.
     
     | Command | Description | Example |
     |---------|-------------|---------|
+    | `!skins` | Displays a menu with skins menu, allowing you to select a different skin. | `!skins` |
     | `!knife` | Displays a menu with knife skins, allowing you to select a different knife skin. | `!knife` |
     | `!gloves` | Displays a menu with glove skins, allowing you to select different gloves. | `!gloves` |
     | `!agents` | Displays a menu with agent skins, allowing you to select a different agent skin. | `!agents` |

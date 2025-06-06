@@ -324,6 +324,7 @@ const config = {
     }),
   future: {
     experimental_faster: true,
+      v4: true,
   },
 };
 
