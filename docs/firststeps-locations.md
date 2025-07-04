@@ -1,10 +1,9 @@
 ---
 id: firststeps-locations
-title: "Locations"
+title: "Hardware & Locations"
 description: "FSHOST Location Info"
-sidebar_label: "Locations"
+sidebar_label: "Hardware & Locations"
 ---
-
 
 ## Introduction
 
@@ -27,6 +26,13 @@ As mentioned earlier, we are constantly developing and expanding our product off
 
 Not sure which location is best for you? No problem! We've developed a Looking Glass tool that lets you test the connection from our locations to yours. This provides an overview of all ping results at a glance, helping you choose the optimal location.
 
-Click this link to test your ping: [Looking Glass](https://fshost.me/lg) 
+Click this link to test your ping: [Looking Glass](https://fshost.me/lg)
 
-![image](https://help.fshost.me/img/lg.png)
+---
+
+## Server Hardware
+
+**Europe**
+Ryzen 5950X & 7950X3D
+128GB DDR5 RAM
+NVMe SSDs

@@ -18,7 +18,7 @@ In this guide, you'll learn how to install and use MTR or WinMTR to identify and
 
 ## Why Use MTR or WinMTR?
 
-When users experience poor network performance — like lag in games, buffering in streams, or voice chat disruptions — the issue could be anywhere along the network route: from the user's ISP to internet exchanges, or even within the data center itself.
+When users experience poor network performance - like lag in games, buffering in streams, or voice chat disruptions - the issue could be anywhere along the network route: from the user's ISP to internet exchanges, or even within the data center itself.
 
 **MTR and WinMTR** provide real-time, hop-by-hop analysis of packet loss and latency. This allows both users and support teams to pinpoint where problems occur.
 
@@ -142,7 +142,7 @@ When reading a report, consider:
 
 ## Understanding Packet Loss in MTR Reports
 
-Interpreting packet loss correctly is essential. Not all loss is a problem — some is expected or intentional (e.g., due to security filters). Below are common scenarios and what they usually mean:
+Interpreting packet loss correctly is essential. Not all loss is a problem - some is expected or intentional (e.g., due to security filters). Below are common scenarios and what they usually mean:
 
 ### 🔐 Loss at an Early Hop (Firewall or DDoS Protection)
 
@@ -169,7 +169,7 @@ Some firewalls or anti-DDoS systems intentionally block ICMP/ping replies to avo
 ```
 
 🚨 **This is a real issue.**  
-If packet loss starts at a specific hop and continues all the way to the destination, it likely indicates a **problem at that node or upstream** — such as congestion, misconfiguration, or a faulty router.
+If packet loss starts at a specific hop and continues all the way to the destination, it likely indicates a **problem at that node or upstream** - such as congestion, misconfiguration, or a faulty router.
 
 ---
 
@@ -182,7 +182,7 @@ If packet loss starts at a specific hop and continues all the way to the destina
 ```
 
 🟠 **May or may not be a problem.**  
-If only the last hop shows loss, check if services (like a game or website) are actually having issues. Some servers deprioritize or drop ICMP echo replies — so occasional packet loss here could be **harmless**.
+If only the last hop shows loss, check if services (like a game or website) are actually having issues. Some servers deprioritize or drop ICMP echo replies - so occasional packet loss here could be **harmless**.
 
 But if users are actively experiencing disconnects, rubberbanding, or buffering, the **packet loss at the destination is real and significant**.
 
@@ -198,7 +198,7 @@ But if users are actively experiencing disconnects, rubberbanding, or buffering,
 ```
 
 ✅ **Not a problem.**  
-This is **ICMP filtering** — the hop received the packet but chose not to reply. Because all subsequent hops respond normally, the connection isn't impacted.
+This is **ICMP filtering** - the hop received the packet but chose not to reply. Because all subsequent hops respond normally, the connection isn't impacted.
 
 ---
 
