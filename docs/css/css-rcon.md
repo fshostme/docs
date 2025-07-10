@@ -65,3 +65,14 @@ Get players list
 
 Kick a player
 <br />`rcon kick #id or name`
+
+## Bots (Pro only)
+| Command (with rcon) | Description |
+| ----- | ----- |
+| bot_add | Adds a bot |
+| bot_add_ct | `rcon bot_add_ct <type> <difficulty> <name>` - Adds a Counter-Terrorist bot matching the given criteria. |
+| bot_kick | Kicking bots |
+| bot_kill | Killing bots - sv_cheats 1 required to be enabled. |
+| bot_quota 0 | Determines the total number of bots in the game. |
+| bot_stop 0 | If nonzero, immediately stops all bot processing. |
+
