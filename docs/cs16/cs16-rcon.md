@@ -83,6 +83,6 @@ You can use **amx_pbmenu** to control bots. You only need to be an admin on your
 
 | RCON Command | Description |
 | ------------ | ----------- |
-| `rcon pb add x` | This command adds a Bot with parameters - skill You can write from 1 to 100 |
+| `rcon pb add [1-100]` | This command adds a Bot with parameters - skill You can write from 1 to 100 - **Example**: `rcon pb add 35` |
 | `rcon pb_autokill 0/1` | Turns on/off auto killing bots if all human players are dead already. Default is off (0). |
 | `rcon pb removebots` | This command kicks bots from Your server until reaching pb_minbots. |
