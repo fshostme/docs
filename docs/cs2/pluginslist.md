@@ -3,16 +3,29 @@ sidebar_position: 4
 slug: pluginslist
 id: cs2-pluginslist
 title: "CS2 Server Plugins"
-description: Complete list of plugins available for CS2 servers
+description: Complete list of addons/plugins available for CS2 servers
 ---
 
 import React, { useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# CS2 Server Plugins
+# CS2 Server Addons/Plugins
 
 This page provides a detailed overview of all plugins available for our CS2 free and pro services.
+
+## Preinstalled Addons
+
+The following essential addons are preinstalled on all servers and are required for plugin functionality:
+
+| Addon               | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| **Metamod Source**  | Base modding layer that enables extensions.                                 |
+| **CounterStrikeSharp** | CounterStrikeSharp is a server side modding framework                    |
+| **MultiAddonManager** | Allows you to use multiple workshop addons at once and have clients download them |
+| **CleanerCS2** | A simple Metamod plugin that allows you to filter out console prints with regular expressions. |
+
+**These do not need to be installed manually and are automatically updated by FSHOST.**
 
 ## Plugin Availability
 
