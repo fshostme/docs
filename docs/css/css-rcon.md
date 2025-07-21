@@ -5,6 +5,10 @@ title: "RCON Commands"
 description: "CS Source RCON Commands"
 ---
 
+:::warning
+`/login <type_rcon_pass_here>` on CSS Nonsteam will NOT work.
+:::
+
 ## Log into RCON or SourceMod
 To access the following commands, open the in-game console and use the login command. Your RCON password will be displayed for reference. [Panel](https://fshost.me/free-panel).
 <span style={{padding: '0.75rem', display: 'block', marginTop: '0.5rem', marginBottom: '1rem', borderRadius: '0.25rem', fontWeight: '600', backgroundColor: '#1F2937', color: 'white'}}>RCON (in-game console)<br />`rcon_password type_rcon_pass_here`<br />SourceMod (In-game Say / Say_Team)<br />`/login type_rcon_pass_here`</span>
