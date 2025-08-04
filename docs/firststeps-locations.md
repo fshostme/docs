@@ -33,6 +33,6 @@ Click this link to test your ping: [Looking Glass](https://fshost.me/lg)
 ## Server Hardware
 
 **Europe**<br />
-Ryzen 5950X & 7950X3D <br />
+Ryzen 5950X, 7950X3D and <small>soontm ></small> 9950X3D <br />
 128GB DDR5 RAM<br />
 NVMe SSDs
