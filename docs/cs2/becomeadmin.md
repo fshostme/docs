@@ -1,7 +1,7 @@
 ---
 slug: becomeadmin
 id: cs2-becomeadmin
-title: "CS2: Become a Server Admin"
+title: "CS2: Become a Server Admin on Pro Server"
 description: "How to Become a Server Admin on Your CS2 Pro Server"
 sidebar_label: "Become as Server Admin"
 ---
@@ -11,6 +11,8 @@ import TabItem from '@theme/TabItem';
 
 :::caution PRO SERVER ONLY
 These admin commands are only available on Pro servers.
+
+**This does NOT work on FREE server!**
 :::
 
 ## Introduction
