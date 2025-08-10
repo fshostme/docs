@@ -33,13 +33,6 @@ Unfinished, unoptimized, and partially functional WeaponPaints plugin.
     |---------|-------------|---------|
     | `!wp` | Refresh skins if you have selected other skins by the website. | `!wp` |
     | `!ws` | Shows which commands are available in-game for weapon paints. | `!ws` |
-  </TabItem>
-  
-  <TabItem value="cosmetics" label="Cosmetic Commands">
-    ### Cosmetic Commands
-    
-    | Command | Description | Example |
-    |---------|-------------|---------|
     | `!skins` | Displays a menu with skins menu, allowing you to select a different skin. | `!skins` |
     | `!knife` | Displays a menu with knife skins, allowing you to select a different knife skin. | `!knife` |
     | `!gloves` | Displays a menu with glove skins, allowing you to select different gloves. | `!gloves` |
