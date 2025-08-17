@@ -88,6 +88,13 @@ These commands require admin privileges. If you're unsure how to become an admin
         <div className="command-example">Example: <code>!ancient</code></div>
       </div>
 
+      <div className="command-item" id="ancient_night">
+        <h3>!ancient_night</h3>
+        <div className="command-description">Load the Ancient Night map, featuring jungle ruins and narrow corridors.</div>
+        <div className="command-syntax">Syntax: <code>!ancient_night</code></div>
+        <div className="command-example">Example: <code>!ancientn</code>, <code>!ancientnight</code></div>
+      </div>
+
       <div className="command-item" id="anubis">
         <h3>!anubis</h3>
         <div className="command-description">Set Anubis as the next map, styled with ancient Egyptian aesthetics.</div>
