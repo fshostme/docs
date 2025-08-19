@@ -27,11 +27,6 @@ const sidebars = {
       defaultStyle: true,
     },
     {
-      type: 'link',
-      href: '/cs2update',
-      label: 'CS2 Server News',
-    },
-    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
