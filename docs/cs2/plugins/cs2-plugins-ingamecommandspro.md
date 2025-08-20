@@ -70,7 +70,7 @@ These commands require admin privileges. If you're unsure how to become an admin
 
       <div className="command-item" id="wingman">
         <h3>!wingman</h3>
-        <div className="command-description">Switch to Wingman Mode, ideal for 2v2 matches.</div>
+        <div className="command-description">Switch to Wingman Mode, ideal for 2v2 matches. MatchZy enabled</div>
         <div className="command-syntax">Syntax: <code>!wingman</code></div>
         <div className="command-example">Example: <code>!wingman</code></div>
       </div>
