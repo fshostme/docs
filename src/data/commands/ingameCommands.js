@@ -79,7 +79,7 @@ const ingameCommands = [
       },
       {
         command: "/wingman",
-        description: "Switches to Wingman Game Mode, designed for 2v2 matches.",
+        description: "Switches to Wingman Game Mode, designed for 2v2 matches with MatchZy.",
         example: "/wingman",
         syntax: "css_wingman",
       },
