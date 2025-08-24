@@ -20,10 +20,9 @@ The following essential addons are preinstalled on all servers and are required 
 
 | Addon               | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
-| **Metamod Source**  | Base modding layer that enables extensions.                                 |
+| **Metamod: Source**  | Base modding layer that enables extensions.                                 |
 | **CounterStrikeSharp** | CounterStrikeSharp is a server side modding framework                    |
 | **MultiAddonManager** | Allows you to use multiple workshop addons at once and have clients download them |
-| **CleanerCS2** | A simple Metamod plugin that allows you to filter out console prints with regular expressions. |
 
 **These do not need to be installed manually and are automatically updated by FSHOST.**
 
@@ -67,7 +66,7 @@ The following essential addons are preinstalled on all servers and are required 
             <td>Command-line RCON via in-game console</td>
           </tr>
           <tr>
-            <td><a href="plugins/cstvdiscord">DemoURL to Discord</a></td>
+            <td><a href="plugins/cstvdiscord">DemoURL to Discord - CSTVDiscord</a></td>
             <td className="centered"><span className="no-icon">✕</span></td>
             <td className="centered"><span className="yes-icon">✓</span></td>
             <td>Automatically posts demo links to Discord (CSTV required)</td>
