@@ -6,9 +6,9 @@ date: 2025-09-06 16:00
 
 # Pro Pricing Updates from Jan 2026
 
-We've been improving our Pro offering since we introduce it in 2022 and it's time we brought the pricing inline with what we offer.<br/><br/>
+We've been improving our Pro offering since we introduced it in 2022 and it's time we brought the pricing inline with what we offer.<br/><br/>
 This will come into effect 1st Jan 2026 and will be applicable to **new Pro servers only**.<br/>
-If you want to keep your existing pricing, keep your current servers active but not letting it expire and delete.
+If you want to keep your existing pricing, keep your current servers active by not letting it expire and delete.
 
 ## Price List
 | Game    | Old Price   | New Price |
