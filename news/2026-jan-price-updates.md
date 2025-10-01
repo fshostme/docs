@@ -15,6 +15,7 @@ If you want to keep your existing pricing, keep your current servers active by n
 |---------|-------------|-----------|
 | CoD4    | €5.00       | €6.00     |
 | CS 1.6  | €5.00       | €6.00     |
+| CSS     | €5.00       | €6.00     |
 | CS:GO   | Coming soon | €7.00     |
 | CS2     | €6.00       | €7.00     |
 
