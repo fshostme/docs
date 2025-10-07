@@ -104,7 +104,6 @@ const sidebars = {
         "cs2/cs2-cstv",
         "cs2/plugins/cs2-plugins-ingamecommandsfree",
         "cs2/plugins/cs2-plugins-ingamecommands",
-        "cs2/source-gsltoken",
         "cs2/cs2-pluginslist",
         {
           type: "category",
