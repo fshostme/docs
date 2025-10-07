@@ -62,8 +62,7 @@ const sidebars = {
       type: 'category',
       label: 'Support',
       items: [
-        "contactsupport",
-        "create-screenshots"
+        "contactsupport"
       ]
     },
   ],
